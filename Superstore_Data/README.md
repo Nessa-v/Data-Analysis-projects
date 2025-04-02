@@ -64,7 +64,7 @@ c.	Phones Dominate the Sales Chart:  4 of the top 5 highly sold products are sma
 
 d.	Worst Performing Category: The worst performing category generally was office supplies, with 3 of 5 Office Supplies generating the least amount of profit, and all 5 generating lowest sales. ‘The Hoover stove, White’ categorised as ‘office supplies’ produced a loss of $-2180.63.
 
-[FIGURE 1: images/ Top 5 Products, Each Category: Sales vs. Profit.png.]
+[FIGURE 1: images/Top 5 Products_Each Category_Sales vs. Profit.png.]
 
 Summary: 
 
@@ -257,7 +257,7 @@ b.	High sales do not always mean high margin, because while Phones had the highe
 
 c.	The category ‘Furniture’ with the sub-category ‘Tables’ produced significantly lower profit margins, with profit even less than $-60,000. This is likely because there were high number of returns and low orders, especially for products in the sub-category ‘Tables’. For example, Figure 4 shows that more than 10 tables in the furniture category were 100% returned. This mean that the number of orders/sales = number of returns.
 
-[FIGURE 4: images/ Top 20 Table Products by Return Rate Percentage.png.]
+[FIGURE 4: images/Top 20 Table Products by Return Rate Percentage.png.]
 
 Summary
 
@@ -279,8 +279,8 @@ d.	Sales figures gradually decrease across the rest of the team, with the lowest
 
 e.	Sales leadership is concentrated among a few top performing individuals, which may reflect disparities in regional sales opportunities, product offerings, or sales strategies. It is also worth noting that the top three salespersons operate in more than one region unlike the others, which could be a significant factor contributing to their sales and profits. (You should hand it to them, they’re working hard as expected).
 
-[FIGURE 5: images/ Total Sales by Salesperson.png.] 
-[FIGURE 6: images/ Total Sales by Salesperson_Grouped by Region and Market.png.]
+[FIGURE 5: images/Total Sales by Salesperson.png.] 
+[FIGURE 6: images/Total Sales by Salesperson_Grouped by Region and Market.png.]
 
 Summary
 
