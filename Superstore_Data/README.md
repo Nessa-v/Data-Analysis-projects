@@ -39,7 +39,7 @@ Analyse salesperson performance by region and market to determine which salesper
 Use SQL to analyse correlations between variables (e.g., discount and sales, quantity and profit) to derive actionable insights.
 
 PROJECT NOTEBOOK INFORMATION
-The notebook containing the code and the results can be found in ‘code/notebook.ipynb’
+The notebook containing the code and the results can be found in ‘code/project_code_notebook.pdf’
 
 ANALYSIS:
 1.	Data Cleaning and Quality Checks 
