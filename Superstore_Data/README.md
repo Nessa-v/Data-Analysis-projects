@@ -1,128 +1,178 @@
 PROJECT OWNER: VANESSA NWANKWO
+
 DATE CREATED: MARCH 2025
+
 PROJECT TITLE: SUPERSTORE SALES DATA ANALYSIS
+
 PROJECT AIM:
 Conduct end-to-end analysis of Superstore sales data to uncover trends and determine factors affecting sales and profitability.
+
 TOOLS USED: PostgreSQL, Python
+
 ABOUT THE DATASET
 The dataset used is the ‘Projects Data’ obtained from DataCamp.
 The tables used are ‘orders’, ‘returned_orders’, ‘people’, ‘products’. A sample of each table in excel format, can be found in the ‘tables’ folder within the ‘Superstore’ project folder.
+
 PROJECT OBJECTIVES
 1.	Data Cleaning and Quality Checks:
 Querying to identify and fix missing values.
 
 2.	Identify Top 5 Products by Category and Sales.
 Identifying Top Performing products in each category based on sales.
+
 3.	Sales Analysis by Region:
 Analyse customer purchase behaviour, order frequency, and other sales trends across different regions and markets.
+
 4.	Time Series Analysis:
 Create more detailed time series analysis, like monthly or quarterly trends in sales, profit, or order volumes.  Compute moving averages or growth rates.
+
 5.	Returns Analysis:
 Investigate the characteristics of returned orders (using the returned_orders table), such as which products have the highest return rates, and how returns impact profitability.
+
 6.	Profitability Analysis:
 Compare profit margins across product categories, sub-categories, and regions. Calculate metrics like profit percentage and rank the best and worst performing segments.
+
 7.	Salesperson Performance Analysis:
 Analyse salesperson performance by region and market to determine which salesperson performed best.
+
 8.	Correlation Analysis:
 Use SQL to analyse correlations between variables (e.g., discount and sales, quantity and profit) to derive actionable insights.
 
 PROJECT NOTEBOOK INFORMATION
-The notebook containing the code and the results can be found in ‘Superstore/code/notebook.ipynb’
+The notebook containing the code and the results can be found in ‘code/notebook.ipynb’
 
 ANALYSIS:
 1.	Data Cleaning and Quality Checks 
 Key Insights:
-To estimate missing quantity values in the orders table using the relationship between sales and unit price. I calculated the average unit price per product based on similar records with: Same product_id,  discount,  market, and region
+To estimate missing quantity values in the orders table using the relationship between sales and unit price. I calculated the average unit price per product based on similar records with: Same product_id,  discount,  market, and region.
+
 Using the formula: quantity = sales / unit_price
 Then rounded the result to the nearest whole number using SQL's ROUND() function.
+
 Summary:
 To handle missing quantity values in the Superstore dataset, I implemented a SQL-based imputation strategy using average unit prices calculated for each product under similar conditions. This allowed for accurate, context-aware estimation rather than generic fill methods, improving data reliability for analysis.
 
-2.	Top performing products, based on sales and category
+3.	Top performing products, based on sales and category
+
 Key Insights
+
 a.	High Sales Doesn’t Always Mean High Profit, as the top-selling product ‘Apple Smart Phone’ brought in the highest revenue but the lowest profit of the top 5 products. In contrast, the Canon imageCLASS 2200 Advanced Copier (ranked 5th by sales) yielded the highest profit with over $25,000.
 
 b.	Profitability Varies Greatly Between Products: Products with similar sales (like Cisco and Motorola phones) had very similar profits, suggesting standardized margins. But there is a huge leap in profit from the Canon copier compared to smartphones indicating a premium margin product.
+
 c.	Phones Dominate the Sales Chart:  4 of the top 5 highly sold products are smartphones, showing strong demand of smartphones in the tech category.
+
 d.	Worst Performing Category: The worst performing category generally was office supplies, with 3 of 5 Office Supplies generating the least amount of profit, and all 5 generating lowest sales. ‘The Hoover stove, White’ categorised as ‘office supplies’ produced a loss of $-2180.63.
 
 [FIGURE 1: images/ Top 5 Products, Each Category: Sales vs. Profit.png.]
 
 Summary: 
+
 Using SQL window functions, I identified the top 5 products by total sales for each category. While smartphones dominated in terms of revenue, the most profitable item was a copier, highlighting a key insight: high sales volume does not always align with high profitability. This emphasizes the importance of considering profit margins, not just sales when making inventory and marketing decisions.
 
 3.	Sales Analysis by Region:
 Key Insights by year
 
 2014:
+
 a.	Central (EU) was the top-performing region, with the highest sales value (over 600,000) and order count, while Oceania (APAC) came in second (over $350,000) in value of sales.
+
 b.	Central Asia (APAC) had the highest average sales per order, suggesting fewer but higher-value transactions, suggesting potential for high-value customers.
+
 c.	Canada had the lowest performance, with total sales under $25,000, significantly trailing other regions.
 
 2013:
+
 a.	Central (EU) and Oceania (APAC) led in both order volume and sales value.
+
 b.	Canada again had the lowest number of orders and sales, with total sales below $20,000.
 
 2011–2012:
+
 a. Central (EU) maintained consistent dominance in these years, with sales values over $200,000 each year.
+
 b. Canada consistently ranked as the lowest-performing region, showing limited engagement with customers or smaller customer base.
 
 [FIGURE 2: images/Customer Order Analysis_Total Sales by Year.png.]
 
 Summary:
+
 I analysed customer purchase behaviour and sales trends across global markets by grouping data by region, market, and year. Central (EU) consistently led in total sales and order volume across all years in the dataset, while Canada showed persistently low sales performance, indicating significant regional differences in purchasing behaviour. 
+
 The reason for low performance could be the type of products sold and/or the demographics of customers living in that region. Therefore, tailored marketing strategies could be helpful in Canada (Canada). However, further investigation on this should be carried out.
 In 2014, Central Asia (APAC) had the highest average order value, revealing potential for high-value customer targeting.
 
-4.	Time Series Analysis:
+4.	Time Series Analysis
+   
 Key Insights
+
 This analysis focuses on comparing January and December in terms of total sales and profit over four consecutive years. The goal is to uncover end-of-year performance trends and post-holiday effects.
+
 January 2011:
 Sales: $98,899 | Profit: $8,322 | Orders: 216
+
 December 2011:
 Sales: $333,926 | Profit: $40,648 | Orders: 620
+
 Analysis: December sales and profit more than tripled those of January, showing strong holiday season demand. High profitability suggests not just more sales, but likely higher margin products.
 
 January 2012:
 Sales: $135,781 | Profit: $10,402 | Orders: 260
+
 December 2012:
 Sales: $338,257 | Profit: $32,951 | Orders: 628
+
 Analysis: December’s revenue and profit nearly tripled that of January. High order volume and consistent margin performance reinforce seasonal patterns.
 
 January 2013:
 Sales: $199,186 | Profit: $26,811 | Orders: 345
+
 December 2013:
 Sales: $405,454 | Profit: $50,203 | Orders: 825
+
 Analysis: Although January 2013 sales were higher than previous years, December still outpaced it by over 60% in sales, maintaining the seasonal performance gap.
 
 Analysing the evolution of total sales, profit, and order volume over the course of 2014 (the most recent year). Identifying trends, seasonal peaks, and business performance patterns.
+
 Q1: A slow start
+
 January
 Sales: $241,269 | Profit: $28,001 | Orders: 450
+
 February
 Sales: $184,837 | Profit: $19,752 | Orders: 385
+
 March
 Sales: $263,101 | Profit: $37,357 | Orders: 530
+
 Analysis:
+
 The year began with low sales and profit, which is typical after the December holiday surge. February was the lowest-performing month in sales, profit, and orders. March made a strong recovery, with profit increasing nearly +89% from February possibly due to promotional pushes or improved market activity.
 
 Q2: Stabilization and Growth
+
 April
 Sales: $242,772 | Profit: $23,782 | Orders: 523
+
 May
 Sales: $288,401 | Profit: $33,954 | Orders: 667
+
 June
 Sales: $401,814 | Profit: $ 43,779 | Orders: 889
+
 Analysis:
 Steady growth each month with rising sales and profit. June stood out as the first major spike, crossing the $400K mark in sales and nearly $44K in profit. Customer engagement increased, as seen in rising order volume.
 
 Q3: Sustained High Performance
+
 July
 Sales: $258,706 | Profit: $28,036 | Orders: 540
 .
 .
 .
+
 Analysis:
+
 July had a slight dip in sales compared to June, but profit remained solid. August and September showed a significant increase compared to July. August saw a +76% jump in sales from July and a 91% increase in profit, suggesting strong demand or a successful mid-year marketing campaign. September continued this upward trend, with the highest monthly profit of the entire year.
 
 Q4: Seasonal Peak
@@ -131,9 +181,12 @@ Q4: Seasonal Peak
 .
 November
 Sales: $ 555,279 | Profit: $ 62,857 | Orders: 1077
+
 December
 Sales: $ 503,144 | Profit: $46,917 | Orders: 1093
+
 Analysis:
+
 November had the highest monthly sales of the entire year, driven by holiday shopping (e.g., Black Friday, early holiday deals). December maintained high volume and revenue but saw a slight drop in profit, possibly due to year-end discounting and/or clearance pricing. These months confirmed strong seasonal demand spikes.
 
 [FIGURE 3: images/Quarter_over_Quarter Sales Comparison.png]
