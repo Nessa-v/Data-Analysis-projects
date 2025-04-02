@@ -53,10 +53,12 @@ Using SQL window functions, I identified the top 5 products by total sales for e
 
 3.	Sales Analysis by Region:
 Key Insights by year
+
 2014:
 a.	Central (EU) was the top-performing region, with the highest sales value (over 600,000) and order count, while Oceania (APAC) came in second (over $350,000) in value of sales.
 b.	Central Asia (APAC) had the highest average sales per order, suggesting fewer but higher-value transactions, suggesting potential for high-value customers.
 c.	Canada had the lowest performance, with total sales under $25,000, significantly trailing other regions.
+
 2013:
 a.	Central (EU) and Oceania (APAC) led in both order volume and sales value.
 b.	Canada again had the lowest number of orders and sales, with total sales below $20,000.
