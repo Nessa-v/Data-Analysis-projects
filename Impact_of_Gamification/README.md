@@ -14,7 +14,9 @@ The 'R code' is code used to generate some of the charts in R programming langua
 
 The 'Questionnaire' was sent to the participants using Microsoft Forms, to obtain data for the project.
 
-The dataset information, participant information, diagrams and analysis are contained in the 'Impact_of_Gamification_github.pdf' file.
+The full dataset information, participant information, diagrams and analysis are contained in the 'Impact_of_Gamification_github.pdf' file.
+
+However, if you would like to skip to the analysis view the 'Impact_of_Gamification_DataAnalysis_alone.pdf' file.
 
 ## This project is for viewing and portfolio purposes only.  
 ## Please do not copy, reuse, or redistribute any code or content without permission.
