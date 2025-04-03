@@ -31,3 +31,5 @@ Projects:
 5. Credit Card Default Prediction: Built and evaluated ML models (Logistic Regression, SVMs, Neural Networks, etc.), to predict credit card default using a bank’s data (Microsoft Excel, Orange Data Mining, Python).
    
 6. Pet Supplies Analysis: Analysed data to identify missing values, explore relationships, visualise repeat purchases, and explore their impact on revenue (Microsoft Excel). 
+
+## More projects to be added to this repository soon...
