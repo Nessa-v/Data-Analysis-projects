@@ -12,7 +12,7 @@ Connect with me:
 
 LinkedIn: www.linkedin.com/in/vanessa-nwankwo-973480208 
 
-Email Address: vanessanwankwo8@gmail.com
+Work Email Address: vanessanwankwo8@gmail.com
 
 Welcome to my data analysis portfolio!  
 
