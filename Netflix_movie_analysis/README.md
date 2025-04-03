@@ -29,7 +29,8 @@ PROJECT OBJECTIVES
 3. Calculate and Visualise Movie Duration Statistics.
 4. Genre Analysis
 
- 
+ANALYSIS
+
    
 
 
