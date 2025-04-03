@@ -2,9 +2,9 @@ NAME OF PROGRAMMER: Vanessa Nwankwo
 
 PROJECT TITLE: Investigating Netflix Movies
 
-PROGRAMMING LANGUAGE USED: Python
+PROGRAMMING LANGUAGE USED FOR ANALYSIS: Python
 
-ABOUT THE DATASET: The Netflix Movies Dataset was obtained from DataCamo, with 4813 rows and 11 columns.
+ABOUT THE DATASET: The Netflix Movies Dataset was obtained from DataCamp, with 4813 rows and 11 columns. The Excel file can be found in the 'dataset' folder contained within the Netflix_movie_analysis folder.
 
 | Column | Description |
 |--------|-------------|
