@@ -13,6 +13,45 @@ ABOUT THE DATASET
 The dataset used is the ‘Projects Data’ obtained from DataCamp.
 The tables used are ‘orders’, ‘returned_orders’, ‘people’, ‘products’. A sample of each table in excel format, can be found in the ‘dataset’ folder within the ‘Superstore’ project folder.
 
+### `orders`:
+| Column | Definition | Data type | Comments |
+|--------|------------|-----------|----------|
+| `row_id`| Unique Record ID | `INTEGER` |
+| `order_id` | Identifier for each order in table | `TEXT` | Connects to `order_id` in `returned_orders` table |
+| `order_date` | Date when order was placed | `TEXT` |
+| `market` | Market order_id belongs to | `TEXT` |
+| `region` | Region Customer belongs to | `TEXT` | Connects to `region` in `people` table |
+| `product_id` | Identifier of Product bought | `TEXT` | Connects to `product_id` in `products` table |
+| `sales` | Total Sales Amount for the Line Item | `DOUBLE PRECISION` |
+| `quantity` | Total Quantity for the Line Item | `DOUBLE PRECISION` |
+| `discount` | Discount applied for the Line Item | `DOUBLE PRECISION` |
+| `profit` | Total Profit earned on the Line Item | `DOUBLE PRECISION` |
+
+### `returned_orders`:
+| Column | Definition | Data type |
+|--------|------------|-----------|
+| `returned`| Yes values for Order / Line Item Returned | `TEXT` |
+| `order_id` | Identifier for each order in table | `TEXT` |
+| `market` | Market order_id belongs to | `TEXT` |
+
+### `people`:
+| Column | Definition | Data type |
+|--------|------------|-----------|
+| `person`| Name of Salesperson credited with Order | `TEXT` |
+| `region` | Region Salesperson in operating in | `TEXT` |
+
+### `products`:
+| Column | Definition | Data type |
+|--------|------------|-----------|
+| `product_id`| Unique Identifier for the Product | `TEXT` |
+| `category` | Category Product belongs to | `TEXT` |
+| `sub_category` | Sub Category Product belongs to | `TEXT` |
+| `product_name` | Detailed Name of the Product | `TEXT` |
+
+
+
+
+
 PROJECT OBJECTIVES
 1.	Data Cleaning and Quality Checks:
 Querying to identify and fix missing values.
@@ -65,6 +104,9 @@ c.	Phones Dominate the Sales Chart:  4 of the top 5 highly sold products are sma
 d.	Worst Performing Category: The worst performing category generally was office supplies, with 3 of 5 Office Supplies generating the least amount of profit, and all 5 generating lowest sales. ‘The Hoover stove, White’ categorised as ‘office supplies’ produced a loss of $-2180.63.
 
 [FIGURE 1: images/Top 5 Products_Each Category_Sales vs. Profit.png.]
+
+![Top 5 Products_Each Category_Sales vs  Profit](https://github.com/user-attachments/assets/62a216ba-b8a2-4f33-9f9f-f27bdddda312)
+
 
 Summary: 
 
