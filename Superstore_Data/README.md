@@ -350,10 +350,15 @@ d.	Quantity vs Profit (0.10): A weak positive correlation. Quantity of items in 
 e.	Discount vs Sales (-0.09): A very weak negative correlation. Discounts are not significantly boosting sales volume.
 
 Correlation Matrix:
+
           discount     sales  quantity    profit
+          
 discount  1.000000 -0.086718 -0.019886 -0.316477
+
 sales    -0.086718  1.000000  0.313584  0.484914
+
 quantity -0.019886  0.313584  1.000000  0.104379
+
 profit   -0.316477  0.484914  0.104379  1.000000
 
 
