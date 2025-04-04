@@ -364,7 +364,9 @@ quantity:   -0.019886  0.313584  1.000000  0.104379
 profit:     -0.316477  0.484914  0.104379  1.000000
 
 
+
 Summary
+
 I explored the relationship between sales metrics using a correlation matrix. The results show a strong positive correlation between sales and profit (0.48), and a negative correlation between discount and profit (-0.32), suggesting that excessive discounting may hurt profitability. Also, since there is a positive correlation between quantity of items sold with sales and profit, albeit not so great, tailored marketing campaigns might increase sales and profits for non-popular items. 
 
 The data also shows that discounts do not increase sales significantly. This could be because high sales items may not need discounts to perform well, or customers may not be strongly motivated by small discounts.
