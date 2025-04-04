@@ -103,8 +103,6 @@ c.	Phones Dominate the Sales Chart:  4 of the top 5 highly sold products are sma
 
 d.	Worst Performing Category: The worst performing category generally was office supplies, with 3 of 5 Office Supplies generating the least amount of profit, and all 5 generating lowest sales. ‘The Hoover stove, White’ categorised as ‘office supplies’ produced a loss of $-2180.63.
 
-[FIGURE 1: images/Top 5 Products_Each Category_Sales vs. Profit.png.]
-
 ![Top 5 Products_Each Category_Sales vs  Profit](https://github.com/user-attachments/assets/62a216ba-b8a2-4f33-9f9f-f27bdddda312)
 
 
@@ -135,7 +133,9 @@ a. Central (EU) maintained consistent dominance in these years, with sales value
 
 b. Canada consistently ranked as the lowest-performing region, showing limited engagement with customers or smaller customer base.
 
-[FIGURE 2: images/Customer Order Analysis_Total Sales by Year.png.]
+
+![Customer Order Analysis_Total Sales by Year](https://github.com/user-attachments/assets/7c533576-2529-4cd4-9a9b-9fef1e30e855)
+
 
 Summary:
 
@@ -231,7 +231,8 @@ Analysis:
 
 November had the highest monthly sales of the entire year, driven by holiday shopping (e.g., Black Friday, early holiday deals). December maintained high volume and revenue but saw a slight drop in profit, possibly due to year-end discounting and/or clearance pricing. These months confirmed strong seasonal demand spikes.
 
-[FIGURE 3: images/Quarter_over_Quarter Sales Comparison.png]
+![Quarter_over_Quarter Sales Comparison](https://github.com/user-attachments/assets/d7bc8565-4c97-4426-80cd-175b6162b353)
+
 
 Summary:
 
@@ -299,7 +300,9 @@ b.	High sales do not always mean high margin, because while Phones had the highe
 
 c.	The category ‘Furniture’ with the sub-category ‘Tables’ produced significantly lower profit margins, with profit even less than $-60,000. This is likely because there were high number of returns and low orders, especially for products in the sub-category ‘Tables’. For example, Figure 4 shows that more than 10 tables in the furniture category were 100% returned. This mean that the number of orders/sales = number of returns.
 
-[FIGURE 4: images/Top 20 Table Products by Return Rate Percentage.png.]
+
+![Top 20 Table Products by Return Rate Percentage](https://github.com/user-attachments/assets/f7e7d62c-358e-4e3e-8923-60df73fc0048)
+
 
 Summary
 
@@ -321,8 +324,12 @@ d.	Sales figures gradually decrease across the rest of the team, with the lowest
 
 e.	Sales leadership is concentrated among a few top performing individuals, which may reflect disparities in regional sales opportunities, product offerings, or sales strategies. It is also worth noting that the top three salespersons operate in more than one region unlike the others, which could be a significant factor contributing to their sales and profits. (You should hand it to them, they’re working hard as expected).
 
-[FIGURE 5: images/Total Sales by Salesperson.png.] 
-[FIGURE 6: images/Total Sales by Salesperson_Grouped by Region and Market.png.]
+
+![Total Sales by Salesperson](https://github.com/user-attachments/assets/7f626fe4-f1f8-4c58-9acb-ec213863355c)
+
+
+![Total Sales by Salesperson_Grouped by Region and Market](https://github.com/user-attachments/assets/8a57f603-2001-41ee-8176-11354559dc91)
+
 
 Summary
 
