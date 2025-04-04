@@ -80,7 +80,7 @@ Use SQL to analyse correlations between variables (e.g., discount and sales, qua
 PROJECT NOTEBOOK INFORMATION
 The notebook containing the code and the results can be found in ‘code/project_code_notebook.pdf’
 
-ANALYSIS:
+DATA ANALYSIS PROCESSES:
 1.	Data Cleaning and Quality Checks 
 Key Insights:
 To estimate missing quantity values in the orders table using the relationship between sales and unit price. I calculated the average unit price per product based on similar records with: Same product_id,  discount,  market, and region.
@@ -91,7 +91,7 @@ Then rounded the result to the nearest whole number using SQL's ROUND() function
 Summary:
 To handle missing quantity values in the Superstore dataset, I implemented a SQL-based imputation strategy using average unit prices calculated for each product under similar conditions. This allowed for accurate, context-aware estimation rather than generic fill methods, improving data reliability for analysis.
 
-3.	Top performing products, based on sales and category
+2.	Top performing products, based on sales and category
 
 Key Insights
 
