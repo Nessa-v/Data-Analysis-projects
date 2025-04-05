@@ -5,12 +5,15 @@ DATE CREATED: MARCH 2025
 PROJECT TITLE: SUPERSTORE SALES DATA ANALYSIS
 
 PROJECT AIM:
+
 Conduct end-to-end analysis of Superstore sales data to uncover trends and determine factors affecting sales and profitability.
 
 TOOLS USED: PostgreSQL, Python
 
 ABOUT THE DATASET
+
 The dataset used is the ‘Projects Data’ obtained from DataCamp.
+
 The tables used are ‘orders’, ‘returned_orders’, ‘people’, ‘products’. A sample of each table in excel format, can be found in the ‘dataset’ folder within the ‘Superstore’ project folder.
 
 ### `orders`:
@@ -53,42 +56,56 @@ The tables used are ‘orders’, ‘returned_orders’, ‘people’, ‘produc
 
 
 PROJECT OBJECTIVES
+
 1.	Data Cleaning and Quality Checks:
+   
 Querying to identify and fix missing values.
 
-2.	Identify Top 5 Products by Category and Sales.
+2.	Identify Top 5 Products by Category and Sales:
+
 Identifying Top Performing products in each category based on sales.
 
 3.	Sales Analysis by Region:
+	
 Analyse customer purchase behaviour, order frequency, and other sales trends across different regions and markets.
 
 4.	Time Series Analysis:
-Create more detailed time series analysis, like monthly or quarterly trends in sales, profit, or order volumes.  Compute moving averages or growth rates.
+   
+Create more detailed time series analysis, like monthly or quarterly trends in sales, profit, or order volumes. Compute moving averages or growth rates.
 
 5.	Returns Analysis:
+   
 Investigate the characteristics of returned orders (using the returned_orders table), such as which products have the highest return rates, and how returns impact profitability.
 
 6.	Profitability Analysis:
+   
 Compare profit margins across product categories, sub-categories, and regions. Calculate metrics like profit percentage and rank the best and worst performing segments.
 
 7.	Salesperson Performance Analysis:
+   
 Analyse salesperson performance by region and market to determine which salesperson performed best.
 
 8.	Correlation Analysis:
 Use SQL to analyse correlations between variables (e.g., discount and sales, quantity and profit) to derive actionable insights.
 
 PROJECT NOTEBOOK INFORMATION
+
 The notebook containing the code and the results can be found in ‘code/project_code_notebook.pdf’
 
 DATA ANALYSIS PROCESSES:
-1.	Data Cleaning and Quality Checks 
+
+1.	Data Cleaning and Quality Checks
+   
 Key Insights:
+
 To estimate missing quantity values in the orders table using the relationship between sales and unit price. I calculated the average unit price per product based on similar records with: Same product_id,  discount,  market, and region.
 
 Using the formula: quantity = sales / unit_price
+
 Then rounded the result to the nearest whole number using SQL's ROUND() function.
 
 Summary:
+
 To handle missing quantity values in the Superstore dataset, I implemented a SQL-based imputation strategy using average unit prices calculated for each product under similar conditions. This allowed for accurate, context-aware estimation rather than generic fill methods, improving data reliability for analysis.
 
 2.	Top performing products, based on sales and category
@@ -151,40 +168,56 @@ Key Insights
 This analysis focuses on comparing January and December in terms of total sales and profit over four consecutive years. The goal is to uncover end-of-year performance trends and post-holiday effects.
 
 January 2011:
+
 Sales: $98,899 | Profit: $8,322 | Orders: 216
 
 December 2011:
+
 Sales: $333,926 | Profit: $40,648 | Orders: 620
 
-Analysis: December sales and profit more than tripled those of January, showing strong holiday season demand. High profitability suggests not just more sales, but likely higher margin products.
+Analysis:
+
+December sales and profit more than tripled those of January, showing strong holiday season demand. High profitability suggests not just more sales, but likely higher margin products.
 
 January 2012:
+
 Sales: $135,781 | Profit: $10,402 | Orders: 260
 
 December 2012:
+
 Sales: $338,257 | Profit: $32,951 | Orders: 628
 
-Analysis: December’s revenue and profit nearly tripled that of January. High order volume and consistent margin performance reinforce seasonal patterns.
+Analysis: 
+
+December’s revenue and profit nearly tripled that of January. High order volume and consistent margin performance reinforce seasonal patterns.
 
 January 2013:
+
 Sales: $199,186 | Profit: $26,811 | Orders: 345
 
 December 2013:
+
 Sales: $405,454 | Profit: $50,203 | Orders: 825
 
-Analysis: Although January 2013 sales were higher than previous years, December still outpaced it by over 60% in sales, maintaining the seasonal performance gap.
+Analysis: 
 
-Analysing the evolution of total sales, profit, and order volume over the course of 2014 (the most recent year). Identifying trends, seasonal peaks, and business performance patterns.
+Although January 2013 sales were higher than previous years, December still outpaced it by over 60% in sales, maintaining the seasonal performance gap.
+
+
+# Analysing the evolution of total sales, profit, and order volume over the course of 2014 (the most recent year). Identifying trends, seasonal peaks, and business performance patterns.
 
 Q1: A slow start
 
-January
+January:
+
 Sales: $241,269 | Profit: $28,001 | Orders: 450
 
-February
+February:
+
 Sales: $184,837 | Profit: $19,752 | Orders: 385
 
-March
+March:
+
 Sales: $263,101 | Profit: $37,357 | Orders: 530
 
 Analysis:
@@ -193,21 +226,26 @@ The year began with low sales and profit, which is typical after the December ho
 
 Q2: Stabilization and Growth
 
-April
+April:
+
 Sales: $242,772 | Profit: $23,782 | Orders: 523
 
-May
+May:
+
 Sales: $288,401 | Profit: $33,954 | Orders: 667
 
-June
+June:
+
 Sales: $401,814 | Profit: $ 43,779 | Orders: 889
 
 Analysis:
+
 Steady growth each month with rising sales and profit. June stood out as the first major spike, crossing the $400K mark in sales and nearly $44K in profit. Customer engagement increased, as seen in rising order volume.
 
 Q3: Sustained High Performance
 
-July
+July:
+
 Sales: $258,706 | Profit: $28,036 | Orders: 540
 .
 .
@@ -221,10 +259,12 @@ Q4: Seasonal Peak
 .
 .
 .
-November
+November:
+
 Sales: $ 555,279 | Profit: $ 62,857 | Orders: 1077
 
-December
+December:
+
 Sales: $ 503,144 | Profit: $46,917 | Orders: 1093
 
 Analysis:
@@ -256,17 +296,17 @@ Returned Profit: Estimated profit lost due to returns. A negative returned profi
 
 Key Insights
 
-Product Name	Orders	Returns	Return Rate	Returned Profit
+Product_Name	                    Orders	Returns	Return_Rate	 Returned_Profit
 
 Ames Clasp Envelope, Security-Tint	3	3	100%	–$16.25 (Loss)
 
-Samsung Headset, Full Size	2	2	100%	$53.46
+Samsung Headset, Full Size:	      2	2	100%	$53.46
 
-Avery 500	2	2	100%	$27.49
+Avery 500:	                        2	2	100%	$27.49
 
-Acme Shears, High Speed	2	2	100%	$25.74
+Acme Shears, High Speed:         	2	2	100%	$25.74
 
-Stockwell Rubber Bands, Assorted Sizes	2	2	100%	$15.84
+Stockwell Rubber Bands, Assorted Sizes:	2	2	100%	$15.84
 
 Interpretation:
 
@@ -351,8 +391,6 @@ e.	Discount vs Sales (-0.09): A very weak negative correlation. Discounts are no
 
 Correlation Matrix:
 
-Correlation Matrix:
-
             discount     sales  quantity    profit
           
 discount:   1.000000 -0.086718 -0.019886 -0.316477
@@ -362,7 +400,6 @@ sales:      -0.086718  1.000000  0.313584  0.484914
 quantity:   -0.019886  0.313584  1.000000  0.104379
 
 profit:     -0.316477  0.484914  0.104379  1.000000
-
 
 
 Summary:
