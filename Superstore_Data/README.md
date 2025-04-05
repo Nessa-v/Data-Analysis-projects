@@ -4,9 +4,7 @@ DATE CREATED: MARCH 2025
 
 PROJECT TITLE: SUPERSTORE SALES DATA ANALYSIS
 
-PROJECT AIM:
-
-Conduct end-to-end analysis of Superstore sales data to uncover trends and determine factors affecting sales and profitability.
+PROJECT AIM: To conduct end-to-end analysis of Superstore sales data to uncover trends and determine factors affecting sales and profitability.
 
 TOOLS USED: PostgreSQL, Python
 
