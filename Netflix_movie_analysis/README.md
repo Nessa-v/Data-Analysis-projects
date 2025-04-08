@@ -20,7 +20,7 @@ ABOUT THE DATASET: The Netflix Movies Dataset was obtained from DataCamp, with 4
 | `description` | Description of the show |
 | `genre` | Show genre |
 
-PROJECT AIM: The aim of this project is to conduct exploratory data analysis, based on the 1990s movies data.
+PROJECT AIM: To perform exploratory data analysis (EDA) on Netflix's movie catalogue, to uncover insights about content trends, focusing on movies released in the 1990s. This analysis will help to understand patterns in genres, durations, country of origin, and other key features that defined Netflix’s offerings during that decade.
 
 PROJECT OBJECTIVES
 
