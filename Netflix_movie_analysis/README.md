@@ -99,5 +99,9 @@ a. 1991 and 1996 each had 2 movies with a duration of 94 minutes, while 1990, 19
 
 b. There are no movies with 94-minute duration listed for other years like 1992–1995 or 1998 in the Netflix dataset.
 
-c. Compared to the number of movies released for each year in the 1990s, movies lasting 94 minutes were a very small proportion, which indicates that it was not a singificant movie duration in the 1990s.
+Summary: 
+
+Compared to the number of movies released for each year in the 1990s, movies lasting 94 minutes were a very small proportion, which indicates that it was not a singificant movie duration in the 1990s.
+
+
 
