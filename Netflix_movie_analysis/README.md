@@ -114,7 +114,6 @@ b. Median Duration (orange line): midpoint duration, less sensitive to outliers.
 
 c. Standard Deviation (green line): how varied movie durations were for each year.
 
-Duration statistics per year in the 1990s:
 
                     mean,  median,    std
                     
@@ -142,7 +141,7 @@ release_year
 
 ![download](https://github.com/user-attachments/assets/a91b795f-a20c-4abe-a582-93da42b8b380)
 
-Key Insights
+Key Insights:
 
 a. The year with the highest movie duration was 1994, with a mean of approximately 128.4 minutes and median of 124 minutes.
 
