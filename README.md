@@ -18,7 +18,7 @@ Welcome to my data analysis portfolio!
 
 This repository contains a collection of projects where I cleaned, explored and analysed datasets. I also extracted key insights and provided suitable solutions using MS Excel, Python, PostgreSQL, R and Orange Data Mining. 
 
-The tools I am most comfortable with are MS Excel and PostgrSQL.
+The tools I am most comfortable with are MS Excel and PostgreSQL.
 
 As I continue to learn and grow in data analytics, I will make changes to this repository where necessary.
 
