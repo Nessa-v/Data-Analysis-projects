@@ -16,7 +16,9 @@ Work Email Address: vanessanwankwo8@gmail.com
 
 Welcome to my data analysis portfolio!  
 
-This repository contains a collection of projects where I explored datasets using MS Excel, Python, PostgreSQL, and Orange Data Mining.
+This repository contains a collection of projects where I cleaned, explored and analysed datasets. I also extracted key insights and provided suitable solutions using MS Excel, Python, PostgreSQL, R and Orange Data Mining. 
+
+The tools I am most comfortable with are MS Excel and PostgrSQL.
 
 Projects:
 
