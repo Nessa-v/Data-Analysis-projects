@@ -113,6 +113,20 @@ b. Median Duration (orange line): midpoint duration, less sensitive to outliers.
 
 c. Standard Deviation (green line): how varied movie durations were for each year.
 
+Duration statistics per year in the 1990s:
+                    mean  median        std
+release_year                               
+1990          117.428571   109.0  41.084742
+1991           93.500000    93.5  33.831597
+1992          104.000000   102.0  27.892651
+1993          120.000000   115.0  35.432565
+1994          128.428571   124.0  40.349844
+1995          116.437500   110.5  29.289290
+1996          120.133333   114.0  27.252435
+1997          116.961538   114.5  24.964744
+1998          109.884615   103.5  35.631814
+1999          121.884615   111.5  33.287027
+
 [IMAGE]
 
 Key Insights
@@ -126,5 +140,6 @@ c. Standard deviation drops from approximately 41 minutes to approximately 25 mi
 Summary:
 
 Analysed Netflix's 1990s movie durations, revealing a peak in 1994 with average runtimes over 128 minutes. The data showed a trend toward more consistent durations over the decade, with standard deviation shrinking by 40%. This points to increasing content duration standardidation.
+
 
 
