@@ -26,7 +26,7 @@ PROJECT OBJECTIVES
 
 1. Data Preprocessing to fix the data.
 2. Analysing Yearly Trends.
-3. Calculate and Visualise Movie Duration Statistics.
+
 4. Genre Analysis
 
 # editing in progress
@@ -103,5 +103,28 @@ Summary:
 
 Compared to the number of movies released for each year in the 1990s, movies lasting 94 minutes were a very small proportion, which indicates that it was not a singificant movie duration in the 1990s.
 
+Calculating Movie Duration Statistics:
+
+The plot tracks:
+
+a. Mean Duration (blue line): average movie length per year.
+
+b. Median Duration (orange line): midpoint duration, less sensitive to outliers.
+
+c. Standard Deviation (green line): how varied movie durations were for each year.
+
+[IMAGE]
+
+Key Insights
+
+a. The year with the highest movie duration was 1994, with a mean of approximately 128.4 minutes and median of 124 minutes.
+
+b. The year with the lowest duration was 1991, with a mean and median of approximately 93.5 minutes. 
+
+c. Standard deviation drops from approximately 41 minutes to approximately 25 minutes in 1997. This indicates that runtimes became more standardised as the decade progressed.
+
+Summary:
+
+Analysed Netflix's 1990s movie durations, revealing a peak in 1994 with average runtimes over 128 minutes. The data showed a trend toward more consistent durations over the decade, with standard deviation shrinking by 40%. This points to increasing content duration standardidation.
 
 
