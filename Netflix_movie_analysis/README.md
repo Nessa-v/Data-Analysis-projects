@@ -41,7 +41,7 @@ The columns 'release_year' and 'duration' are of datatype 'int' which is good fo
 
 All columns report 0 missing values, which is typically unusual, but this signifies that it was completely filled in by DataCamp.
 
-'date_added' column was standardised into the format 'YYYY-MM-01'. The dataset also has unique identifiers for each record and no redundancy.
+'date_added' column was standardised into the format 'YYYY-MM-DD'. The dataset also has unique identifiers for each record and no redundancy.
 
 Summary:
 
@@ -49,7 +49,25 @@ Cleaned and filtered the Netflix movie data, standardising date formats and veri
 
 2. Calculating most frequent movie duration
    
+The dataframe was filtered to keep only data where 'type' = movie and release year is between 1990 and 2000.
 
+To calculate the most frequent movie duration, the .idmax() and .id() functions were used to determine the most fequent movie duration (94 minutes) and how many times it occurred (7). 
 
+[IMAGE]
 
+Key Insights:
+
+The most frequent movie duration among 1990s Netflix movies is 94 minutes. It means there is no extreme concentration in any runtime, but 94 mins occurs most often.
+
+The sudden peak could mean a possible industry standard or preference at the time.
+
+Regardless, this duration balances storytelling depth without being too long for audiences.
+
+Most movies fall between 90 to 120 minutes.
+
+There are still a good number of movies above 150 mins, showing that long movies were not rare either.
+
+Summary:
+
+The most common duration among Netflix's 1990s movies is 94 minutes, with 7 movies sharing that runtime. The frequency is modest, and the chart suggests a fairly normal distribution. Most movies fall between 90 and 120 minutes, which also suggests standard industry runtimes.
 
