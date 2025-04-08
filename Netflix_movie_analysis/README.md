@@ -55,6 +55,8 @@ To calculate the most frequent movie duration, the .idmax() and .id() functions 
 
 [IMAGE]
 
+[IMAGE]
+
 Key Insights:
 
 The most frequent movie duration among 1990s Netflix movies is 94 minutes. It means there is no extreme concentration in any runtime, but 94 mins occurs most often.
@@ -70,4 +72,26 @@ There are still a good number of movies above 150 mins, showing that long movies
 Summary:
 
 The most common duration among Netflix's 1990s movies is 94 minutes, with 7 movies sharing that runtime. The frequency is modest, and the chart suggests a fairly normal distribution. Most movies fall between 90 and 120 minutes, which also suggests standard industry runtimes.
+
+3. Analysing yearly trends
+
+The dataset was grouped by release_year and  the number of movie entries for each year in the 1990s was counted.
+
+Key Insights:
+
+From 1990 to 1996, movie counts per year hovered around 14–16 movies per year.
+
+Starting in 1997, there is a noticeable increase, reaching 26 movies per year consistently through 1999.
+
+This suggests an increase in content availability or acquisitions for titles by Netflix from the late 90s.
+
+Summary:
+
+The sharp increase in the number of movies from 1997–1999 suggests that Netflix either chose to acquire more titles from those years and that more movies from that time were available for licensing or streaming, compared to the early '90s.
+
+
+
+Visualising movies by year with duration = 94 minutes
+
+[IMAGE]
 
