@@ -141,5 +141,19 @@ Summary:
 
 Analysed Netflix's 1990s movie durations, revealing a peak in 1994 with average runtimes over 128 minutes. The data showed a trend toward more consistent durations over the decade, with standard deviation shrinking by 40%. This points to increasing content duration standardidation.
 
+3. Genre Analysis
 
+The 'genre' column was split by commas (,), incase there were multiple genres for one movie. Each genres were then put in seperate rows using the .explode() function. The .strip() function removes unnecessary spaces before and after the texts. The 'genre_counts' variable contains the number of times each genre appears. 
+
+Key Insights:
+
+a. Top Genres: Action (48 movies) was the most dominant genre, followed closely by Dramas (44) and Comedies (40). 
+
+b. Less Represented Genres: Categories like Documentaries and Cult Movies only had 2 titles each, suggesting limited content availability or limited acquisition for these genres.
+
+c. Horror Movies and Thrillers also had fewer entries, indicating that such themes were less emphasized in 1990s Netflix content.
+
+d. Children and Classic Movies: With 15 movies each, these genres held a moderate presence, showing Netflix's attempt to balance entertainment for various age groups.
+
+e. Short Action Movies (< 90 mins): Only 7 short Action movies were under 90 minutes long. This suggests that most Action films in the 1990s tended to be longer, possibly to accommodate complex plots or elaborate scenes.
 
