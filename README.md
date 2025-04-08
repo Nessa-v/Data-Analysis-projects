@@ -20,6 +20,8 @@ This repository contains a collection of projects where I cleaned, explored and 
 
 The tools I am most comfortable with are MS Excel and PostgrSQL.
 
+As I continue to learn and grow in data analytics, I will make changes to this repository where necessary.
+
 Projects:
 
 1. Sales Data Analysis: Conducted end-to-end analysis of Superstore sales data using SQL and Python to uncover trends in product performance, discount impact, regional sales, and profitability (Python, PostgreSQL).
