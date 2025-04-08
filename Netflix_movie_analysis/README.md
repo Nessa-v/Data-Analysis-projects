@@ -33,15 +33,15 @@ PROJECT OBJECTIVES
 
 ANALYSIS
 
-1. Data Prerocessing:
+1. Data Preprocessing:
 
-netflix_df.info() gives information of the dataset which was read into a python dataframe. It shows that the dataset contains 4,812 rows and 11 columns. Every column is marked as non-null. 
+a. netflix_df.info() gives information of the dataset which was read into a python dataframe. It shows that the dataset contains 4,812 rows and 11 columns. Every column is marked as non-null. 
 
-The columns 'release_year' and 'duration' are of datatype 'int' which is good for numerical analysis. The rest are of type object (string/text) which is a standard for descriptive fields.
+b. The columns 'release_year' and 'duration' are of datatype 'int' which is good for numerical analysis. The rest are of type object (string/text) which is a standard for descriptive fields.
 
-All columns report 0 missing values, which is typically unusual, but this signifies that it was completely filled in by DataCamp.
+c. All columns report 0 missing values, which is typically unusual, but this signifies that it was completely filled in by DataCamp.
 
-'date_added' column was standardised into the format 'YYYY-MM-DD'. The dataset also has unique identifiers for each record and no redundancy.
+d. 'date_added' column was standardised into the format 'YYYY-MM-DD'. The dataset also has unique identifiers for each record and no redundancy.
 
 Summary:
 
@@ -57,17 +57,17 @@ To calculate the most frequent movie duration, the .idmax() and .id() functions 
 
 [IMAGE]
 
+[IMAGE]
+
 Key Insights:
 
-The most frequent movie duration among 1990s Netflix movies is 94 minutes. It means there is no extreme concentration in any runtime, but 94 mins occurs most often.
+a. The most frequent movie duration among 1990s Netflix movies is 94 minutes. It means there is no extreme concentration in any runtime, but 94 mins occurs most often.
 
-The sudden peak could mean a possible industry standard or preference at the time.
+b. The sudden peak at 90 minutes (90 - 120 mins) could mean a possible industry standard or preference at the time.
 
-Regardless, this duration balances storytelling depth without being too long for audiences.
+c. Most movies fall between 90 to 120 minutes which balances storytelling depth without being too long for audiences.
 
-Most movies fall between 90 to 120 minutes.
-
-There are still a good number of movies above 150 mins, showing that long movies were not rare either.
+d. There are still a good number of movies above 150 mins, showing that long movies were not rare either.
 
 Summary:
 
@@ -79,19 +79,25 @@ The dataset was grouped by release_year and  the number of movie entries for eac
 
 Key Insights:
 
-From 1990 to 1996, movie counts per year hovered around 14–16 movies per year.
+a. From 1990 to 1996, movie counts per year hovered around 14–16 movies per year.
 
-Starting in 1997, there is a noticeable increase, reaching 26 movies per year consistently through 1999.
+b. Starting in 1997, there is a noticeable increase, reaching 26 movies per year consistently through 1999.
 
-This suggests an increase in content availability or acquisitions for titles by Netflix from the late 90s.
+c. This suggests an increase in content availability or acquisitions for titles by Netflix from the late 90s.
 
 Summary:
 
 The sharp increase in the number of movies from 1997–1999 suggests that Netflix either chose to acquire more titles from those years and that more movies from that time were available for licensing or streaming, compared to the early '90s.
 
-
-
-Visualising movies by year with duration = 94 minutes
+Visualising release year with duration = 94 minutes:
 
 [IMAGE]
+
+Key Insights:
+
+a. 1991 and 1996 each had 2 movies with a duration of 94 minutes, while 1990, 1997, and 1999 each had 1 movie that lasted exactly 94 minutes. 
+
+b. There are no movies with 94-minute duration listed for other years like 1992–1995 or 1998 in the Netflix dataset.
+
+c. Compared to the number of movies released for each year in the 1990s, movies lasting 94 minutes were a very small proportion, which indicates that it was not a singificant movie duration in the 1990s.
 
