@@ -53,11 +53,12 @@ The dataframe was filtered to keep only data where 'type' = movie and release ye
 
 To calculate the most frequent movie duration, the .idmax() and .id() functions were used to determine the most fequent movie duration (94 minutes) and how many times it occurred (7). 
 
-[IMAGE]
+![download](https://github.com/user-attachments/assets/6a0189c0-5fda-4aca-a92b-ca4f1837e1a7)
 
-[IMAGE]
+![download](https://github.com/user-attachments/assets/da02767b-de98-4f0c-8b69-965559a95454)
 
-[IMAGE]
+![download](https://github.com/user-attachments/assets/985974a1-2f11-4983-b1ce-2fbe51fd715c)
+
 
 Key Insights:
 
@@ -91,7 +92,7 @@ The sharp increase in the number of movies from 1997–1999 suggests that Netfli
 
 Visualising release year with duration = 94 minutes:
 
-[IMAGE]
+![download](https://github.com/user-attachments/assets/6a105c1d-1bcf-46a5-823d-e7219c825fec)
 
 Key Insights:
 
@@ -127,7 +128,7 @@ release_year
 1998          109.884615   103.5  35.631814
 1999          121.884615   111.5  33.287027
 
-[IMAGE]
+![download](https://github.com/user-attachments/assets/a91b795f-a20c-4abe-a582-93da42b8b380)
 
 Key Insights
 
@@ -144,6 +145,8 @@ Analysed Netflix's 1990s movie durations, revealing a peak in 1994 with average 
 3. Genre Analysis
 
 The 'genre' column was split by commas (,), incase there were multiple genres for one movie. Each genres were then put in seperate rows using the .explode() function. The .strip() function removes unnecessary spaces before and after the texts. The 'genre_counts' variable contains the number of times each genre appears. 
+
+![download](https://github.com/user-attachments/assets/5059d225-8716-40e3-9872-e073ce2ef984)
 
 Key Insights:
 
