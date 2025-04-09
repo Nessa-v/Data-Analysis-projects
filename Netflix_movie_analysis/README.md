@@ -171,3 +171,97 @@ d. Children and Classic Movies: With 15 movies each, these genres held a moderat
 
 e. Short Action Movies (< 90 mins): Only 7 short Action movies were under 90 minutes long. This suggests that most Action films in the 1990s tended to be longer, possibly to accommodate complex plots or elaborate scenes.
 
+Visualising Duration by Genre: A box plot was used to compare movie durations across genres in the 1990s. 
+
+Key insights:
+
+a. Action
+
+Median duration: Around 110 mins.
+
+Range: Wide, spanning from approximately 70 to nearly 190 mins.
+
+Action movies had some of the longest durations and greatest variation. This genre includes both shorter action thrillers and long blockbusters.
+
+b. Children
+
+Median duration: Close to 90 mins.
+
+Range: Narrow, mostly between 75 to 110 mins.
+
+Children's movies are consistently shorter, likely due to attention span considerations. Minimal outliers suggest uniformity.
+
+c. Classic Movies
+ 
+Median duration: approximately 120 mins.
+
+Range: Wide, extending from about 90 mins to just under 200 mins.
+
+These films tend to be long and varied, potentially because they include epic or historically significant movies that aren't constrained by modern runtime trends.
+
+d. Comedies
+
+Median duration: About 105 mins.
+
+Outliers: A few very short films, including one near 30 mins.
+
+While most comedies follow a moderate length, there’s greater variability.
+
+e. Cult Movies
+ 
+Median duration: approximately 100 mins.
+
+Range: Very tight.
+
+Cult films in this dataset show very little variation, possibly reflecting niche formats.
+
+f. Documentaries
+   
+Median duration: approximately 75 mins.
+
+Range: Narrow, between 60 and 90 mins.
+
+Documentaries tend to be short and concise, likely aiming for clarity and efficiency in storytelling.
+
+g. Dramas
+
+Median duration: High, around 130 mins.
+
+Range: Broad, up to ~190 mins.
+
+Dramas are typically longer, likely due to character development and complex story arcs. 
+
+h. Horror Movies
+   
+Median duration: approximately 105 mins.
+
+Range: Moderate.
+
+Slightly shorter than dramas and classics, horror movies stay within a standard range but don’t show as much variation.
+
+i. Stand-Up
+
+Median duration: Very short, around 60 mins.
+
+Range: Very tight, 30–70 mins.
+
+These are consistent and short, fitting the nature of recorded stand-up performances.
+
+10. Thrillers
+    
+Median duration: approximately 110 mins.
+
+Range: Moderate.
+
+Standard in length with some variety, thrillers sit between action and drama in both intensity and duration.
+
+Summary:
+
+This analysis reveals how genre influences movie length and showcases format trends from the 1990s. Action, Dramas and Classic Movies had the longest average durations and the widest variation, indicating rich storytelling and diverse formats. Children and Stand-Up genres had the shortest and most consistent durations, typically under 90 minutes, showing a focus on brevity and attention span. Documentaries and Cult Movies maintained a tight duration range, often concise and focused. Outliers across genres like children movies and comedy, highlight the presence of unusually short or long movies.
+
+
+
+
+
+
+
