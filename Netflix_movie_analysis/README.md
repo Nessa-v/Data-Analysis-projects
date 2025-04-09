@@ -4,7 +4,7 @@ PROJECT TITLE: Investigating Netflix Movies
 
 PROGRAMMING LANGUAGE USED FOR ANALYSIS: Python
 
-ABOUT THE DATASET: The Netflix Movies Dataset was obtained from DataCamp, with 4812 rows and 11 columns. The Excel file can be found in the 'dataset' folder contained within the Netflix_movie_analysis folder.
+ABOUT THE DATASET: The Netflix Movies Dataset was obtained from DataCamp, with 4813 rows and 11 columns. The Excel file can be found in the 'dataset' folder contained within the Netflix_movie_analysis folder.
 
 | Column | Description |
 |--------|-------------|
@@ -25,9 +25,10 @@ PROJECT AIM: To perform exploratory data analysis (EDA) on Netflix's movie catal
 PROJECT OBJECTIVES
 
 1. Data Preprocessing to fix the data.
-2. Analysing Yearly Trends.
-
+2. Analysing Movie Durations.
+3. Analysing Yearly Trends.
 4. Genre Analysis
+5. Investigating Director and Cast Members
 
 # editing in progress
 
@@ -165,8 +166,7 @@ Summary
 
 There is a very weak positive correlation between the year a movie was released and its duration in the 1990s. This suggests that movie durations did not significantly change as the years progressed. It supports the earlier theory that movie durations became more standardised as the years increased, so there weren't extremely long or short movies towards the end of the decade.
 
-
-3. Genre Analysis
+4. Genre Analysis
 
 The 'genre' column was split by commas (,), incase there were multiple genres for one movie. Each genres were then put in seperate rows using the .explode() function. The .strip() function removes unnecessary spaces before and after the texts. The 'genre_counts' variable contains the number of times each genre appears. 
 
@@ -272,7 +272,7 @@ Summary:
 
 This analysis reveals how genre influences movie length and showcases format trends from the 1990s. Action, Dramas and Classic Movies had the longest average durations and the widest variation, indicating rich storytelling and diverse formats. Children and Stand-Up genres had the shortest and most consistent durations, typically under 90 minutes, showing a focus on brevity and attention span. Documentaries and Cult Movies maintained a tight duration range, often concise and focused. Outliers across genres like children movies and comedy, highlight the presence of unusually short or long movies.
 
-
+5. Investigating Director and Cast Members
 
 
 
