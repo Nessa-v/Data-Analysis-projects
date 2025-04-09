@@ -153,6 +153,19 @@ Summary:
 
 Analysed Netflix's 1990s movie durations, revealing a peak in 1994 with average runtimes over 128 minutes. The data showed a trend toward more consistent durations over the decade, with standard deviation shrinking by 40%. This points to increasing content duration standardidation.
 
+Calculating Correlation Between Release Year and Duration:
+
+Since 'release_year' and 'duration' are already of datatype int, Pearson's correlation between these two columns is calculated.
+
+Key Insights
+
+The correlation coefficient between release_year and duration is 0.096, which signifies a positive relationship (indicating that as years increase, durations slightly increase). However, it is very weak (since it's close to 0).
+
+Summary
+
+There is a very weak positive correlation between the year a movie was released and its duration in the 1990s. This suggests that movie durations did not significantly change as the years progressed. It supports the earlier theory that movie durations became more standardised as the years increased, so there weren't extremely long or short movies towards the end of the decade.
+
+
 3. Genre Analysis
 
 The 'genre' column was split by commas (,), incase there were multiple genres for one movie. Each genres were then put in seperate rows using the .explode() function. The .strip() function removes unnecessary spaces before and after the texts. The 'genre_counts' variable contains the number of times each genre appears. 
@@ -258,7 +271,6 @@ Standard in length with some variety, thrillers sit between action and drama in 
 Summary:
 
 This analysis reveals how genre influences movie length and showcases format trends from the 1990s. Action, Dramas and Classic Movies had the longest average durations and the widest variation, indicating rich storytelling and diverse formats. Children and Stand-Up genres had the shortest and most consistent durations, typically under 90 minutes, showing a focus on brevity and attention span. Documentaries and Cult Movies maintained a tight duration range, often concise and focused. Outliers across genres like children movies and comedy, highlight the presence of unusually short or long movies.
-
 
 
 
