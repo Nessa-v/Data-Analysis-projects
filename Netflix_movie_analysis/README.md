@@ -30,7 +30,6 @@ PROJECT OBJECTIVES
 4. Genre Analysis
 5. Investigating Director and Cast Members
 
-# editing in progress
 
 ANALYSIS
 
@@ -154,7 +153,7 @@ Summary:
 
 Analysed Netflix's 1990s movie durations, revealing a peak in 1994 with average runtimes over 128 minutes. The data showed a trend toward more consistent durations over the decade, with standard deviation shrinking by 40%. This points to increasing content duration standardidation.
 
-Calculating Correlation Between Release Year and Duration:
+##Calculating Correlation Between Release Year and Duration:
 
 Since 'release_year' and 'duration' are already of datatype int, Pearson's correlation between these two columns is calculated.
 
@@ -272,7 +271,32 @@ Summary:
 
 This analysis reveals how genre influences movie length and showcases format trends from the 1990s. Action, Dramas and Classic Movies had the longest average durations and the widest variation, indicating rich storytelling and diverse formats. Children and Stand-Up genres had the shortest and most consistent durations, typically under 90 minutes, showing a focus on brevity and attention span. Documentaries and Cult Movies maintained a tight duration range, often concise and focused. Outliers across genres like children movies and comedy, highlight the presence of unusually short or long movies.
 
-5. Investigating Director and Cast Members
+5. Investigating Production Geography
+
+![Movies Production Geography](https://github.com/user-attachments/assets/78b63ca1-9a6b-4155-abd5-1b823e3becb5)
+
+![Top 10 Frequent Cast Members by Country](https://github.com/user-attachments/assets/c46e3f39-91b7-4291-bf4c-5f6b21e44d37)
+
+Key Insights:
+
+a. India ranks second in the number of movies produced in the 1990s on Netflix, with 34 titles, behind only the United States (99 movies).
+
+b. The top 10 most frequent cast members in 1990s movies are entirely Indian, led by Shah Rukh Khan (12 movies), Anupam Kher (9), and Salman Khan (7), showing a high concentration of Bollywood talent.
+
+c. No U.S. or other international actors appeared in the top 10 frequent cast list, despite the U.S. having nearly three times more movies than India. This suggests greater actor diversity or lower actor recurrence in U.S. movies.
+
+d. The dominance of Indian actors in the cast list, despite fewer total movies, suggests that Indian films had more recurring cast members which included popular stars.
+
+e. The analysis indicates that Bollywood movies in the 1990s had strong star power appeal, which may have influenced Netflix’s content acquisition based on recognisable names.
+
+f. The U.S. market shows a broader distribution of cast members.
+
+Summary
+
+Despite producing fewer movies than the United States in the 1990s, India's Netflix catalogue is strongly defined by a small set of recurring stars. This reflects Bollywood’s tendency toward star-driven films, resulting in the entire top 10 cast list being Indian. Meanwhile, the U.S. catalog shows less repetition, likely due to its vast, diverse cast members. This contrast highlights regional differences in film industry structures and casting practices, with India leaning on familiar faces and the U.S. showcasing broader talent diversity.
+
+
+
 
 
 
