@@ -1,4 +1,4 @@
-# 🎮 Gamified Learning Feedback Dashboard
+# PROJECT TITLE: Gamification in Higher Education and Analysis using Moodle LMS.
 
 This project investigates whether gamification can improve learning engagement and understanding among university students. It combines real feedback, platform screenshots, and structured data analysis using Excel and Power Query.
 
@@ -9,7 +9,17 @@ This project investigates whether gamification can improve learning engagement a
 This project was inspired by a lecture where I — and many of my classmates — were disengaged. I started wondering: *Could learning feel more like a game?*
 
 After experimenting with platforms like Kahoot!, Duolingo, and FoldIt, I built a custom gamified course on Moodle LMS hosted on an Azure VM. I split a usability engineering course into six modules: four gamified and two non-gamified. Participants engaged with the platform and submitted their feedback through a structured questionnaire.
+############################
+## 📸 Platform Preview
 
+> *Gamified learning modules hosted on Moodle LMS.*
+
+![Gamified Site Screenshot](site_screenshots/moodle_homepage.png)
+
+- Features: Level Up XP, avatars, interactive quizzes
+- Custom learning paths for both gamified and non-gamified participants
+
+##################IMAGES
 ---
 
 ## 🧰 Tools Used
@@ -19,7 +29,7 @@ After experimenting with platforms like Kahoot!, Duolingo, and FoldIt, I built a
 - Pivot Tables & Charts
 - Azure VM (for Moodle LMS hosting)
 - Microsoft Forms / Word for survey responses
-- Word Cloud (via online tool or add-in)
+
 
 ---
 
@@ -34,50 +44,48 @@ After experimenting with platforms like Kahoot!, Duolingo, and FoldIt, I built a
 
 ---
 
-## 📊 Key Insights
+## 📊 Key Insights from Analysis
 
-👉 [View full insight breakdown here](./README_Insights.md)
+### 🎮 Gamification Experience & Impact
+- 96.7% of participants said gamification improved their understanding.
+- 93.3% of participants reported being either satisfied or very satisfied.
+- Average engagement level was 4.4 out of 5, indicating high interaction.
+- The most liked gamification element was “Level Up XP”, followed by Custom Avatars and Snakes and Ladders.
 
-- 96.7% said gamification improved understanding
-- 93.3% were satisfied with the experience
-- Level Up XP was the most appreciated game element
-- Navigation was the most common usability issue reported (by 3 users)
-- Even users with no prior gamification knowledge showed strong engagement
+### 🧠 Opinions on Gamification
+- Top descriptors used were: Engaging, Fun, Rewarding, and Innovative.
+- Many participants appreciated the interactivity, progression, and feedback mechanisms built into the gamified platform.
 
----
+### 👥 Demographic Insights
+- Majority of participants came from IT/Computing backgrounds.
+- The most engaged group was 18–24-year-olds, followed by those aged 45–50.
+- Both male and female participants showed comparable satisfaction and engagement levels.
 
-## 📸 Platform Preview
+### 🧩 Element Preference & Reasoning
+- Users chose elements like Level Up XP, Crossword, and Cryptex for reasons such as:
+  - “Interesting”
+  - “Progression”
+  - “Enjoyable”
+- These preferences reflect a strong inclination toward game mechanics that reward progress and critical thinking.
 
-> *Gamified learning modules hosted on Moodle LMS.*
+### ⚠️ Challenges Reported
+- The vast majority reported no challenges.
+- A small number (3 participants) mentioned Navigation as a usability issue.
 
-![Gamified Site Screenshot](site_screenshots/moodle_homepage.png)
+### 💬 Suggestions from Participants
+- Key themes in suggestions:
+  - Easier Navigation
+  - Improved UI
+  - Optional leaderboard features
+- These responses suggest minor usability adjustments rather than core concept issues.
 
-- Features: Level Up XP, avatars, interactive quizzes
-- Custom learning paths for both gamified and non-gamified participants
+### 🔁 Engagement vs Understanding & Prior Knowledge
+- Even participants with no prior gamification knowledge reported high engagement (avg 4.3/5) and improved understanding.
+- Understanding improved across all engagement levels, but was most consistent among those scoring 4 or 5 on the engagement scale.
 
----
 
-## 📈 Dashboard and Charts
+#####  GENERAL DASHBOARD IMAGE WITH KPI IMAGE #######
 
-> *All visuals created in Excel using Power Query + PivotTables.*
-
-### KPI Summary
-
-![KPI Dashboard](charts/kpi_summary.png)
-
-### Engagement vs Satisfaction
-
-![Engagement Chart](charts/chart_satisfaction_vs_engagement.png)
-
-### Opinions on Gamification
-
-![Opinion Chart](charts/chart_opinion_keywords.png)
-
-### Suggestions
-
-![Suggestions Chart](charts/chart_suggestion_themes.png)
-
----
 
 ## 🔄 Comparative Insights
 
