@@ -8,7 +8,7 @@ This project investigates whether gamification can improve learning engagement a
 
 This project was inspired by a lecture where I — and many of my classmates — were disengaged. I started wondering: *Could learning feel more like a game?*
 
-After experimenting with platforms like Kahoot!, Duolingo, and FoldIt, I built a custom gamified course on Moodle LMS hosted on an Azure VM. I split a usability engineering course into six modules: four gamified and two non-gamified. Participants engaged with the platform and submitted their feedback through a structured questionnaire.
+After experimenting with platforms like Kahoot!, Duolingo, and FoldIt, I built a custom gamified course on Moodle LMS hosted on an Azure VM. I split a usability engineering course into six modules: four gamified and two non-gamified. I create multiple-choice and short-answer questions using the 'Aiken' and 'GIFT' question format in Moodle respectively. Participants engaged with the platform and submitted their feedback (both quantitative and qualitative) through a structured questionnaire, devlivered through a Microsoft form link.
 ############################
 ## 📸 Platform Preview
 
