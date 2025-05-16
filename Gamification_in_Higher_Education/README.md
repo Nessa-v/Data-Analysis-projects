@@ -1,7 +1,11 @@
 # PROJECT TITLE: Gamification in Higher Education and Analysis using Moodle LMS.
 
-This project investigates whether gamification can improve learning engagement and understanding among university students. It combines real feedback, platform screenshots, and structured data analysis using Excel and Power Query.
+This project investigates:
 
+a. contrary to research, gamification DOES NOT improve student engagement and IS NOT effective in higher education.
+b. similar to research, gamification DOES improve student engagement and IS effective in higher education.
+ 
+The project combines real feedback, platform screenshots, and structured data analysis using Excel and Power Query.
 ---
 
 ## 🔍 Background
