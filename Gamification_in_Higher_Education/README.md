@@ -30,7 +30,7 @@ After experimenting with platforms like Kahoot!, Duolingo, Classcraft, etc., I b
 ## 🧰 Tools Used
 
 - Microsoft Excel (Data Cleaning, Analysis, Dashboards)
-- Moodle LMS (built with Xampp)
+- Moodle LMS for Windows (built with Xampp)
 - Power Query (Unpivoting, Merging, Theme Extraction)
 - Pivot Tables & Charts
 - Azure VM (for Moodle LMS hosting)
