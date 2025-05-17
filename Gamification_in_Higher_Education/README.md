@@ -50,6 +50,8 @@ After experimenting with platforms like Kahoot!, Duolingo, Classcraft, etc., I b
 
 ---
 
+## Data Cleaning Process
+
 ## 📊 Key Insights from Analysis
 
 ### 🎮 Gamification Experience & Impact
