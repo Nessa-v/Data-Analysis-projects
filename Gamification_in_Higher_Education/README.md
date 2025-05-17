@@ -1,6 +1,6 @@
 # PROJECT TITLE: Gamification in Higher Education and Analysis using Moodle LMS.
 
-This project investigates:
+This project investigated:
 
 a. contrary to research, gamification DOES NOT improve student engagement and IS NOT effective in higher education.
 
