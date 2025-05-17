@@ -19,7 +19,7 @@ After experimenting with platforms like Kahoot!, Duolingo, Classcraft, etc., I b
 
 > *Gamified learning modules hosted on Moodle LMS.*
 
-![Gamified Site Screenshot](site_screenshots/moodle_homepage.png)
+![Gamified Site Screenshot](site_screenshots/moodle_homepage.png) //gift format, aiken format (side by side)
 
 - Features: Level Up XP, avatars, interactive quizzes
 - Custom learning paths for both gamified and non-gamified participants
@@ -29,21 +29,22 @@ After experimenting with platforms like Kahoot!, Duolingo, Classcraft, etc., I b
 
 ## 🧰 Tools Used
 
-- Excel (Data Cleaning, Analysis, Dashboards)
+- Microsoft Excel (Data Cleaning, Analysis, Dashboards)
+- Moodle LMS (built with Xampp)
 - Power Query (Unpivoting, Merging, Theme Extraction)
 - Pivot Tables & Charts
 - Azure VM (for Moodle LMS hosting)
-- Microsoft Forms / Word for survey responses
+- Microsoft Forms (for survey responses)
 
 
 ---
 
 ## 🧪 Dataset
 
-- 📋 30+ participant responses
+- 📋 30 participant responses
 - 📂 Fields include:
   - Age group, gender, education level, field of study
-  - Engagement level (1–5), satisfaction level
+  - Engagement level (1–5), satisfaction level (###)
   - Best gamification element, opinion on gamification
   - Challenges faced, suggestions, prior gamification knowledge
 
@@ -54,47 +55,43 @@ After experimenting with platforms like Kahoot!, Duolingo, Classcraft, etc., I b
 ### 🎮 Gamification Experience & Impact
 - 96.7% of participants said gamification improved their understanding.
 - 93.3% of participants reported being either satisfied or very satisfied.
-- Average engagement level was 4.4 out of 5, indicating high interaction.
-- The most liked gamification element was “Level Up XP”, followed by Custom Avatars and Snakes and Ladders.
-
-### 🧠 Opinions on Gamification
-- Top descriptors used were: Engaging, Fun, Rewarding, and Innovative.
-- Many participants appreciated the interactivity, progression, and feedback mechanisms built into the gamified platform.
+- Average engagement level was 4.4 out of 5, indicating high engagement.
+- The most liked gamification element was “Level Up XP”, indicating that participants liked the idea of competition and winning (being at the top of the leaderboard) while learning. Other frequently selected elements include stash items, custom avatars, crossword and find the words. Participants were allowed to select multiple elements.
 
 ### 👥 Demographic Insights
 - Majority of participants came from IT/Computing backgrounds.
 - The most engaged group was 18–24-year-olds, followed by those aged 45–50.
-- Both male and female participants showed comparable satisfaction and engagement levels.
+- Both male and female participants showed comparable/nearly identical satisfaction and engagement levels.
+
+### 🔁 Engagement vs Understanding & Prior Knowledge
+- Even participants with no prior gamification knowledge reported high engagement (avg 4.3/5) and improved understanding.
+- Understanding improved across all engagement levels, but was most consistent among those scoring 4 or 5 on the engagement scale.
+
+### 🧠 Opinions on Gamification
+- Top opinions recorded were: Engaging, Fun, Rewarding, and Innovative.
+- Many participants appreciated the interactivity, progression, and feedback mechanisms built into the gamified platform.
 
 ### 🧩 Element Preference & Reasoning
-- Users chose elements like Level Up XP, Crossword, and Cryptex for reasons such as:
+- Users chose elements like Level Up XP, stash items, Crossword and Find the words for reasons such as:
   - “Interesting”
   - “Progression”
   - “Enjoyable”
-- These preferences reflect a strong inclination toward game mechanics that reward progress and critical thinking.
+- These preferences reflect a strong inclination toward game mechanics that reward progress, exploration and critical thinking.
+- While Cryptex, Snake and Ladders ############
 
 ### ⚠️ Challenges Reported
 - The vast majority reported no challenges.
 - A small number (3 participants) mentioned Navigation as a usability issue.
 
-### 💬 Suggestions from Participants
+### 💬 Suggestions from Participants #################
 - Key themes in suggestions:
   - Easier Navigation
   - Improved UI
   - Optional leaderboard features
 - These responses suggest minor usability adjustments rather than core concept issues.
 
-### 🔁 Engagement vs Understanding & Prior Knowledge
-- Even participants with no prior gamification knowledge reported high engagement (avg 4.3/5) and improved understanding.
-- Understanding improved across all engagement levels, but was most consistent among those scoring 4 or 5 on the engagement scale.
 
 
 #####  GENERAL DASHBOARD IMAGE WITH KPI IMAGE #######
 
-
-## 🔄 Comparative Insights
-
-- Participants aged 18–24 had the highest engagement levels
-- Both genders showed nearly identical satisfaction scores
-- Users with no prior gamification experience still reported high understanding
-- “Fun” and “Interactive” were the most frequent opinion tags
+Statistical Analysis
