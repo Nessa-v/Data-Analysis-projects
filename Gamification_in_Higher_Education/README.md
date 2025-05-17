@@ -66,8 +66,9 @@ After experimenting with platforms like Kahoot!, Duolingo, Classcraft, etc., I b
 - Both male and female participants showed comparable/nearly identical satisfaction and engagement levels.
 
 ### 🔁 Engagement vs Understanding & Prior Knowledge
-- Even participants with no prior gamification knowledge reported high engagement (avg 4.3/5) and improved understanding.
-- Understanding improved across all engagement levels, but was most consistent among those scoring 4 or 5 on the engagement scale.
+- Even participants with no prior gamification knowledge reported high engagement (avg 4.3/5) and improved understanding, indicating that prior knowledge of gamification was not a significant contributor to participants' understamding of course content or engagement.
+
+- Understanding improved across all engagement levels, but was most consistent among those scoring 4 or 5 on the engagement scale. This shows that gamification can increase engagement and is likely to be effective in higher education.
 
 ### 🧠 Opinions on Gamification
 - Top opinions recorded were: Engaging, Fun, Rewarding, and Innovative.
