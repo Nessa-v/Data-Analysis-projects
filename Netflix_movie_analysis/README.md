@@ -1,10 +1,10 @@
-NAME OF PROGRAMMER: Vanessa Nwankwo
+# NAME OF PROGRAMMER: Vanessa Nwankwo
 
-PROJECT TITLE: Investigating Netflix Movies
+# PROJECT TITLE: Investigating Netflix Movies
 
-PROGRAMMING LANGUAGE USED FOR ANALYSIS: Python
+# PROGRAMMING LANGUAGE USED FOR ANALYSIS: Python
 
-ABOUT THE DATASET: The Netflix Movies Dataset was obtained from DataCamp, with 4813 rows and 11 columns. The Excel file can be found in the 'dataset' folder contained within the Netflix_movie_analysis folder.
+## ABOUT THE DATASET: The Netflix Movies Dataset was obtained from DataCamp, with 4813 rows and 11 columns. The Excel file can be found in the 'dataset' folder contained within the Netflix_movie_analysis folder.
 
 | Column | Description |
 |--------|-------------|
@@ -20,9 +20,9 @@ ABOUT THE DATASET: The Netflix Movies Dataset was obtained from DataCamp, with 4
 | `description` | Description of the show |
 | `genre` | Show genre |
 
-PROJECT AIM: To perform exploratory data analysis (EDA) on Netflix's movie catalogue, to uncover insights about content trends, focusing on movies released in the 1990s. This analysis will help to understand patterns in genres, durations, country of origin, and other key features that defined Netflix’s offerings during that decade.
+## PROJECT AIM: To perform exploratory data analysis (EDA) on Netflix's movie catalogue, to uncover insights about content trends, focusing on movies released in the 1990s. This analysis will help to understand patterns in genres, durations, country of origin, and other key features that defined Netflix’s offerings during that decade.
 
-PROJECT OBJECTIVES
+### PROJECT OBJECTIVES
 
 1. Data Preprocessing to fix the data.
 2. Analysing Movie Durations.
@@ -31,9 +31,9 @@ PROJECT OBJECTIVES
 5. Investigating Director and Cast Members
 
 
-ANALYSIS
+# ANALYSIS
 
-1. Data Preprocessing:
+## Data Preprocessing
 
 a. netflix_df.info() gives information of the dataset which was read into a python dataframe. It shows that the dataset contains 4,812 rows and 11 columns. Every column is marked as non-null. 
 
@@ -43,11 +43,11 @@ c. All columns report 0 missing values, which is typically unusual, but this sig
 
 d. 'date_added' column was standardised into the format 'YYYY-MM-DD'. The dataset also has unique identifiers for each record and no redundancy.
 
-Summary:
+### Summary:
 
 Cleaned and filtered the Netflix movie data, standardising date formats and verifying data integrity (e.g., duplicates, missing values). Relevant records (1990s movies data) were also extracted into a dataframe for further analysis.
 
-2. Calculating most frequent movie duration
+## Calculating most frequent movie duration
    
 The dataframe was filtered to keep only data where 'type' = movie and release year is between 1990 and 2000.
 
@@ -60,7 +60,7 @@ To calculate the most frequent movie duration, the .idmax() and .id() functions 
 ![download](https://github.com/user-attachments/assets/985974a1-2f11-4983-b1ce-2fbe51fd715c)
 
 
-Key Insights:
+### Key Insights:
 
 a. The most frequent movie duration among 1990s Netflix movies is 94 minutes. It means there is no extreme concentration in any runtime, but 94 mins occurs most often.
 
@@ -70,15 +70,15 @@ c. Most movies fall between 90 to 120 minutes which balances storytelling depth 
 
 d. There are still a good number of movies above 150 mins, showing that long movies were not rare either.
 
-Summary:
+### Summary:
 
 The most common duration among Netflix's 1990s movies is 94 minutes, with 7 movies sharing that runtime. The frequency is modest, and the chart suggests a fairly normal distribution. Most movies fall between 90 and 120 minutes, which also suggests standard industry runtimes.
 
-3. Analysing yearly trends
+## Analysing yearly trends
 
 The dataset was grouped by release_year and  the number of movie entries for each year in the 1990s was counted.
 
-Key Insights:
+### Key Insights
 
 a. From 1990 to 1996, movie counts per year hovered around 14–16 movies per year.
 
@@ -86,25 +86,25 @@ b. Starting in 1997, there is a noticeable increase, reaching 26 movies per year
 
 c. This suggests an increase in content availability or acquisitions for titles by Netflix from the late 90s.
 
-Summary:
+### Summary:
 
 The sharp increase in the number of movies from 1997–1999 suggests that Netflix either chose to acquire more titles from those years and that more movies from that time were available for licensing or streaming, compared to the early '90s.
 
-Visualising release year with duration = 94 minutes:
+## Visualising release year with duration = 94 minutes
 
 ![download](https://github.com/user-attachments/assets/6a105c1d-1bcf-46a5-823d-e7219c825fec)
 
-Key Insights:
+### Key Insights:
 
 a. 1991 and 1996 each had 2 movies with a duration of 94 minutes, while 1990, 1997, and 1999 each had 1 movie that lasted exactly 94 minutes. 
 
 b. There are no movies with 94-minute duration listed for other years like 1992–1995 or 1998 in the Netflix dataset.
 
-Summary: 
+### Summary: 
 
 Compared to the number of movies released for each year in the 1990s, movies lasting 94 minutes were a very small proportion, which indicates that it was not a singificant movie duration in the 1990s.
 
-Calculating Movie Duration Statistics:
+## Calculating Movie Duration Statistics:
 
 The plot tracks:
 
@@ -141,7 +141,7 @@ release_year
 
 ![download](https://github.com/user-attachments/assets/a91b795f-a20c-4abe-a582-93da42b8b380)
 
-Key Insights:
+### Key Insights:
 
 a. The year with the highest movie duration was 1994, with a mean of approximately 128.4 minutes and median of 124 minutes.
 
@@ -149,29 +149,29 @@ b. The year with the lowest duration was 1991, with a mean and median of approxi
 
 c. Standard deviation drops from approximately 41 minutes to approximately 25 minutes in 1997. This indicates that runtimes became more standardised as the decade progressed.
 
-Summary:
+### Summary:
 
 Analysed Netflix's 1990s movie durations, revealing a peak in 1994 with average runtimes over 128 minutes. The data showed a trend toward more consistent durations over the decade, with standard deviation shrinking by 40%. This points to increasing content duration standardidation.
 
-##Calculating Correlation Between Release Year and Duration:
+## Calculating Correlation Between Release Year and Duration
 
 Since 'release_year' and 'duration' are already of datatype int, Pearson's correlation between these two columns is calculated.
 
-Key Insights
+### Key Insights:
 
 The correlation coefficient between release_year and duration is 0.096, which signifies a positive relationship (indicating that as years increase, durations slightly increase). However, it is very weak (since it's close to 0).
 
-Summary
+### Summary:
 
 There is a very weak positive correlation between the year a movie was released and its duration in the 1990s. This suggests that movie durations did not significantly change as the years progressed. It supports the earlier theory that movie durations became more standardised as the years increased, so there weren't extremely long or short movies towards the end of the decade.
 
-4. Genre Analysis
+## Genre Analysis
 
 The 'genre' column was split by commas (,), incase there were multiple genres for one movie. Each genres were then put in seperate rows using the .explode() function. The .strip() function removes unnecessary spaces before and after the texts. The 'genre_counts' variable contains the number of times each genre appears. 
 
 ![download](https://github.com/user-attachments/assets/5059d225-8716-40e3-9872-e073ce2ef984)
 
-Key Insights:
+### Key Insights:
 
 a. Top Genres: Action (48 movies) was the most dominant genre, followed closely by Dramas (44) and Comedies (40). 
 
@@ -183,9 +183,11 @@ d. Children and Classic Movies: With 15 movies each, these genres held a moderat
 
 e. Short Action Movies (< 90 mins): Only 7 short Action movies were under 90 minutes long. This suggests that most Action films in the 1990s tended to be longer, possibly to accommodate complex plots or elaborate scenes.
 
-Visualising Duration by Genre: A box plot was used to compare movie durations across genres in the 1990s. 
+## Visualising Duration by Genre
 
-Key insights:
+A box plot was used to compare movie durations across genres in the 1990s. 
+
+### Key insights:
 
 a. Action
 
@@ -267,17 +269,17 @@ Range: Moderate.
 
 Standard in length with some variety, thrillers sit between action and drama in both intensity and duration.
 
-Summary:
+### Summary:
 
 This analysis reveals how genre influences movie length and showcases format trends from the 1990s. Action, Dramas and Classic Movies had the longest average durations and the widest variation, indicating rich storytelling and diverse formats. Children and Stand-Up genres had the shortest and most consistent durations, typically under 90 minutes, showing a focus on brevity and attention span. Documentaries and Cult Movies maintained a tight duration range, often concise and focused. Outliers across genres like children movies and comedy, highlight the presence of unusually short or long movies.
 
-5. Investigating Production Geography
+## Investigating Production Geography
 
 ![Movies Production Geography](https://github.com/user-attachments/assets/78b63ca1-9a6b-4155-abd5-1b823e3becb5)
 
 ![Top 10 Frequent Cast Members by Country](https://github.com/user-attachments/assets/c46e3f39-91b7-4291-bf4c-5f6b21e44d37)
 
-Key Insights:
+### Key Insights:
 
 a. India ranks second in the number of movies produced in the 1990s on Netflix, with 34 titles, behind only the United States (99 movies).
 
@@ -291,13 +293,6 @@ e. The analysis indicates that Bollywood movies in the 1990s had strong star pow
 
 f. The U.S. market shows a broader distribution of cast members.
 
-Summary
+### Summary
 
 Despite producing fewer movies than the United States in the 1990s, India's Netflix catalogue is strongly defined by a small set of recurring stars. This reflects Bollywood’s tendency toward star-driven films, resulting in the entire top 10 cast list being Indian. Meanwhile, the U.S. catalog shows less repetition, likely due to its vast, diverse cast members. This contrast highlights regional differences in film industry structures and casting practices, with India leaning on familiar faces and the U.S. showcasing broader talent diversity.
-
-
-
-
-
-
-
