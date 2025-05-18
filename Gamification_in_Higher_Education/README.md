@@ -38,10 +38,30 @@ Data Cleaning and Analysis
 ---
 
 
-## Project Summary
+## Quick run-through
+
+### 📊 Key Insights
+
+- 96.7% reported improved understanding
+- 93.3% were satisfied with the gamification experience
+- Level Up XP was the most liked feature
+- Engagement was high across all age groups, especially 18–24
+- Participants without prior gamification knowledge still reported high motivation.
+
+### 📈 Dashboard Includes:
+
+- KPI summary (Engagement, Understanding, Satisfaction)
+- Age and Gender breakdowns
+- Gamification element preferences
+- Thematic feedback on suggestions and challenges
+
+#### Statistical Analysis
+
+
 
 
 ---
+
 
 # Detailed Project
 
@@ -132,7 +152,7 @@ Finally, rows with multiple answers like 'opinion_on_gamification' were exploded
 ---
 
 
-## 📊 Key Insights from Analysis
+## 📊Insights from Analysis
 
 ### 👥 Demographic Insights
 
@@ -169,12 +189,6 @@ These insights display the high levels of engagement, satisfaction and improved 
 
 ---
 
-## Excel Analysis Dashboard
-
----
-
-Statistical Analysis
-
 ### ⚠️ Challenges Reported
 - The vast majority reported no challenges.
 - A small number (3 participants) mentioned Navigation as a usability issue.
@@ -187,7 +201,20 @@ Statistical Analysis
 - These responses suggest minor usability adjustments rather than core concept issues.
 
 --- 
-### Observation
+
+## Excel Analysis Dashboard
+
+
+
+---
+
+## Statistical Analysis
+
+
+
+---
+
+## Observation
 
 During the project, participants' activities, such as their stash inventory and position on the leaderboard, were monitored. Moodle’s activity completion was also used to achieve this. During the study, some participants inquired about the identities of the participants who scored higher than them in the leaderboards because they were curious about their performance. As this information could not be revealed due to data privacy (and my amusement), they inquired about activities that could put them at the top of the leaderboard even when there were no rewards involved. This means that these participants were intrinsically motivated. 
 
