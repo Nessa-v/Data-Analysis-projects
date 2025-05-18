@@ -41,7 +41,7 @@ IMAGE 4: Course Page
 
 
 ### Game Elements
-The elements tested were Level Up XP, Stash Items, Custom avatars, Crossword, Cryptex,  Millionaire, Find the Words, Hangman, Dialog Cards, Multiple Choice Questions, Snakes and Ladders. The stash items were hidden in several courses randomly. When a participant found a certain stash item, they were able to unlock the game (gamified quiz).
+The elements tested were Level Up XP, Stash Items (images), Custom avatars, Crossword, Cryptex,  Millionaire, Find the Words, Hangman, Dialog Cards, Multiple Choice Questions, Snakes and Ladders. The stash items were hidden in several courses randomly. When a participant found a certain stash item, they were able to unlock the game (gamified quiz).
 
 [A]
 
@@ -65,11 +65,16 @@ IMAGE 6: Stash Inventory
 
 IMAGE 7: Crossword
 
+
+[D]
+
+![image](https://github.com/user-attachments/assets/fc9a9378-9576-41bc-9e61-7825de9e3386)
+
+IMAGE: Dialog Card with hidden stash item.
+
  Note: At the time of the project, custom avatars was not possible in moodle, so I provided a link to a website where they could create their avatar and download it for free. I created one myself.
 
 
-
-##################IMAGES
 ---
 
 ## 🧰 Tools Used
