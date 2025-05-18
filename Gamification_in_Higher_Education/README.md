@@ -7,6 +7,7 @@ a. contrary to research, gamification DOES NOT improve student engagement and IS
 b. similar to research, gamification DOES improve student engagement and IS effective in higher education.
  
 The project combines real feedback, platform screenshots, and structured data analysis using Excel and Power Query.
+
 ---
 
 ## 🔍 Background
@@ -42,8 +43,7 @@ Data Cleaning and Analysis
 
 # Detailed Project
 
-
---- 
+Some of the website images are displayed below. The rest can be found in the 'site screenshots' folder.
 
 ## 📸 Platform Preview
 
