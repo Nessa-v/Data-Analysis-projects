@@ -72,7 +72,6 @@ IMAGE 4: Course Page
 ### Game Elements
 The elements tested were Level Up XP, Stash Items (images), Custom avatars, Crossword, Cryptex,  Millionaire, Find the Words, Hangman, Dialog Cards, Multiple Choice Questions, Snakes and Ladders. The stash items were hidden in several courses randomly. When a participant found a certain stash item, they were able to unlock the game (gamified quiz).
 
-[A]
 
 ![image](https://github.com/user-attachments/assets/d77c2143-af5b-4849-a89a-c4b20697903a)
 
@@ -81,21 +80,15 @@ The elements tested were Level Up XP, Stash Items (images), Custom avatars, Cros
 IMAGE 5: Level Up XP
 
 
-[B]
-
 ![image](https://github.com/user-attachments/assets/98e5adf2-e47d-4ece-9773-1e962322b1fd)
 
 IMAGE 6: Stash Inventory
 
 
-[C]
-
 ![image](https://github.com/user-attachments/assets/cb69b7fd-9180-4c0b-a48e-f85ad404dea4)
 
 IMAGE 7: Crossword
 
-
-[D]
 
 ![image](https://github.com/user-attachments/assets/fc9a9378-9576-41bc-9e61-7825de9e3386)
 
