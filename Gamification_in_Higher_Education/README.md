@@ -15,10 +15,35 @@ This project was inspired by a lecture where I noticed that I and many of my cou
 
 After experimenting with platforms like Kahoot!, Duolingo, Classcraft, etc., I built a custom gamified course on Moodle LMS hosted on an Azure VM. I split a usability engineering course into six modules: four gamified and two non-gamified. I created multiple-choice and short-answer questions using the 'Aiken' and 'GIFT' question bank format in Moodle, respectively. Participants engaged with the platform and submitted their feedback (both quantitative and qualitative) through a structured questionnaire, devlivered through a Microsoft form link.
 
+
+## 🧰 Tools Used
+
+Website Development
+
+- Moodle installer package, version 4.3.3+ for Windows
+  
+- Azure VM (for Moodle LMS hosting), using a Windows x64 architecture, Standard E2s v3 (2 vcpus, 16 GiB memory).
+
+Data Collecction
+
+- Microsoft Forms 
+
+Data Cleaning and Analysis
+  
+- Microsoft Excel: Pivot Tables, Power Query (for Unpivoting rows where users selected multiple answers, and Merging them back as a single column.), Charts and Dashboard.
+
+---
+
+
 ## Project Summary
 
 
 ---
+
+# Detailed Project
+
+
+--- 
 
 ## 📸 Platform Preview
 
@@ -80,32 +105,17 @@ IMAGE 8: Dialog Card with hidden stash item.
 
 ---
 
-## 🧰 Tools Used
-
-Website Development
-
-- Moodle installer package, version 4.3.3+ for Windows
-  
-- Azure VM (for Moodle LMS hosting), using a Windows x64 architecture, Standard E2s v3 (2 vcpus, 16 GiB memory).
-
-Data Collecction
-
-- Microsoft Forms 
-
-Data Cleaning and Analysis
-  
-- Microsoft Excel: Pivot Tables, Power Query (for Unpivoting rows where users selected multiple answers, and Merging them back as a single column.), Charts and Dashboard.
-
----
-
 ## 🧪 Dataset
 
-- 📋 30 participants responses (participants chosen through snowball sampling).
+- 📋 Data was obtained from 30 participants, who have completed basic education and were enrolled in or have completed university education. These participants were chosen through snowball sampling.
+  
 - 📂 Fields include:
   - Age group, gender, education level, field of study
   - Engagement level (1–5), satisfaction level (satisfactory, very satisfactory, unsatisfactory, very unsatisfactory).
   - Best gamification element, opinion on gamification
   - Challenges faced, suggestions, prior gamification knowledge
+
+### Data Cleaning Process
 
 Other fields not shown in the cleaned excel file such as id, start time, completion time were removed.
 
@@ -119,11 +129,22 @@ iv.	If yes, why?
 
 To extract themes from qualitative answers, the main point was selected verbatim such as opinion_on_gamification’, reason_best_elements, etc. When multiple themes were conveyed, these themes were separated with ‘|’ or ';'. For Instance, where the participant said, ‘They (gamification elements) make it easier to understand taught concepts and make learning less cumbersome’, the theme was set as ‘effective’. Also, in areas where the participants responded ‘good’ without further explanation, the theme ‘good’ was chosen without making assumptions about what they considered good.
 
+Finally, rows with multiple answers like 'opinion_on_gamification' were exploded / unpivoted using Power Query, to split each answer by the delimeter '|' or ';' and turn them into individual columns. Then the columns were combined into one long column, with individual answers for each row. This process was repeated for all multiple choice answer columns. The point of this process was to calculate the frequency of each theme.
+
 ---
 
-## Data Cleaning Process
 
 ## 📊 Key Insights from Analysis
+
+### 👥 Demographic Insights
+
+- 16 of the participants (more than half) were aged between 18 to 24, which signifies under-representation of those outside these age groups.
+  
+- Majority of participants came from IT/Computing backgrounds, so a lot of them had some technical knowledge to understand the project.
+
+- Not surprisingly, the most engaged group was 18–24-year-olds, who were mostly bachelor's degree holders, followed by those aged 45–50.
+  
+- Both male and female participants showed comparable/nearly identical satisfaction and engagement levels.
 
 ### 🎮 Gamification Experience & Impact
 - 96.7% of participants said gamification improved their understanding.
@@ -131,41 +152,49 @@ To extract themes from qualitative answers, the main point was selected verbatim
 - Average engagement level was 4.4 out of 5, indicating high engagement.
 - The most liked gamification element was “Level Up XP”, indicating that participants liked the idea of competition and winning (being at the top of the leaderboard) while learning. Other frequently selected elements include stash items, custom avatars, crossword and find the words. Participants were allowed to select multiple elements.
 
-### 👥 Demographic Insights
-- Majority of participants came from IT/Computing backgrounds.
-- The most engaged group was 18–24-year-olds, followed by those aged 45–50.
-- Both male and female participants showed comparable/nearly identical satisfaction and engagement levels.
-
 ### 🔁 Engagement vs Understanding & Prior Knowledge
 - Even participants with no prior gamification knowledge reported high engagement (avg 4.3/5) and improved understanding, indicating that prior knowledge of gamification was not a significant contributor to participants' understamding of course content or engagement.
 
 - Understanding improved across all engagement levels, but was most consistent among those scoring 4 or 5 on the engagement scale. This shows that gamification can increase engagement and is likely to be effective in higher education.
 
 ### 🧠 Opinions on Gamification
-- Top opinions recorded were: Engaging, Fun, Rewarding, and Innovative.
-- Many participants appreciated the interactivity, progression, and feedback mechanisms built into the gamified platform.
 
-### 🧩 Element Preference & Reasoning
-- Users chose elements like Level Up XP, stash items, Crossword and Find the words for reasons such as:
-  - “Interesting”
-  - “Progression”
-  - “Enjoyable”
+- Top 5 opinions recorded were: Effective, Engaging, Fun, Interactive, and Rewarding.
+
+- Users chose elements like Level Up XP, stash items, Crossword and Find the words for reasons such as: Interesting, Fun, Good, Engaging, Motivating, etc.
+
+- Many participants appreciated the aspect of play, interactivity, progression, and feedback mechanisms built into the gamified platform.
+  
 - These preferences reflect a strong inclination toward game mechanics that reward progress, exploration and critical thinking.
-- While Cryptex, Snake and Ladders ############
+
+These insights display the high levels of engagement, satisfaction and improved understanding, which signifies a high potential for effectiveness in higher education.
+
+---
+
+## Excel Analysis Dashboard
+
+---
+
+Statistical Analysis
 
 ### ⚠️ Challenges Reported
 - The vast majority reported no challenges.
 - A small number (3 participants) mentioned Navigation as a usability issue.
 
-### 💬 Suggestions from Participants #################
+### 💬 Suggestions from Participants 
 - Key themes in suggestions:
   - Easier Navigation
   - Improved UI
-  - Optional leaderboard features
+  - Optional participation in leaderboard
 - These responses suggest minor usability adjustments rather than core concept issues.
 
+--- 
+### Observation
 
+During the project, participants' activities, such as their stash inventory and position on the leaderboard, were monitored. Moodle’s activity completion was also used to achieve this. During the study, some participants inquired about the identities of the participants who scored higher than them in the leaderboards because they were curious about their performance. As this information could not be revealed due to data privacy (and my amusement), they inquired about activities that could put them at the top of the leaderboard even when there were no rewards involved. This means that these participants were intrinsically motivated. 
 
-#####  GENERAL DASHBOARD IMAGE WITH KPI IMAGE #######
+Their activities also revealed that while the participants were given a form containing instructions about the project for review, and the instructions were also placed on each course’s main page on the website, many participants ignored them because they were not interested in ‘reading’. Hence, verbal communication of the requirements of the project and the use of the elements was important. 
 
-Statistical Analysis
+I realised that people could have been very engaged because it was new. Implementation in education could lead to overuse to the point that it becomes less effective and engaging. The results made me realise that while people engaged with the games, they still did not read the lecture materials. Many of them preferred to quickly look up the answers online. However, this is also a form of learning, as they might be able to remember the questions due to their reason for looking up the questions online. That is, playing a game. This is a form of tricking the brain to learn. 
+For gamification to be effective, I feel it is necessary to use it periodically as a tool to increase engagement levels. Introducing new gamified activities once or twice a week can be more beneficial than daily implementation.
+
