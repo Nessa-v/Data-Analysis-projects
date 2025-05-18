@@ -18,7 +18,7 @@
 | `description` | Description of the show |
 | `genre` | Show genre |
 
-## PROJECT AIM: To perform exploratory data analysis (EDA) on Netflix's movie catalogue, to uncover insights about content trends, focusing on movies released in the 1990s. This analysis will help to understand patterns in genres, durations, country of origin, and other key features that defined Netflix’s offerings during that decade.
+## PROJECT AIM: To perform exploratory data analysis (EDA) on Netflix's movie catalogue, to uncover insights about content trends, focusing on movies released in the 1990s. This analysis helps to understand patterns in genres, durations, country of origin, and other key features that defined Netflix’s offerings during that decade.
 
 ## PROJECT OBJECTIVES
 
