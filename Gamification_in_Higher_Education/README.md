@@ -15,14 +15,57 @@ This project was inspired by a lecture where I noticed that I and many of my cou
 
 After experimenting with platforms like Kahoot!, Duolingo, Classcraft, etc., I built a custom gamified course on Moodle LMS hosted on an Azure VM. I split a usability engineering course into six modules: four gamified and two non-gamified. I created multiple-choice and short-answer questions using the 'Aiken' and 'GIFT' question format in Moodle respectively. Participants engaged with the platform and submitted their feedback (both quantitative and qualitative) through a structured questionnaire, devlivered through a Microsoft form link.
 ############################
+
 ## 📸 Platform Preview
 
-> *Gamified learning modules hosted on Moodle LMS.*
+![image](https://github.com/user-attachments/assets/2f085bd3-df29-4801-bd05-2024a78a70a5)
 
-![Gamified Site Screenshot](site_screenshots/moodle_homepage.png) //gift format, aiken format (side by side)
+Aiken Format
 
-- Features: Level Up XP, avatars, interactive quizzes
-- Custom learning paths for both gamified and non-gamified participants
+
+![image](https://github.com/user-attachments/assets/a69d5e14-e7dc-484d-93ba-14d22ccbbc00)
+
+IMAGE: GIFT Format
+
+
+![image](https://github.com/user-attachments/assets/8782c57e-c71d-4f1c-8ad3-ef62fb16b051)
+
+All Courses Dashboard.
+
+
+![image](https://github.com/user-attachments/assets/137b80d8-4bd7-475d-a3d5-a31f1f11d560)
+
+Course Page
+
+
+### Game Elements
+The elements tested were Level Up XP, Stash Items, Custom avatars, Crossword, Cryptex,  Millionaire, Find the Words, Hangman, Dialog Cards, Multiple Choice Questions, Snakes and Ladders.
+
+[A]
+
+![image](https://github.com/user-attachments/assets/d77c2143-af5b-4849-a89a-c4b20697903a)
+
+![image](https://github.com/user-attachments/assets/7f6a6387-b972-46e8-9573-eb2c7e153b89)
+
+Level Up XP
+
+
+[B]
+
+![image](https://github.com/user-attachments/assets/98e5adf2-e47d-4ece-9773-1e962322b1fd)
+
+Stash Inventory
+
+
+[C]
+
+![image](https://github.com/user-attachments/assets/cb69b7fd-9180-4c0b-a48e-f85ad404dea4)
+
+
+
+ Note: At the time of the project, custom avatars was not possible in moodle, so I provided a link to a website where they could create their avatar and download it for free. I created one myself.
+
+
 
 ##################IMAGES
 ---
@@ -35,16 +78,14 @@ After experimenting with platforms like Kahoot!, Duolingo, Classcraft, etc., I b
 - Pivot Tables & Charts
 - Azure VM (for Moodle LMS hosting)
 - Microsoft Forms (for survey responses)
-
-
 ---
 
 ## 🧪 Dataset
 
-- 📋 30 participant responses
+- 📋 30 participants responses (participants chosen through snowball sampling).
 - 📂 Fields include:
   - Age group, gender, education level, field of study
-  - Engagement level (1–5), satisfaction level (###)
+  - Engagement level (1–5), satisfaction level (satisfactory, very satisfactory, unsatisfactory, very unsatisfactory).
   - Best gamification element, opinion on gamification
   - Challenges faced, suggestions, prior gamification knowledge
 
