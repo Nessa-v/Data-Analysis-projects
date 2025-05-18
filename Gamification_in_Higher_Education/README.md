@@ -14,7 +14,9 @@ The project combines real feedback, platform screenshots, and structured data an
 
 This project was inspired by a lecture where I noticed that I and many of my coursemates were disengaged. The course was not our major and it seemed very abstract, so I wondered if it was possible to turn the lecture into a relatable game.
 
-After experimenting with platforms like Kahoot!, Duolingo, Classcraft, etc., I built a custom gamified learning site using Moodle LMS hosted on an Azure VM. I split an undergraduate-level Usability Engineering course (access was given to me by the course lecturer) into six modules: three gamified and one non-gamified. I created multiple-choice and short-answer questions using the 'Aiken' and 'GIFT' question bank format in Moodle, respectively. Participants engaged with the platform and submitted their feedback (both quantitative and qualitative) through a structured questionnaire, devlivered through Microsoft Forms.
+After experimenting with platforms like Kahoot!, Duolingo, Classcraft, etc., I built a custom gamified learning site using Moodle LMS hosted on an Azure VM. I split an undergraduate-level Usability Engineering course (access was given to me by the course lecturer) into six modules: three gamified and one non-gamified. I created multiple-choice and short-answer questions using the 'Aiken' and 'GIFT' question bank format in Moodle, respectively. 
+
+Participants who completed the consent form and signed up on the site got an automated email which confirmed their enrollment into the four courses. They engaged with the platform and submitted their feedback (both quantitative and qualitative) through a structured questionnaire, devlivered through Microsoft Forms.
 
 
 ## 🧰 Tools Used
