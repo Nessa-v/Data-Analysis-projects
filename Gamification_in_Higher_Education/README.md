@@ -14,7 +14,7 @@ The project combines real feedback, platform screenshots, and structured data an
 
 This project was inspired by a lecture where I noticed that I and many of my coursemates were disengaged. The course was not our major and it seemed very abstract, so I wondered if it was possible to turn the lecture into a relatable game.
 
-After experimenting with platforms like Kahoot!, Duolingo, Classcraft, etc., I built a custom gamified course on Moodle LMS hosted on an Azure VM. I split a usability engineering course into six modules: four gamified and two non-gamified. I created multiple-choice and short-answer questions using the 'Aiken' and 'GIFT' question bank format in Moodle, respectively. Participants engaged with the platform and submitted their feedback (both quantitative and qualitative) through a structured questionnaire, devlivered through a Microsoft form link.
+After experimenting with platforms like Kahoot!, Duolingo, Classcraft, etc., I built a custom gamified learning site using Moodle LMS hosted on an Azure VM. I split an undergraduate-level Usability Engineering course (access was given to me by the course lecturer) into six modules: three gamified and one non-gamified. I created multiple-choice and short-answer questions using the 'Aiken' and 'GIFT' question bank format in Moodle, respectively. Participants engaged with the platform and submitted their feedback (both quantitative and qualitative) through a structured questionnaire, devlivered through Microsoft Forms.
 
 
 ## 🧰 Tools Used
@@ -58,15 +58,9 @@ IMAGE 1: Aiken Format
 IMAGE 2: GIFT Format
 
 
-
-![image](https://github.com/user-attachments/assets/8782c57e-c71d-4f1c-8ad3-ef62fb16b051)
-
-IMAGE 3: All Courses Dashboard.
-
-
 ![image](https://github.com/user-attachments/assets/137b80d8-4bd7-475d-a3d5-a31f1f11d560)
 
-IMAGE 4: Course Page
+IMAGE 3: Course Page
 
 
 ### Game Elements
@@ -75,9 +69,12 @@ The elements tested were Level Up XP, Stash Items (images), Custom avatars, Cros
 
 ![image](https://github.com/user-attachments/assets/d77c2143-af5b-4849-a89a-c4b20697903a)
 
+IMAGE 4: Level Up XP (Levelling Up)
+
+
 ![image](https://github.com/user-attachments/assets/7f6a6387-b972-46e8-9573-eb2c7e153b89)
 
-IMAGE 5: Level Up XP
+IMAGE 5: Level Up XP (Leaderboard)
 
 
 ![image](https://github.com/user-attachments/assets/98e5adf2-e47d-4ece-9773-1e962322b1fd)
