@@ -20,28 +20,28 @@ After experimenting with platforms like Kahoot!, Duolingo, Classcraft, etc., I b
 
 ![image](https://github.com/user-attachments/assets/2f085bd3-df29-4801-bd05-2024a78a70a5)
 
-Aiken Format
+IMAGE 1: Aiken Format
 
 
 
 ![image](https://github.com/user-attachments/assets/a69d5e14-e7dc-484d-93ba-14d22ccbbc00)
 
-IMAGE: GIFT Format
+IMAGE 2: GIFT Format
 
 
 
 ![image](https://github.com/user-attachments/assets/8782c57e-c71d-4f1c-8ad3-ef62fb16b051)
 
-All Courses Dashboard.
+IMAGE 3: All Courses Dashboard.
 
 
 ![image](https://github.com/user-attachments/assets/137b80d8-4bd7-475d-a3d5-a31f1f11d560)
 
-Course Page
+IMAGE 4: Course Page
 
 
 ### Game Elements
-The elements tested were Level Up XP, Stash Items, Custom avatars, Crossword, Cryptex,  Millionaire, Find the Words, Hangman, Dialog Cards, Multiple Choice Questions, Snakes and Ladders.
+The elements tested were Level Up XP, Stash Items, Custom avatars, Crossword, Cryptex,  Millionaire, Find the Words, Hangman, Dialog Cards, Multiple Choice Questions, Snakes and Ladders. The stash items were hidden in several courses randomly. When a participant found a certain stash item, they were able to unlock the game (gamified quiz).
 
 [A]
 
@@ -49,21 +49,21 @@ The elements tested were Level Up XP, Stash Items, Custom avatars, Crossword, Cr
 
 ![image](https://github.com/user-attachments/assets/7f6a6387-b972-46e8-9573-eb2c7e153b89)
 
-Level Up XP
+IMAGE 5: Level Up XP
 
 
 [B]
 
 ![image](https://github.com/user-attachments/assets/98e5adf2-e47d-4ece-9773-1e962322b1fd)
 
-Stash Inventory
+IMAGE 6: Stash Inventory
 
 
 [C]
 
 ![image](https://github.com/user-attachments/assets/cb69b7fd-9180-4c0b-a48e-f85ad404dea4)
 
-
+IMAGE 7: Crossword
 
  Note: At the time of the project, custom avatars was not possible in moodle, so I provided a link to a website where they could create their avatar and download it for free. I created one myself.
 
@@ -74,12 +74,20 @@ Stash Inventory
 
 ## 🧰 Tools Used
 
-- Microsoft Excel (Data Cleaning, Analysis, Dashboards)
-- Moodle LMS for Windows (built with Xampp)
-- Power Query (Unpivoting, Merging, Theme Extraction)
-- Pivot Tables & Charts
-- Azure VM (for Moodle LMS hosting)
-- Microsoft Forms (for survey responses)
+Website Development
+
+- Moodle installer package, version 4.3.3+ for Windows
+  
+- Azure VM (for Moodle LMS hosting), using a Windows x64 architecture, Standard E2s v3 (2 vcpus, 16 GiB memory).
+
+Data Collecction
+
+- Microsoft Forms 
+
+Data Cleaning and Analysis
+  
+- Microsoft Excel: Pivot Tables, Power Query (for Unpivoting rows where users selected multiple answers, and Merging them back as a single column.), Charts and Dashboard.
+
 ---
 
 ## 🧪 Dataset
