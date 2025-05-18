@@ -185,6 +185,9 @@ e. Short Action Movies (< 90 mins): Only 7 short Action movies were under 90 min
 
 A box plot was used to compare movie durations across genres in the 1990s. 
 
+![image](https://github.com/user-attachments/assets/9352c0cf-4955-4d74-b4fa-183e0b692212)
+
+
 ### Key insights:
 
 a. Action
