@@ -15,6 +15,10 @@ This project was inspired by a lecture where I noticed that I and many of my cou
 
 After experimenting with platforms like Kahoot!, Duolingo, Classcraft, etc., I built a custom gamified course on Moodle LMS hosted on an Azure VM. I split a usability engineering course into six modules: four gamified and two non-gamified. I created multiple-choice and short-answer questions using the 'Aiken' and 'GIFT' question bank format in Moodle, respectively. Participants engaged with the platform and submitted their feedback (both quantitative and qualitative) through a structured questionnaire, devlivered through a Microsoft form link.
 
+## Project Summary
+
+
+---
 
 ## 📸 Platform Preview
 
@@ -70,10 +74,9 @@ IMAGE 7: Crossword
 
 ![image](https://github.com/user-attachments/assets/fc9a9378-9576-41bc-9e61-7825de9e3386)
 
-IMAGE: Dialog Card with hidden stash item.
+IMAGE 8: Dialog Card with hidden stash item.
 
- Note: At the time of the project, custom avatars was not possible in moodle, so I provided a link to a website where they could create their avatar and download it for free. I created one myself.
-
+ Note: At the time of this project, creating an avatar was not possible in moodle, so I provided a link to a website where they could create their avatar and download it for free. I also created one myself.
 
 ---
 
@@ -103,6 +106,18 @@ Data Cleaning and Analysis
   - Engagement level (1–5), satisfaction level (satisfactory, very satisfactory, unsatisfactory, very unsatisfactory).
   - Best gamification element, opinion on gamification
   - Challenges faced, suggestions, prior gamification knowledge
+
+Other fields not shown in the cleaned excel file such as id, start time, completion time were removed.
+
+When the data was imported into Excel, the questions were retained as column names, so they needed to be renamed to more concise and suitable column names. 
+
+The answers for the questions below were merged into a column called ‘opinion_on_gamification’
+i.	Did the project meet your initial expectation(s) on gamification? Explain	
+ii.	What is your overall opinion on the gamified courses? 
+iii.	Were you more likely to revisit gamified course content than non-gamified content?
+iv.	If yes, why?
+
+To extract themes from qualitative answers, the main point was selected verbatim such as opinion_on_gamification’, reason_best_elements, etc. When multiple themes were conveyed, these themes were separated with ‘|’ or ';'. For Instance, where the participant said, ‘They (gamification elements) make it easier to understand taught concepts and make learning less cumbersome’, the theme was set as ‘effective’. Also, in areas where the participants responded ‘good’ without further explanation, the theme ‘good’ was chosen without making assumptions about what they considered good.
 
 ---
 
