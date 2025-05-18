@@ -94,6 +94,12 @@ IMAGE 7: Crossword
 
 IMAGE 8: Dialog Card with hidden stash item.
 
+
+![image](https://github.com/user-attachments/assets/a0f845bd-52df-452d-a71c-5de82e12c82c)
+
+IMAGE 9: Find the Words
+
+
  Note: At the time of this project, creating an avatar was not possible in moodle, so I provided a link to a website where they could create their avatar and download it for free. I also created one myself.
 
 ---
