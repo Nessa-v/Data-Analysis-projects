@@ -1,8 +1,6 @@
-# NAME OF PROGRAMMER: Vanessa Nwankwo
-
 # PROJECT TITLE: Investigating Netflix Movies
-
-# PROGRAMMING LANGUAGE USED FOR ANALYSIS: Python
+## NAME OF PROGRAMMER: Vanessa Nwankwo
+## PROGRAMMING LANGUAGE USED FOR ANALYSIS: Python
 
 ## ABOUT THE DATASET: The Netflix Movies Dataset was obtained from DataCamp, with 4813 rows and 11 columns. The Excel file can be found in the 'dataset' folder contained within the Netflix_movie_analysis folder.
 
@@ -22,7 +20,7 @@
 
 ## PROJECT AIM: To perform exploratory data analysis (EDA) on Netflix's movie catalogue, to uncover insights about content trends, focusing on movies released in the 1990s. This analysis will help to understand patterns in genres, durations, country of origin, and other key features that defined Netflix’s offerings during that decade.
 
-### PROJECT OBJECTIVES
+## PROJECT OBJECTIVES
 
 1. Data Preprocessing to fix the data.
 2. Analysing Movie Durations.
