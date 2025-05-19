@@ -40,7 +40,7 @@ Data Cleaning and Analysis
 
 ## Quick run-through
 
-Note on Data Limitations:
+#### Note on Data Limitations:
 
 - The dataset is imbalanced in some areas — e.g., most participants reported improved understanding (96.7%), and IT/Computing fields were overrepresented.
 - Some categories, such as "Prefer not to say" in gender, which has very few observations could influence statistical results, so this was analysed with caution.
@@ -63,7 +63,7 @@ These limitations were considered when interpreting the results.
 - Gamification element preferences
 - Thematic feedback on suggestions and challenges
 
-#### Statistical Analysis
+### Statistical Analysis
 
 
 ---
