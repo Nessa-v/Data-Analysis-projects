@@ -1,10 +1,10 @@
 # PROJECT TITLE: Gamification in Higher Education and Analysis using Moodle LMS.
 
-This project investigated:
+This project was designed to determine:
 
-a. contrary to research, gamification DOES NOT improve student engagement and IS NOT effective in higher education.
+a. contrary to research, gamification DOES NOT improve student engagement and IS NOT potentially effective in higher education.
 
-b. similar to research, gamification DOES improve student engagement and IS effective in higher education.
+b. similar to research, gamification DOES improve student engagement and IS potentially  effective in higher education.
  
 The project combines real feedback, platform screenshots, and structured data analysis using Excel and Power Query.
 
@@ -12,7 +12,7 @@ The project combines real feedback, platform screenshots, and structured data an
 
 ## 🔍 Background
 
-This project was inspired by a lecture where I noticed that I and many of my coursemates were disengaged. The course was not our major and it seemed very abstract, so I wondered if it was possible to turn the lecture into a relatable game.
+This project was inspired by a lecture where I noticed that I and many of my coursemates were disengaged. The course was not our major and it seemed very abstract, so I wondered if it was possible to turn the lecture content into a relatable game.
 
 After experimenting with platforms like Kahoot!, Duolingo, Classcraft, etc., I built a custom gamified learning site using Moodle LMS hosted on an Azure VM. I split an undergraduate-level Usability Engineering course (access was given to me by the course lecturer) into six modules: three gamified and one non-gamified. I created multiple-choice and short-answer questions using the 'Aiken' and 'GIFT' question bank format in Moodle, respectively. 
 
@@ -96,6 +96,10 @@ Statistical analyses were conducted in Excel using built-in functions such as =C
 📌 Engagement levels appeared to vary by gender.
 
 ⚠️ But after removing the “Prefer not to say” group (n = 2), the result was no longer significant (p = 0.986). Male and female participants showed similar engagement levels.
+
+#### Conclusion:
+
+After analysis and reflection, gamification with the right structure and setup has a good chance of being effective in education, both at the basic and higher levels. The right implementation will improve students' engagement, reduce burnout due to cramming, foster interaction, introduce healthy competition and playful learning, while supporting the achievement of meaningful learning outcomes.
 
 ---
 ---
