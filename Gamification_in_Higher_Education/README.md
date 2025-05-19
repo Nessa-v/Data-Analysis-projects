@@ -100,7 +100,7 @@ These limitations were considered when interpreting the results.
 ---
 ---
 
-# Detailed Project
+# More Detailed Version of the Project
 
 Some of the website images are displayed below. The rest can be found in the 'site screenshots' folder.
 
