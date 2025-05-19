@@ -57,7 +57,22 @@ Data Cleaning and Analysis
 
 #### Statistical Analysis
 
+- Correlation: Engagement vs Satisfaction
+ - Result: Moderate positive correlation (r = 0.456, p = 0.015)
+ - Interpretation: Based on the test using correlation formula in excel, higher engagement is associated with greater satisfaction.
 
+- Correlation: Engagement vs Understanding
+ - Result: Not computed due to lack of variation in 'improves_understanding column (almost all said 'Yes').
+
+- Chi-Square Test: Prior Knowledge vs Satisfaction
+ - Result: Statistically significant (p = 0.036)
+ - Interpretation: Participants with prior gamification experience were more likely to be satisfied.
+ - However, this result should be interpreted with caution due to the imbalance in responses (No = 8, Yes = 22), which may reduce test reliability.
+
+- Chi-Square Test: Gender vs Engagement
+ - Result: Statistically significant (p = 0.016)
+ - Interpretation: Engagement levels appeared to differ across gender categories, including 'Prefer not to say'.
+ - However, after removing the small “Prefer not to say” group (n=2), the difference was no longer significant (p = 0.986), suggesting that the earlier result may have been skewed by low-frequency categories.
 
 
 ---
@@ -203,12 +218,6 @@ These insights display the high levels of engagement, satisfaction and improved 
 --- 
 
 ## Excel Analysis Dashboard
-
-
-
----
-
-## Statistical Analysis
 
 
 
