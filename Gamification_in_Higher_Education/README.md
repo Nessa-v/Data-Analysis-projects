@@ -69,19 +69,19 @@ These limitations were considered when interpreting the results.
 
 ### Statistical Analysis
 
-🔗 Engagement vs Satisfaction
+Statistical analyses were conducted in Excel using built-in functions such as =CORREL() and =CHISQ.TEST().
+
+- 🔗 Engagement vs Satisfaction
 
 ✅ Moderate positive correlation (r = 0.456, p = 0.015)
 
 📌 Interpretation: Higher engagement was associated with greater satisfaction.
 
-(Calculated using Excel’s CORREL function)
-
-📉 Engagement vs Understanding
+- 📉 Engagement vs Understanding
 
 ⚠️ It was not computed because almost all participants reported improved understanding (96.7%), resulting in no measurable variance.
 
-🧠 Prior Gamification Knowledge vs Satisfaction
+- 🧠 Prior Gamification Knowledge vs Satisfaction
 
 ✅ Statistically significant (p = 0.036)
 
@@ -89,7 +89,7 @@ These limitations were considered when interpreting the results.
 
 ⚠️ However, group sizes were unbalanced (Yes = 22, No = 8), so this result should be interpreted with caution.
 
-👥 Gender vs Engagement
+- 👥 Gender vs Engagement
 
 ✅ Initially significant (p = 0.016)
 
