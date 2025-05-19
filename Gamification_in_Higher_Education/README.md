@@ -52,6 +52,11 @@ Data Cleaning and Analysis
 
 These limitations were considered when interpreting the results.
 
+## 📈 Excel Analysis Dashboard
+
+
+---
+
 ### 📊 Key Insights
 
 - 96.7% reported improved understanding
@@ -59,13 +64,6 @@ These limitations were considered when interpreting the results.
 - Level Up XP was the most liked feature
 - Engagement was high across all age groups, especially 18–24
 - Participants without prior gamification knowledge still reported high motivation.
-
-### 📈 Dashboard Includes:
-
-- KPI summary (Engagement, Understanding, Satisfaction)
-- Age and Gender breakdowns
-- Gamification element preferences
-- Thematic feedback on suggestions and challenges
 
 ### Statistical Analysis
 
@@ -261,12 +259,6 @@ These insights display the high levels of engagement, satisfaction and improved 
  - Result: Statistically significant (p = 0.016)
  - Interpretation: Engagement levels appeared to differ across gender categories, which indicates that engagement level was determined by gender.
   - However, after removing the small “Prefer not to say” group (n=2), the difference was no longer significant (p = 0.986), suggesting that the earlier result may have been skewed by low-frequency categories. Male and female participants now showed similar engagement levels, suggesting no gender-based difference in how gamification was received.
-
----
-
-## Excel Analysis Dashboard
-
-
 
 ---
 
