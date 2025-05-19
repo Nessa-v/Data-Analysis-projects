@@ -68,7 +68,23 @@ These limitations were considered when interpreting the results.
 - Thematic feedback on suggestions and challenges
 
 ### Statistical Analysis
+🔗 Engagement vs Satisfaction
+✅ Moderate positive correlation (r = 0.456, p = 0.015)
+📌 Interpretation: Higher engagement was associated with greater satisfaction.
+(Calculated using Excel’s CORREL function)
 
+📉 Engagement vs Understanding
+⚠️ It was not computed because almost all participants reported improved understanding (96.7%), resulting in no measurable variance.
+
+🧠 Prior Gamification Knowledge vs Satisfaction
+✅ Statistically significant (p = 0.036)
+📌 Participants with prior gamification experience were more likely to be satisfied.
+⚠️ However, group sizes were unbalanced (Yes = 22, No = 8), so this result should be interpreted with caution.
+
+👥 Gender vs Engagement
+✅ Initially significant (p = 0.016)
+📌 Engagement levels appeared to vary by gender.
+⚠️ But after removing the “Prefer not to say” group (n = 2), the result was no longer significant (p = 0.986). Male and female participants showed similar engagement levels.
 
 ---
 ---
