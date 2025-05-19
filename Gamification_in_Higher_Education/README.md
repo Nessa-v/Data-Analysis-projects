@@ -42,9 +42,13 @@ Data Cleaning and Analysis
 
 #### Note on Data Limitations:
 
-- The dataset is imbalanced in some areas — e.g., most participants reported improved understanding (96.7%), and IT/Computing fields were overrepresented.
-- Some categories, such as "Prefer not to say" in gender, which has very few observations could influence statistical results, so this was analysed with caution.
-- Group size imbalance (e.g., 22 'Yes' vs 8 'No' in prior knowledge) also affects the reliability of certain Chi-square tests.
+- The dataset is imbalanced in some areas, for example, 96.7% of participants reported improved understanding, and most respondents came from IT/Computing fields.
+
+-  Categories, such as "Prefer not to say" in the gender variable, had very few observations and may have skewed certain statistical results. These were analyzed with caution.
+
+- Group size imbalance (e.g., 22 Yes vs 8 No in prior knowledge) may affect the reliability of some Chi-square tests.
+
+- These limitations were acknowledged and considered when interpreting the results.
 
 These limitations were considered when interpreting the results.
 
@@ -134,8 +138,8 @@ IMAGE 9: Find the Words
 - 📋 Data was obtained from 30 participants, who have completed basic education and were enrolled in or have completed university education. These participants were chosen through snowball sampling.
   
 - 📂 Fields include:
-  - Age group, gender, education level, field of study
-  - Engagement level (1–5), satisfaction level (satisfactory, very satisfactory, unsatisfactory, very unsatisfactory).
+  - Age group, gender, education level attained, field of study, field category
+  - Engagement level (1–5), satisfaction level (satisfactory, very satisfactory, unsatisfactory, very unsatisfactory), improves understanding, 
   - Best gamification element, opinion on gamification
   - Challenges faced, suggestions, prior gamification knowledge
 
