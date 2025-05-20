@@ -54,6 +54,9 @@ These limitations were considered when interpreting the results.
 
 ## 📈 Excel Analysis Dashboard
 
+![image](https://github.com/user-attachments/assets/5f77fdf1-bf5b-4fe1-9944-f369de5c51e6)
+
+![image](https://github.com/user-attachments/assets/ea138c83-55fd-4bfd-a315-e1a00d954351)
 
 ---
 
