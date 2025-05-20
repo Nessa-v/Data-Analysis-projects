@@ -53,6 +53,7 @@ Data Cleaning and Analysis
 These limitations were considered when interpreting the results.
 
 ## 📈 Excel Analysis Dashboard
+#### The individual charts in the dashboard can be found in the charts folder.
 
 ![image](https://github.com/user-attachments/assets/5f77fdf1-bf5b-4fe1-9944-f369de5c51e6)
 
