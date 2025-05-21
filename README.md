@@ -1,8 +1,8 @@
-# AUTHOR: VANESSA NWANKWO
+## AUTHOR: VANESSA NWANKWO
 
 ## DATA ANALYTICS PORTFOLIO
 
-## About Me:
+### About Me:
 
 I am a data analyst, always excited to wrangle messy data, uncover trends & patterns and storytell to convey its information. 
 
@@ -10,7 +10,7 @@ This portfolio showcases my ability to clean, analyse, and communicate data-driv
 
 ---
 
-Connect with me:
+### Connect with me:
 
 LinkedIn: www.linkedin.com/in/vanessa-nwankwo-973480208 
 
