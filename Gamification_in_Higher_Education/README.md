@@ -67,7 +67,7 @@ These limitations were considered when interpreting the results.
 - 93.3% were satisfied with the gamification experience
 - Level Up XP was the most liked feature
 - Engagement was high across all age groups, especially 18–24
-- Participants without prior gamification knowledge still reported high motivation.
+- Participants without prior gamification knowledge still reported high engagement.
 
 ### Statistical Analysis
 
@@ -101,7 +101,8 @@ Statistical analyses were conducted in Excel using built-in functions such as =C
 
 #### Conclusion:
 
-After analysis and reflection, gamification with the right structure and setup has a good chance of being effective in education, both at the basic and higher levels. The right implementation will improve students' engagement, reduce burnout due to cramming, foster interaction, introduce healthy competition and playful learning, while supporting the achievement of meaningful learning outcomes.
+Based on analysis and reflection, gamification with the right structure and setup has a good chance of being effective in education, both at the basic and higher levels. Since engagement was high across all age groups and among people without prior knowledge, gamification can be effective among young adults and older people, it can also aid improved understanding.
+Periodic implementation rather than daily implementation is recommended to improve students' engagement, reduce burnout due to cramming, foster interaction, introduce healthy competition and playful learning, while encouraging studying and supporting the achievement of meaningful learning outcomes.
 
 ---
 ---
@@ -178,7 +179,7 @@ IMAGE 9: Find the Words
 
 ### Data Cleaning Process
 
-Other fields not shown in the cleaned excel file such as id, start time, completion time were removed.
+Other fields not shown in the cleaned excel file such as id, start time, completion time, etc., were removed.
 
 When the data was imported into Excel, the questions were retained as column names, so they needed to be renamed to more concise and suitable column names. 
 
@@ -278,5 +279,5 @@ I realised that people could have been very engaged because it was new. Implemen
 
 ## Conclusion
 
-For gamification to be effective, I feel it is necessary to use it periodically as a tool to increase engagement levels. Introducing new gamified activities once or twice a week can be more beneficial than daily implementation, which could lead to boredom.
+For gamification to be effective, I feel it is necessary to use it periodically as a tool to increase engagement levels. Introducing new gamified activities once or twice a week can be more beneficial than daily implementation, which could lead to boredom and therefore disengagement.
 
