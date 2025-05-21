@@ -16,7 +16,7 @@ Work Email Address: vanessanwankwo8@gmail.com
 
 ### Welcome to my data analysis portfolio!  
 
-This repository contains a collection of projects where I cleaned, explored and analysed datasets. I also extracted key insights and provided suitable solutions using MS Excel, Python, PostgreSQL, and AI.
+This repository contains a collection of projects where I cleaned, explored and analysed datasets. I've also extracted key insights and provided suitable solutions using MS Excel, Python, PostgreSQL, and AI.
 The tools I am most comfortable with are MS Excel and PostgreSQL.
 
 As I continue to learn and grow in data analytics, I will make changes to this repository where necessary.
