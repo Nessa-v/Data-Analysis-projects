@@ -266,12 +266,15 @@ These insights display the high levels of engagement, satisfaction and improved 
 
 ---
 
-## Observation
+## Observation and Reflection
 
-During the project, participants' activities, such as their stash inventory and position on the leaderboard, were monitored. Moodle’s activity completion was also used to achieve this. During the study, some participants inquired about the identities of the participants who scored higher than them in the leaderboards because they were curious about their performance. As this information could not be revealed due to data privacy (and my amusement), they inquired about activities that could put them at the top of the leaderboard even when there were no rewards involved. This means that these participants were intrinsically motivated. 
+During the project, participants' progress such as their stash inventory and position on the leaderboard, were monitored. Moodle’s activity completion was used to achieve this. During the study, some participants inquired about the identities of the participants who scored higher than them in the leaderboards because they were curious about their performance. As this information could not be revealed due to data privacy (and my amusement), they inquired about activities that could put them at the top of the leaderboard even when there were no rewards involved. This means that these participants were intrinsically motivated. 
 
 Their activities also revealed that while the participants were given a form containing instructions about the project for review, and the instructions were also placed on each course’s main page on the website, many participants ignored them because they were not interested in ‘reading’. Hence, verbal communication of the requirements of the project and the use of the elements was important. 
 
-I realised that people could have been very engaged because it was new. Implementation in education could lead to overuse to the point that it becomes less effective and engaging. The results made me realise that while people engaged with the games, they still did not read the lecture materials. Many of them preferred to quickly look up the answers online. However, this is also a form of learning, as they might be able to remember the questions due to their reason for looking up the questions online. That is, playing a game. This is a form of tricking the brain to learn. 
-For gamification to be effective, I feel it is necessary to use it periodically as a tool to increase engagement levels. Introducing new gamified activities once or twice a week can be more beneficial than daily implementation.
+I realised that people could have been very engaged because it was new. Implementation in education could lead to overuse to the point that it becomes less effective and engaging. The results made me realise that while people engaged with the games, they still did not read the lecture materials. Many of them preferred to quickly look up the answers online. However, this is also a form of learning, as they might be able to remember the questions and answers due to their reason for looking up the questions online. That is, playing a game. This is a form of tricking the brain to learn. 
+
+## Conclusion
+
+For gamification to be effective, I feel it is necessary to use it periodically as a tool to increase engagement levels. Introducing new gamified activities once or twice a week can be more beneficial than daily implementation, which could lead to boredom.
 
