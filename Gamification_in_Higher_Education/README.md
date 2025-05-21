@@ -274,6 +274,8 @@ Their activities also revealed that while the participants were given a form con
 
 I realised that people could have been very engaged because it was new. Implementation in education could lead to overuse to the point that it becomes less effective and engaging. The results made me realise that while people engaged with the games, they still did not read the lecture materials. Many of them preferred to quickly look up the answers online. However, this is also a form of learning, as they might be able to remember the questions and answers due to their reason for looking up the questions online. That is, playing a game. This is a form of tricking the brain to learn. 
 
+---
+
 ## Conclusion
 
 For gamification to be effective, I feel it is necessary to use it periodically as a tool to increase engagement levels. Introducing new gamified activities once or twice a week can be more beneficial than daily implementation, which could lead to boredom.
