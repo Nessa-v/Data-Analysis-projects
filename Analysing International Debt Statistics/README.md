@@ -7,7 +7,9 @@ This analysis explores debt data for 124 countries using SQL to answer key quest
 - **DT.INT.DLXF.CD**: Interest payments (how much was paid in interest)
 
 The goal: assess **debt servicing pressure**, identify red flags, and recommend actions for debt sustainability.
+
 Note: Debt servicing pressure is the burden on a country’s economy caused by the need to make regular payments on its debt, even when it might not have enough income or reserves to do so easily.
+
 ---
 
 ## 🔹 Key Insights
