@@ -80,8 +80,8 @@ It is also worth noting that all these countries are all developing countries, c
 
 ### 💸 Interest-to-Principal Ratios (Top Repayment Countries)
 
-![Interest Payments Among Top 20 Repayment Countries](https://github.com/user-attachments/assets/29a5de0d-5f84-4fab-abc4-9e62f128b9a1)
 
+![20_Highest_Interest_Payments](https://github.com/user-attachments/assets/417bf53f-4593-4eb6-9603-1aea5908587a)
 
 ![20_Highest_Principal_Repayments](https://github.com/user-attachments/assets/54aec314-c7d4-4ab8-9e16-d60cef7a5904)
 
