@@ -88,23 +88,24 @@ It is also worth noting that all these countries are all developing countries, c
 ![Interest Payments Among Top 20 Repayment Countries](https://github.com/user-attachments/assets/f1a3a4ad-80f2-4286-834c-bc67c869b859)
 
 
+| Country            | Interest-to-Principal Ratio (%) |
+|:-------------------|:-------------------------------:|
+| Mexico             | 76.53%                          |
+| China              | 18.60%                          |
+| Brazil             | 18.88%                          |
+| South Asia         | 32.61%                          |
+| Russian Federation | 20.87%                          |
+| Turkey             | 23.47%                          |
 
-| Country            | Interest:Principal Ratio |
-|--------------------|--------------------------|
-| South Asia         | 32.61%                   |
-| Turkey             | 23.47%                   |
-| Russian Federation | 20.87%                   |
-| Brazil             | 18.88%                   |
-| China              | 18.60%                   |
 
 **Insights**: 
 - High Repayment = High Interest Burden: Countries like Mexico ($19.3B), China ($17.9B), and Brazil ($17.0B) lead in interest payments, suggesting they are under debt servicing pressure.
   
 - Least Developed Countries (UN classification) appears in the top half of interest payments. Despite their lower income status, they’re still spending billions annually just on interest, which can divert funds from development goals like healthcare or infrastructure.
   
-- South Asia and Turkey pay **significantly more interest relative to principal**, indicating higher borrowing costs or older debt.
+- Mexico, South Asia and Turkey pay **significantly more interest relative to principal**, indicating higher borrowing costs and/or older debt.
 
-- The Russian Federation appears with ~$13.9B in interest payments. This confirms earlier observations: Russia is still servicing a large historical debt load, even though recent disbursements are relatively low.
+- The Russian Federation appears with approximately $13.9B in interest payments (20.87% interest to principal ratio). This confirms earlier observations: Russia is servicing a large historical debt load, even though recent disbursements are relatively low.
 
 ---
 
