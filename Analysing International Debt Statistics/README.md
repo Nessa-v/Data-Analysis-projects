@@ -1,6 +1,5 @@
 ## About the Data: The dataset used is international debt data collected by The World Bank, and provided by DataCamp.
 
----
 
 ## 🔹 Introduction
 
