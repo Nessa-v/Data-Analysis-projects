@@ -83,8 +83,8 @@ Note: Debt servicing pressure is the burden on a country’s economy caused by t
 | Solomon Islands    | $8.6M            | $30.7M          | 355%           | High     |
 
 **Insights**:
-- These countries are **repaying far more than they borrow**, highlighting restricted credit access or debt distress.
-- Most are **developing or small island nations**, with fragile economies and limited capital access.
+- These countries are **repaying far more than they borrow**, highlighting debt distress.
+- Countries may be avoiding excessive borrowing to prevent being trapped in more debt, for example Turkmenistan with zero disbursement
 - Their low disbursement figures may be linked to factors such as political isolation, debt distress, high interest rates due to inflation or a preference for grants over loans by international lenders to prevent worsening debt distress.
 
 ---
@@ -100,10 +100,8 @@ For more accurate analysis, the data was expanded to 20 countries with lowest re
 It is also worth noting that all these countries are all developing countries, characterised by low income, political instability or limited access to capital markets.
 
 **Insights**:
-- These countries might not be receiving new loans due to limited credit access, have extended grace periods to repay their debts or have most of their aid in the form of grants.
-- Lenders may avoid offering loans due to their high default risk.
-- Countries may be avoiding excessive borrowing to prevent being trapped in more debt, for example Turkmenistan with zero disbursement
-- Somalia, Eritrea, and Solomon Islands with low disbursements and high repayments might be focused on repaying old loans.
+- Most are **developing or small island nations**, with fragile economies and limited capital access due to their high default risk.
+- Somalia, Eritrea, and Solomon Islands with low disbursements and relatively high repayments might be focused on repaying old loans.
 
 ---
 
