@@ -65,7 +65,7 @@ Note: Debt servicing pressure is the burden on a country’s economy caused by t
   
 - Cameroon has a balanced profile. They are paying steadily but still carrying over 40% unpaid. It's not a big concern now, but debt levels must be monitored over time to maintain fiscal discipline.
   
-- LDCs and IDA nations have **large outstanding debts** which shows potential repayment strain.
+- LDCs and IDA only have **large outstanding debts** which shows potential repayment strain.
 
 ---
 
