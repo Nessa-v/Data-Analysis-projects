@@ -60,7 +60,7 @@ Data Cleaning & Preparation: Standardised date formats, verified data integrity,
 
 ---
 
-# ANALYSIS
+# DETAILED ANALYSIS
 
 ## Data Preprocessing
 
