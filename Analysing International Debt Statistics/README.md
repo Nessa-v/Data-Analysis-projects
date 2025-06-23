@@ -23,10 +23,6 @@
 
 - Drafted policy-driven recommendations to guide debt sustainability, concessional lending, and financial relief efforts.
 
-- Delivered polished outputs for GitHub, LinkedIn, and presentation decks, optimized for storytelling and engagement.
-
-- Demonstrated ability to extract actionable insights from raw financial datasets to support global economic discussions.
-
 ---
 
 # DETAILED PROJECT
