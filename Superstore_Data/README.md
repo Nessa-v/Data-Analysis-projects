@@ -89,25 +89,25 @@ The notebook containing the code and the results can be found in ‘code/project
 
 ## SUMMARY OF WORK DONE
 
-🔧 Data Cleaning & Imputation
+### Data Cleaning & Imputation
 
 Resolved missing quantity values in 4,000+ records using SQL-based unit price estimation.
 
 Improved dataset accuracy through context-aware imputation (by product, region, discount).
 
-📦 Product Performance Analysis
+### Product Performance Analysis
 
 Identified top 5 products by sales across 3 major categories.
 
 Revealed Canon Copier as most profitable (>$25K), despite smartphones dominating revenue.
 
-🌍 Regional Sales Analysis
+### Regional Sales Analysis
 
 Analysed data across 6 global regions, spanning 4 years (2011–2014).
 
 Central (EU) led all regions with >$600K in 2014; Canada consistently ranked lowest (<$25K).
 
-📈 Time Series Trends
+### Time Series Trends
 
 Tracked monthly sales/profit for 2011–2014 (48 months).
 
@@ -115,25 +115,25 @@ December consistently highest sales month (e.g., $405K in Dec 2013 vs. $199K in 
 
 Aug–Sep 2014: Contributed $937K sales and $121K profit—strongest two-month surge.
 
-↩️ Returns Analysis
+### Returns Analysis
 
 Evaluated 100% return rates on several SKUs (e.g., Bevis Table, GBC Binder).
 
 Flagged $1,300–$3,700+ profit losses per item for removal or review.
 
-💰 Profitability by Category
+### Profitability by Category
 
 Found Technology most profitable category.
 
 Furniture: Tables generated losses >$60K due to returns and low volume.
 
-👤 Salesperson Performance
+### Salesperson Performance
 
 Ranked 11 salespeople across 6 regions.
 
 Top performer: Anna Andreadi – $2.83M in sales across 3 regions.
 
-📊 Correlation Analysis
+### Correlation Analysis
 
 Analyzed 5 metric relationships:
 
