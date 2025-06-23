@@ -38,7 +38,7 @@ Data Cleaning and Analysis
 ---
 
 
-## Quick run-through
+## QUICK PROJECT RUN-THROUGH
 
 #### Note on Data Limitations:
 
@@ -73,17 +73,17 @@ These limitations were considered when interpreting the results.
 
 Statistical analyses were conducted in Excel using built-in functions such as =CORREL() and =CHISQ.TEST().
 
-- 🔗 Engagement vs Satisfaction:
+#### Engagement vs Satisfaction:
 
 ✅ Moderate positive correlation (r = 0.456, p = 0.015)
 
 📌 Interpretation: Higher engagement was associated with greater satisfaction.
 
-- 📉 Engagement vs Understanding:
+#### Engagement vs Understanding:
 
 ⚠️ It was not computed because almost all participants reported improved understanding (96.7%), resulting in no measurable variance.
 
-- 🧠 Prior Gamification Knowledge vs Satisfaction:
+#### Prior Gamification Knowledge vs Satisfaction:
 
 ✅ Statistically significant (p = 0.036)
 
@@ -91,7 +91,7 @@ Statistical analyses were conducted in Excel using built-in functions such as =C
 
 ⚠️ However, group sizes were unbalanced (Yes = 22, No = 8), so this result should be interpreted with caution.
 
-- 👥 Gender vs Engagement:
+#### Gender vs Engagement:
 
 ✅ Initially significant (p = 0.016)
 
@@ -107,7 +107,7 @@ Periodic implementation rather than daily implementation is recommended to impro
 ---
 ---
 
-# More Detailed Version of the Project
+# DETAILED PROJECT
 
 Some of the website images are displayed below. The rest can be found in the 'site screenshots' folder.
 
