@@ -1,4 +1,6 @@
-# PROJECT TITLE: Gamification in Higher Education and Analysis using Moodle LMS.
+## PROJECT AUTHOR: Vanessa Nwankwo
+## DATE CREATED: January 2024
+## PROJECT TITLE: Gamification in Higher Education and Analysis using Moodle LMS.
 
 This project was designed to determine:
 
@@ -36,7 +38,6 @@ Data Cleaning and Analysis
 - Microsoft Excel: Pivot Tables, Power Query (for Unpivoting rows where users selected multiple answers, and Merging them back as a single column.), Charts and Dashboard.
 
 ---
-
 
 ## QUICK PROJECT RUN-THROUGH
 
