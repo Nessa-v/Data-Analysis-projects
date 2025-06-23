@@ -1,5 +1,35 @@
-## About the Data: The dataset used is international debt data collected by The World Bank, and provided by DataCamp.
+## PROJECT AUTHOR: VANESSA NWANKWO
+## DATE CREATED: JUNE 2025
+## PROJECT TITLE: ANALYSING INTERNATIONAL DEBT STATISTICS
+## LANGUAGE / TOOLS USED: POSTGRESQL AND PYTHON
 
+### About the Data: The dataset used is international debt data collected by The World Bank, and provided by DataCamp.
+
+## SUMMARY OF WORK DONE
+
+- Analyzed external debt data for 124 countries using advanced SQL (CTEs, JOINs, CASE, UNION ALL) techniques.
+
+- Focused on long-term debt indicators: disbursements, principal repayments, and interest payments.
+
+- Identified the top 20 countries with highest and lowest disbursements and repayments.
+
+- Calculated repayment rates and interest-to-principal ratios for 25+ countries, exposing red flags and debt servicing risks.
+
+- Highlighted vulnerable groups like Least Developed Countries (LDCs) and IDA-only borrowers.
+
+- Investigated country-specific cases like Russia’s 200,000% repayment rate, China’s 612%, and Somalia’s 1340%.
+
+- Produced visual dashboards using Python to simplify complex trends (e.g., interest burdens among top repayment countries).
+
+- Drafted policy-driven recommendations to guide debt sustainability, concessional lending, and financial relief efforts.
+
+- Delivered polished outputs for GitHub, LinkedIn, and presentation decks, optimized for storytelling and engagement.
+
+- Demonstrated ability to extract actionable insights from raw financial datasets to support global economic discussions.
+
+---
+
+# DETAILED PROJECT
 
 ## 🔹 Introduction
 
