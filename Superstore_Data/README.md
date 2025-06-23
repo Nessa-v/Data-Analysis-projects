@@ -1,12 +1,12 @@
-# PROJECT AUTHOR: VANESSA NWANKWO
+## PROJECT AUTHOR: VANESSA NWANKWO
 
-# DATE CREATED: MARCH 2025
+## DATE CREATED: MARCH 2025
 
-# PROJECT TITLE: SUPERSTORE SALES DATA ANALYSIS
+## PROJECT TITLE: SUPERSTORE SALES DATA ANALYSIS
 
-# PROJECT AIM: To conduct end-to-end analysis of Superstore sales data to uncover trends and determine factors affecting sales and profitability.
+## PROJECT AIM: To conduct end-to-end analysis of Superstore sales data to uncover trends and determine factors affecting sales and profitability.
 
-# LANGUAGE / TOOLS USED: PostgreSQL, Python
+## LANGUAGE / TOOLS USED: PostgreSQL, Python
 
 ## ABOUT THE DATASET
 
