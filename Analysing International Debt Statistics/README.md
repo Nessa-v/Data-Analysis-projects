@@ -128,7 +128,7 @@ It is also worth noting that all these countries are all developing countries, c
 **Insights**: 
 - High Repayment = High Interest Burden: Countries like Mexico ($19.3B), China ($17.9B), and Brazil ($17.0B) lead in interest payments, suggesting they are under debt servicing pressure.
   
-- Least Developed Countries (UN classification) appears in the top half of interest payments. Despite their lower income status, they’re still spending billions annually just on interest, which can divert funds from development goals like healthcare or infrastructure.
+- Least Developed Countries (UN classification) have interest payments. Despite their lower income status, they’re still spending billions annually just on interest, which can divert funds from development goals like healthcare or infrastructure.
   
 - Mexico, South Asia and Turkey pay **significantly more interest relative to principal**, indicating higher borrowing costs and/or older debt.
 
