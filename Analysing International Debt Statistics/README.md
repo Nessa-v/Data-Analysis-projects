@@ -85,7 +85,7 @@ Note: Debt servicing pressure is the burden on a country’s economy caused by t
 **Insights**:
 - These countries are **repaying far more than they borrow**, highlighting debt distress.
 - Countries may be avoiding excessive borrowing to prevent being trapped in more debt, for example Turkmenistan with zero disbursement
-- Their low disbursement figures may be linked to factors such as political isolation, debt distress, high interest rates due to inflation or a preference for grants over loans by international lenders to prevent worsening debt distress.
+- The low disbursement and high repayment figures could be linked to factors such as restricted credit access, low borrowing due to debt distress, high interest rates due to inflation, or a preference for grants over loans by international lenders, to prevent worsening debt distress.
 
 ---
 
