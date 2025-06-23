@@ -28,6 +28,37 @@
 4. Genre Analysis
 5. Investigating Director and Cast Members
 
+## SUMMARY OF WORK DONE
+
+In this project, extensive exploratory data analysis (EDA) was performed on Netflix’s catalogue of 1990s movies, focusing on content trends such as duration, genre, release year, and production geography. The work involved:
+
+Data Cleaning & Preparation: Standardised date formats, verified data integrity, and extracted 1990s movie data (filtered from 4,812 total entries).
+
+### Descriptive Statistics & Visualisation:
+
+- Identified 94 minutes as the most frequent movie duration (occurred 7 times).
+
+- Analysed year-over-year movie releases, showing a content growth trend from 1997–1999.
+
+- Computed and visualised duration trends by year, including mean, median, and standard deviation to highlight standardisation of movie duration.
+
+- Measured the correlation between release year and duration (r = 0.096), indicating a weak but positive trend.
+
+### Genre Exploration:
+
+- Processed multi-label genres, finding Action, Drama, and Comedy as the most frequent.
+
+- Used box plots to compare duration distributions across genres.
+
+### Geographic & Cast Analysis:
+
+- Found that India produced the second-highest number of movies (34) in the 1990s after the U.S. (99).
+
+- Notably, all top 10 most frequent cast members were from Indian cinema, led by Shah Rukh Khan (12 movies), suggesting a strong actor recurrence in Bollywood content.
+
+#### In total, this analysis comprised multiple visualisations and statistical summaries, offering insights into how Netflix's 1990s movie catalogue varied by duration, genre, and geography.
+
+---
 
 # ANALYSIS
 
