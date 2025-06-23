@@ -12,7 +12,7 @@ The project combines real feedback, platform screenshots, and structured data an
 
 ---
 
-## 🔍 Background
+# 🔍 Background
 
 This project was inspired by a lecture where I noticed that I and many of my coursemates were disengaged. The course was not our major and it seemed very abstract, so I wondered if it was possible to turn the lecture content into a relatable game.
 
@@ -41,7 +41,7 @@ Data Cleaning and Analysis
 
 ## QUICK PROJECT RUN-THROUGH
 
-#### Note on Data Limitations:
+### Note on Data Limitations:
 
 - The dataset is imbalanced in some areas, for example, 96.7% of participants reported improved understanding, and most respondents came from IT/Computing fields.
 
@@ -62,7 +62,7 @@ These limitations were considered when interpreting the results.
 
 ---
 
-### 📊 Key Insights
+## 📊 Key Insights
 
 - 96.7% reported improved understanding
 - 93.3% were satisfied with the gamification experience
@@ -70,21 +70,21 @@ These limitations were considered when interpreting the results.
 - Engagement was high across all age groups, especially 18–24
 - Participants without prior gamification knowledge still reported high engagement.
 
-### Statistical Analysis
+## Statistical Analysis
 
 Statistical analyses were conducted in Excel using built-in functions such as =CORREL() and =CHISQ.TEST().
 
-#### Engagement vs Satisfaction:
+### Engagement vs Satisfaction:
 
 ✅ Moderate positive correlation (r = 0.456, p = 0.015)
 
 📌 Interpretation: Higher engagement was associated with greater satisfaction.
 
-#### Engagement vs Understanding:
+### Engagement vs Understanding:
 
 ⚠️ It was not computed because almost all participants reported improved understanding (96.7%), resulting in no measurable variance.
 
-#### Prior Gamification Knowledge vs Satisfaction:
+### Prior Gamification Knowledge vs Satisfaction:
 
 ✅ Statistically significant (p = 0.036)
 
@@ -92,7 +92,7 @@ Statistical analyses were conducted in Excel using built-in functions such as =C
 
 ⚠️ However, group sizes were unbalanced (Yes = 22, No = 8), so this result should be interpreted with caution.
 
-#### Gender vs Engagement:
+### Gender vs Engagement:
 
 ✅ Initially significant (p = 0.016)
 
@@ -100,7 +100,7 @@ Statistical analyses were conducted in Excel using built-in functions such as =C
 
 ⚠️ But after removing the “Prefer not to say” group (n = 2), the result was no longer significant (p = 0.986). Male and female participants showed similar engagement levels.
 
-#### Conclusion:
+### Conclusion:
 
 Based on analysis and reflection, gamification with the right structure and setup has a good chance of being effective in education, both at the basic and higher levels. Since engagement was high across all age groups and among people without prior knowledge, gamification can be effective among young adults and older people, it can also aid improved understanding.
 Periodic implementation rather than daily implementation is recommended to improve students' engagement, reduce burnout due to cramming, foster interaction, introduce healthy competition and playful learning, while encouraging studying and supporting the achievement of meaningful learning outcomes.
