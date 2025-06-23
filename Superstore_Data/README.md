@@ -1,14 +1,14 @@
-PROJECT OWNER: VANESSA NWANKWO
+# PROJECT AUTHOR: VANESSA NWANKWO
 
-DATE CREATED: MARCH 2025
+# DATE CREATED: MARCH 2025
 
-PROJECT TITLE: SUPERSTORE SALES DATA ANALYSIS
+# PROJECT TITLE: SUPERSTORE SALES DATA ANALYSIS
 
-PROJECT AIM: To conduct end-to-end analysis of Superstore sales data to uncover trends and determine factors affecting sales and profitability.
+# PROJECT AIM: To conduct end-to-end analysis of Superstore sales data to uncover trends and determine factors affecting sales and profitability.
 
-TOOLS USED: PostgreSQL, Python
+# LANGUAGE / TOOLS USED: PostgreSQL, Python
 
-ABOUT THE DATASET
+## ABOUT THE DATASET
 
 The dataset used is the ‘Projects Data’ obtained from DataCamp.
 
@@ -50,10 +50,7 @@ The tables used are ‘orders’, ‘returned_orders’, ‘people’, ‘produc
 | `product_name` | Detailed Name of the Product | `TEXT` |
 
 
-
-
-
-PROJECT OBJECTIVES
+## PROJECT OBJECTIVES
 
 1.	Data Cleaning and Quality Checks:
    
@@ -86,11 +83,69 @@ Analyse salesperson performance by region and market to determine which salesper
 8.	Correlation Analysis:
 Use SQL to analyse correlations between variables (e.g., discount and sales, quantity and profit) to derive actionable insights.
 
-PROJECT NOTEBOOK INFORMATION
+## PROJECT NOTEBOOK INFORMATION
 
 The notebook containing the code and the results can be found in ‘code/project_code_notebook.pdf’
 
-DATA ANALYSIS PROCESSES:
+## SUMMARY OF WORK DONE
+
+🔧 Data Cleaning & Imputation
+
+Resolved missing quantity values in 4,000+ records using SQL-based unit price estimation.
+
+Improved dataset accuracy through context-aware imputation (by product, region, discount).
+
+📦 Product Performance Analysis
+
+Identified top 5 products by sales across 3 major categories.
+
+Revealed Canon Copier as most profitable (>$25K), despite smartphones dominating revenue.
+
+🌍 Regional Sales Analysis
+
+Analysed data across 6 global regions, spanning 4 years (2011–2014).
+
+Central (EU) led all regions with >$600K in 2014; Canada consistently ranked lowest (<$25K).
+
+📈 Time Series Trends
+
+Tracked monthly sales/profit for 2011–2014 (48 months).
+
+December consistently highest sales month (e.g., $405K in Dec 2013 vs. $199K in Jan 2013).
+
+Aug–Sep 2014: Contributed $937K sales and $121K profit—strongest two-month surge.
+
+↩️ Returns Analysis
+
+Evaluated 100% return rates on several SKUs (e.g., Bevis Table, GBC Binder).
+
+Flagged $1,300–$3,700+ profit losses per item for removal or review.
+
+💰 Profitability by Category
+
+Found Technology most profitable category.
+
+Furniture: Tables generated losses >$60K due to returns and low volume.
+
+👤 Salesperson Performance
+
+Ranked 11 salespeople across 6 regions.
+
+Top performer: Anna Andreadi – $2.83M in sales across 3 regions.
+
+📊 Correlation Analysis
+
+Analyzed 5 metric relationships:
+
+Sales vs Profit: +0.48 (strong positive)
+
+Discount vs Profit: –0.32 (moderate negative)
+
+Discount vs Sales: –0.09 (minimal impact)
+
+---
+
+# DETAILED ANALYSIS:
 
 1.	Data Cleaning and Quality Checks
    
@@ -105,6 +160,8 @@ Then rounded the result to the nearest whole number using SQL's ROUND() function
 Summary:
 
 To handle missing quantity values in the Superstore dataset, I implemented a SQL-based imputation strategy using average unit prices calculated for each product under similar conditions. This allowed for accurate, context-aware estimation rather than generic fill methods, improving data reliability for analysis.
+
+---
 
 2.	Top performing products, based on sales and category
 
@@ -124,6 +181,8 @@ d.	Worst Performing Category: The worst performing category generally was office
 Summary: 
 
 Using SQL window functions, I identified the top 5 products by total sales for each category. While smartphones dominated in terms of revenue, the most profitable item was a copier, highlighting a key insight: high sales volume does not always align with high profitability. This emphasizes the importance of considering profit margins, not just sales when making inventory and marketing decisions.
+
+---
 
 3.	Sales Analysis by Region:
 Key Insights by year
@@ -158,6 +217,8 @@ I analysed customer purchase behaviour and sales trends across global markets by
 
 The reason for low performance could be the type of products sold and/or the demographics of customers living in that region. Therefore, tailored marketing strategies could be helpful in Canada (Canada). However, further investigation on this should be carried out.
 In 2014, Central Asia (APAC) had the highest average order value, revealing potential for high-value customer targeting.
+
+---
 
 4.	Time Series Analysis
    
@@ -202,7 +263,7 @@ Analysis:
 Although January 2013 sales were higher than previous years, December still outpaced it by over 60% in sales, maintaining the seasonal performance gap.
 
 
-# Analysing the evolution of total sales, profit, and order volume over the course of 2014 (the most recent year). Identifying trends, seasonal peaks, and business performance patterns.
+### Analysing the evolution of total sales, profit, and order volume over the course of 2014 (the most recent year). Identifying trends, seasonal peaks, and business performance patterns.
 
 Q1: A slow start
 
@@ -278,6 +339,8 @@ January follows a predictable post-holiday dip in both sales and profitability, 
 Also, analysing the month-over-month performance of 2014 revealed a typical post-holiday decline in Q1, Q2 showed recovery, and Q3 delivered a major growth surge, especially in August and September. These two months alone contributed over $937,000 in sales and $121,000 in profit, making them key contributors to the year’s success. Q4 followed with peak seasonal demand in November and December.
 These trends highlight the importance of seasonal marketing, inventory stocking, and resource planning to capitalise on peak periods and manage low demand months.
 
+---
+
 5.	Returns Analysis
    
 Key Metrics Reviewed
@@ -328,6 +391,8 @@ Summary:
 
 I analyzed Superstore’s return behaviour by joining orders with returned_orders and calculating return rates and returned profit per product. Several products had a 100% return rate, indicating serious product or fulfillment issues. I also found that some products, like the ‘GBC Electric Binding System,’ although returned infrequently, resulted in massive losses when returned (–$3,700+). Others, like the ‘Bevis Computer Table,’ were returned 100% of the time, making them high-risk inventory items. These insights will help to inform product management and return policy strategies.
 
+---
+
 6.	Profitability Analysis
    
 Key Insights
@@ -347,6 +412,8 @@ Summary
 Using SQL window functions, I observed that the top category by total sales is the Technology category. While smartphones dominated in terms of revenue, the most profitable item was a copier (sub-category), reiterating a key insight: high sales volume does not always align with high profitability. This analysis emphasized the importance of considering profit margins, not just sales when making inventory and marketing decisions. The analysis also discovered the low demand for Tables with high number of returns, signifying unmet expectations of the products. Other reasons for this loss could be due to manufacturing costs or logistics involved when returned.
 
 A solution could be completely taking off those items from the inventory or tailored marketing campaigns to attract more customers.
+
+---
 
 7.	Salesperson Performance Analysis
    
@@ -372,6 +439,8 @@ e.	Sales leadership is concentrated among a few top performing individuals, whic
 Summary
 
 I conducted a geographic salesperson analysis by joining order and salesperson data, calculating total sales, profit, and profit margins per person. Bar chart visualisations reveal that Anna Andreadi was the highest performer ($2.8M), while others trailed significantly. This helps pinpoint the highest-performing salesperson in the highest performing region and market (Central EU).
+
+---
 
 8.	Correlation Analysis
    
@@ -405,3 +474,5 @@ Summary:
 I explored the relationship between sales metrics using a correlation matrix. The results show a strong positive correlation between sales and profit (0.48), and a negative correlation between discount and profit (-0.32), suggesting that excessive discounting may hurt profitability. Also, since there is a positive correlation between quantity of items sold with sales and profit, albeit not so great, tailored marketing campaigns might increase sales and profits for non-popular items. 
 
 The data also shows that discounts do not increase sales significantly. This could be because high sales items may not need discounts to perform well, or customers may not be strongly motivated by small discounts.
+
+---
