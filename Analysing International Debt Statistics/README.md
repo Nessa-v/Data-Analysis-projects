@@ -3,7 +3,7 @@
 ## PROJECT TITLE: ANALYSING INTERNATIONAL DEBT STATISTICS
 ## LANGUAGE / TOOLS USED: POSTGRESQL AND PYTHON
 
-### About the Data: The dataset used is international debt data collected by The World Bank, and provided by DataCamp.
+### About the Data: The dataset used is international debt data collected by The World Bank, and provided by DataCamp. The project was carried out in DataCamp's datalab.
 
 ## SUMMARY OF WORK DONE
 
