@@ -10,7 +10,7 @@
 
 ## ABOUT THE DATASET
 
-The dataset used is the ‘Projects Data’ obtained from DataCamp.
+The dataset used is the ‘Projects Data’ obtained from DataCamp. The project was carried out in DataCamp's datalab.
 
 The tables used are ‘orders’, ‘returned_orders’, ‘people’, ‘products’. A sample of each table in excel format, can be found in the ‘dataset’ folder within the ‘Superstore’ project folder.
 
