@@ -50,39 +50,6 @@ The tables used are ‘orders’, ‘returned_orders’, ‘people’, ‘produc
 | `product_name` | Detailed Name of the Product | `TEXT` |
 
 
-## PROJECT OBJECTIVES
-
-1.	Data Cleaning and Quality Checks:
-   
-Querying to identify and fix missing values.
-
-2.	Identify Top 5 Products by Category and Sales:
-
-Identifying Top Performing products in each category based on sales.
-
-3.	Sales Analysis by Region:
-	
-Analyse customer purchase behaviour, order frequency, and other sales trends across different regions and markets.
-
-4.	Time Series Analysis:
-   
-Create more detailed time series analysis, like monthly or quarterly trends in sales, profit, or order volumes. Compute moving averages or growth rates.
-
-5.	Returns Analysis:
-   
-Investigate the characteristics of returned orders (using the returned_orders table), such as which products have the highest return rates, and how returns impact profitability.
-
-6.	Profitability Analysis:
-   
-Compare profit margins across product categories, sub-categories, and regions. Calculate metrics like profit percentage and rank the best and worst performing segments.
-
-7.	Salesperson Performance Analysis:
-   
-Analyse salesperson performance by region and market to determine which salesperson performed best.
-
-8.	Correlation Analysis:
-Use SQL to analyse correlations between variables (e.g., discount and sales, quantity and profit) to derive actionable insights.
-
 ## PROJECT NOTEBOOK INFORMATION
 
 The notebook containing the code and the results can be found in ‘code/project_code_notebook.pdf’
@@ -111,9 +78,9 @@ Central (EU) led all regions with >$600K in 2014; Canada consistently ranked low
 
 Tracked monthly sales/profit for 2011–2014 (48 months).
 
-December consistently highest sales month (e.g., $405K in Dec 2013 vs. $199K in Jan 2013).
+December was consistently highest sales month (e.g., $405K in Dec 2013 vs. $199K in Jan 2013).
 
-Aug–Sep 2014: Contributed $937K sales and $121K profit—strongest two-month surge.
+Aug–Sep 2014: Contributed $937K sales and $121K profit, strongest two-month surge.
 
 ### Returns Analysis
 
