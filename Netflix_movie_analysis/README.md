@@ -56,6 +56,8 @@ Data Cleaning & Preparation: Standardised date formats, verified data integrity,
 
 - Notably, all top 10 most frequent cast members were from Indian cinema, led by Shah Rukh Khan (12 movies), suggesting a strong actor recurrence in Bollywood content.
 
+- Bollywood films often feature recurring lead actors and longer runtimes, in contrast to Hollywood’s more diverse casting, so I recommend aligning movie genres with expected durations and suggest leveraging popular regional actors to guide content acquisition strategies.
+
 #### In total, this analysis comprised multiple visualisations and statistical summaries, offering insights into how Netflix's 1990s movie catalogue varied by duration, genre, and geography.
 
 ---
