@@ -20,23 +20,6 @@ After experimenting with platforms like Kahoot!, Duolingo, Classcraft, etc., I b
 
 Participants who completed the consent form and signed up on the site got an automated email which confirmed their enrollment into the four courses. They engaged with the platform and submitted their feedback (both quantitative and qualitative) through a structured questionnaire, devlivered through Microsoft Forms.
 
-
-## 🧰 Tools Used
-
-Website Development
-
-- Moodle installer package, version 4.3.3+ for Windows
-  
-- Azure VM (for Moodle LMS hosting), using a Windows x64 architecture, Standard E2s v3 (2 vcpus, 16 GiB memory).
-
-Data Collecction
-
-- Microsoft Forms 
-
-Data Cleaning and Analysis
-  
-- Microsoft Excel: Pivot Tables, Power Query (for Unpivoting rows where users selected multiple answers, and Merging them back as a single column), Charts and Dashboard.
-
 ---
 
 ## QUICK PROJECT RUN-THROUGH
@@ -61,20 +44,21 @@ These limitations were considered when interpreting the results.
 ![image](https://github.com/user-attachments/assets/ea138c83-55fd-4bfd-a315-e1a00d954351)
 
 ---
- Summary of Work Done
-Designed and implemented a gamified learning platform using Moodle LMS on Azure, transforming a university-level Usability Engineering course into six modules (three gamified, one non-gamified).
 
-Developed custom quiz content using Aiken and GIFT formats and integrated game mechanics (e.g., XP levels, leaderboards, stash items, crosswords, and dialog cards) to enhance engagement.
+## Summary of Work Done
+- Designed and implemented a gamified learning platform using Moodle LMS on Azure, transforming a university-level Usability Engineering course into six modules (three gamified, one non-gamified).
 
-Collected feedback from 30 participants using Microsoft Forms; conducted both qualitative and statistical analysis in Excel (e.g., Power Query, PivotTables, CORREL, CHISQ.TEST) to evaluate satisfaction, engagement, and learning outcomes.
+- Developed custom quiz content using Aiken and GIFT formats and integrated game mechanics (e.g., XP levels, leaderboards, stash items, crosswords, and dialog cards) to enhance engagement.
 
-Found that 96.7% of participants reported improved understanding and 93.3% were satisfied; “Level Up XP” ranked as the most effective gamification element.
+- Collected feedback from 30 participants using Microsoft Forms; conducted both qualitative and statistical analysis in Excel (e.g., Power Query, PivotTables, CORREL, CHISQ.TEST) to evaluate satisfaction, engagement, and learning outcomes.
 
-Delivered actionable insights: gamification improves understanding even among those without prior exposure; recommended periodic use of gamification to sustain engagement and avoid burnout.
+- Found that 96.7% of participants reported improved understanding and 93.3% were satisfied; “Level Up XP” ranked as the most effective gamification element.
 
-Addressed data limitations such as group imbalances and low-frequency categories; interpreted results cautiously and proposed UX improvements based on user suggestions.
+- Delivered actionable insights: gamification improves understanding even among those without prior exposure; recommended periodic use of gamification to sustain engagement and avoid burnout.
 
-Reflected on learner behavior, revealing intrinsic motivation and alternative learning pathways (e.g., game-triggered information searches), highlighting the cognitive impact of well-designed gamified experiences.
+- Addressed data limitations such as group imbalances and low-frequency categories; interpreted results cautiously and proposed UX improvements based on user suggestions.
+
+- Reflected on learner behavior, revealing intrinsic motivation and alternative learning pathways (e.g., game-triggered information searches), highlighting the cognitive impact of well-designed gamified experiences.
 
 ### Conclusion:
 
@@ -82,6 +66,24 @@ Based on analysis and reflection, gamification with the right structure and setu
 Periodic implementation rather than daily implementation is recommended to improve students' engagement, reduce burnout due to cramming, foster interaction, introduce healthy competition and playful learning, while encouraging studying and supporting the achievement of meaningful learning outcomes.
 
 ---
+---
+
+## 🧰 Tools Used
+
+Website Development
+
+- Moodle installer package, version 4.3.3+ for Windows
+  
+- Azure VM (for Moodle LMS hosting), using a Windows x64 architecture, Standard E2s v3 (2 vcpus, 16 GiB memory).
+
+Data Collecction
+
+- Microsoft Forms 
+
+Data Cleaning and Analysis
+  
+- Microsoft Excel: Pivot Tables, Power Query (for Unpivoting rows where users selected multiple answers, and Merging them back as a single column), Charts and Dashboard.
+
 ---
 
 # DETAILED PROJECT
