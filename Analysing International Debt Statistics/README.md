@@ -60,6 +60,9 @@ Note: Debt servicing pressure is the burden on a country’s economy caused by t
 | Cameroon                              | $18.2B           | $10.5B         | 58%            | Low-Med  |
 | China                                 | $15.7B           | $96.2B         | 612%           | High     |
 
+ 
+Repayment Rate (%)= (Total Repayments / Total Disbursements) × 100
+
 **Insights**:
 - South Asia and China (repaying more than 6 times what it received) are repaying far more than recent borrowing, likely servicing **old or high-cost debt**. This means money is going out faster than it comes in. This could slow development and add pressure to national budgets.
   
