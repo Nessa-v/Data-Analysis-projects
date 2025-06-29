@@ -35,7 +35,7 @@ Data Collecction
 
 Data Cleaning and Analysis
   
-- Microsoft Excel: Pivot Tables, Power Query (for Unpivoting rows where users selected multiple answers, and Merging them back as a single column.), Charts and Dashboard.
+- Microsoft Excel: Pivot Tables, Power Query (for Unpivoting rows where users selected multiple answers, and Merging them back as a single column), Charts and Dashboard.
 
 ---
 
