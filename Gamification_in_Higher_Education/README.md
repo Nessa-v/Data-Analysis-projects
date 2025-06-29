@@ -47,7 +47,7 @@ Data Cleaning and Analysis
 
 -  Categories, such as "Prefer not to say" in the gender variable, had very few observations and may have skewed certain statistical results. These were analyzed with caution.
 
-- Group size imbalance (e.g., 22 Yes vs 8 No in prior knowledge) may affect the reliability of some Chi-square tests.
+- Group size imbalance (e.g., 22 Yes vs 8 No in prior knowledge) may affect the reliability of Chi-square tests.
 
 These limitations were considered when interpreting the results.
 
