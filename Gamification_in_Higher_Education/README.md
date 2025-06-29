@@ -142,7 +142,7 @@ IMAGE 8: Dialog Card with hidden stash item.
 IMAGE 9: Find the Words
 
 
- Note: At the time of this project, creating an avatar was not possible in moodle, so I provided a link to a website where they could create their avatar and download it for free. I also created one myself.
+#### Note: At the time of this project, creating an avatar was not possible in moodle, so I provided a link to a website where they could create their avatar and download it for free. I also created one myself.
 
 ---
 
