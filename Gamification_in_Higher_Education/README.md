@@ -68,6 +68,8 @@ Periodic implementation rather than daily implementation is recommended to impro
 ---
 ---
 
+# DETAILED PROJECT
+
 ## 🧰 Tools Used
 
 Website Development
@@ -86,11 +88,9 @@ Data Cleaning and Analysis
 
 ---
 
-# DETAILED PROJECT
+## 📸 Platform Preview
 
 Some of the website images are displayed below. The rest can be found in the 'site screenshots' folder.
-
-## 📸 Platform Preview
 
 ![image](https://github.com/user-attachments/assets/2f085bd3-df29-4801-bd05-2024a78a70a5)
 
