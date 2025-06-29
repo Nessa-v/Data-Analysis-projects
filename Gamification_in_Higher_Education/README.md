@@ -49,9 +49,9 @@ Data Cleaning and Analysis
 
 - Group size imbalance (e.g., 22 Yes vs 8 No in prior knowledge) may affect the reliability of some Chi-square tests.
 
-- These limitations were acknowledged and considered when interpreting the results.
-
 These limitations were considered when interpreting the results.
+
+---
 
 ## 📈 Excel Analysis Dashboard
 #### The individual charts in the dashboard can be found in the charts folder.
@@ -61,44 +61,20 @@ These limitations were considered when interpreting the results.
 ![image](https://github.com/user-attachments/assets/ea138c83-55fd-4bfd-a315-e1a00d954351)
 
 ---
+ Summary of Work Done
+Designed and implemented a gamified learning platform using Moodle LMS on Azure, transforming a university-level Usability Engineering course into six modules (three gamified, one non-gamified).
 
-## 📊 Key Insights
+Developed custom quiz content using Aiken and GIFT formats and integrated game mechanics (e.g., XP levels, leaderboards, stash items, crosswords, and dialog cards) to enhance engagement.
 
-- 96.7% reported improved understanding
-- 93.3% were satisfied with the gamification experience
-- Level Up XP was the most liked feature
-- Engagement was high across all age groups, especially 18–24
-- Participants without prior gamification knowledge still reported high engagement.
+Collected feedback from 30 participants using Microsoft Forms; conducted both qualitative and statistical analysis in Excel (e.g., Power Query, PivotTables, CORREL, CHISQ.TEST) to evaluate satisfaction, engagement, and learning outcomes.
 
-## Statistical Analysis
+Found that 96.7% of participants reported improved understanding and 93.3% were satisfied; “Level Up XP” ranked as the most effective gamification element.
 
-Statistical analyses were conducted in Excel using built-in functions such as =CORREL() and =CHISQ.TEST().
+Delivered actionable insights: gamification improves understanding even among those without prior exposure; recommended periodic use of gamification to sustain engagement and avoid burnout.
 
-### Engagement vs Satisfaction:
+Addressed data limitations such as group imbalances and low-frequency categories; interpreted results cautiously and proposed UX improvements based on user suggestions.
 
-✅ Moderate positive correlation (r = 0.456, p = 0.015)
-
-📌 Interpretation: Higher engagement was associated with greater satisfaction.
-
-### Engagement vs Understanding:
-
-⚠️ It was not computed because almost all participants reported improved understanding (96.7%), resulting in no measurable variance.
-
-### Prior Gamification Knowledge vs Satisfaction:
-
-✅ Statistically significant (p = 0.036)
-
-📌 Participants with prior gamification experience were more likely to be satisfied.
-
-⚠️ However, group sizes were unbalanced (Yes = 22, No = 8), so this result should be interpreted with caution.
-
-### Gender vs Engagement:
-
-✅ Initially significant (p = 0.016)
-
-📌 Engagement levels appeared to vary by gender.
-
-⚠️ But after removing the “Prefer not to say” group (n = 2), the result was no longer significant (p = 0.986). Male and female participants showed similar engagement levels.
+Reflected on learner behavior, revealing intrinsic motivation and alternative learning pathways (e.g., game-triggered information searches), highlighting the cognitive impact of well-designed gamified experiences.
 
 ### Conclusion:
 
