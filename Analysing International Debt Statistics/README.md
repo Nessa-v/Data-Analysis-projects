@@ -22,13 +22,7 @@
 - Produced visual dashboards using Python to simplify complex trends (e.g., interest burdens among top repayment countries).
 
 - Drafted policy-driven recommendations to guide debt sustainability, concessional lending, and financial relief efforts.
-
-## KEY INSIGHTS
-
-
----
-
-# DETAILED PROJECT
+  
 
 ## 🔹 Introduction
 
