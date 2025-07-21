@@ -18,7 +18,12 @@ The analysis was taken a step further to include metrics such as:
 
 ## KEY INSIGHTS
 
-#### Note: The Interactive Dashboard can be found in the Dashboard folder in this repository.
+#### Note: 
+
+The dataset including the Interactive Dashboard can be found in the Dataset folder in this repository.
+The link to the video (of interactive dashboard) can be found here: 
+
+---
 
 -	Retention is strong at 73.14%, but nearly 27% of customers still churned, meaning almost 1 in 4 customers are leaving. This presents both a strength and a risk for long-term growth.
 
