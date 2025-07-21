@@ -6,6 +6,7 @@
 ## BACKGROUND
 
 The goal of this analysis is primarily to analyse churn for a telecom, subscription-based businesses called Databel, to find out what customers are churning and why. Afterwards, recommendations were provided to reduce this churn. The dataset was provided by DataCamp. 
+
 The analysis was taken a step further to include metrics such as:
 
 - Retention and Churn Rate
@@ -16,6 +17,8 @@ The analysis was taken a step further to include metrics such as:
 - Average Account Length
 
 ## KEY INSIGHTS
+
+#### Note: The Interactive Dashboard can be found in the Dashboard folder in this repository.
 
 -	Retention is strong at 73.14%, but nearly 27% of customers still churned, meaning almost 1 in 4 customers are leaving. This presents both a strength and a risk for long-term growth.
 
