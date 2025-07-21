@@ -23,6 +23,9 @@
 
 - Drafted policy-driven recommendations to guide debt sustainability, concessional lending, and financial relief efforts.
 
+## KEY INSIGHTS
+
+
 ---
 
 # DETAILED PROJECT
@@ -49,8 +52,6 @@ Note: Debt servicing pressure is the burden on a country’s economy caused by t
 
 ### 🏆 Top 5 Countries with Highest Disbursements
 
-![top_disbursements](https://github.com/user-attachments/assets/0bb47fd0-be57-4ac9-9a1f-dd9b5627701b)
-
 
 | Country Group                         | Amount Received | Amount Repaid | Repayment Rate | Red Flag |
 |--------------------------------------|------------------|----------------|----------------|----------|
@@ -74,8 +75,6 @@ Repayment Rate (%)= (Total Repayments / Total Disbursements) × 100
 
 ### 🔻 Bottom 5 Countries with Lowest Disbursements
 
-![Lowest_disbursements](https://github.com/user-attachments/assets/1549b30e-015f-45b1-844f-dcd923c0b263)
-
 
 | Country           | Amount Received | Amount Repaid | Repayment Rate | Red Flag |
 |-------------------|------------------|----------------|----------------|----------|
@@ -87,16 +86,14 @@ Repayment Rate (%)= (Total Repayments / Total Disbursements) × 100
 
 **Insights**:
 - These countries are **repaying far more than they borrow**, highlighting debt distress.
+  
 - Countries may be avoiding excessive borrowing to prevent being trapped in more debt, for example Turkmenistan with zero disbursement
+  
 - The low disbursement and high repayment figures could be linked to factors such as restricted credit access, low borrowing due to debt distress, high interest rates due to inflation, or a preference for grants over loans by international lenders, to prevent worsening debt distress.
 
 ---
 
 ### 🔻Lowest Principal Repayments
-
-![Lowest_Principal_Repayments](https://github.com/user-attachments/assets/148e441e-c846-4ece-865b-bf2ae36d22ae)
-
-![20_Lowest_Principal_Repayments](https://github.com/user-attachments/assets/a940d83e-63bd-4bef-a5d0-025d232e0153)
 
 Analysis revealed that all 5 of these countries are repaying significantly less that what they received. It could be due to longer grace periods or difficulty repaying loans.
 For more accurate analysis, the data was expanded to 20 countries with lowest repayments, which now included all 5 countries with the lowest disbursements.
@@ -109,13 +106,6 @@ It is also worth noting that all these countries are all developing countries, c
 ---
 
 ### 💸 Interest-to-Principal Ratios (Top Repayment Countries)
-
-
-![20_Highest_Interest_Payments](https://github.com/user-attachments/assets/417bf53f-4593-4eb6-9603-1aea5908587a)
-
-![20_Highest_Principal_Repayments](https://github.com/user-attachments/assets/54aec314-c7d4-4ab8-9e16-d60cef7a5904)
-
-![Interest Payments Among Top 20 Repayment Countries](https://github.com/user-attachments/assets/f1a3a4ad-80f2-4286-834c-bc67c869b859)
 
 
 | Country            | Interest-to-Principal Ratio (%) |
@@ -140,17 +130,6 @@ It is also worth noting that all these countries are all developing countries, c
 ---
 
 ### 🔍 Disbursement Source Breakdown
-
-![Debt_Breakdown_China](https://github.com/user-attachments/assets/279f2be6-e7f6-4e57-86a5-62d8597b919c)
-![Debt_Breakdown_Eritrea](https://github.com/user-attachments/assets/e28e6cb9-7345-4942-9b2d-d8276fc6ab94)
-![Debt_Breakdown_IDA](https://github.com/user-attachments/assets/6c76e0a4-1ee0-4151-821b-5f2a981ab4b0)
-![Debt_Breakdown_LeastDevelopedCountries](https://github.com/user-attachments/assets/47f74618-dd8e-460e-a5b9-1cf406d9ac39)
-![Debt_Breakdown_SolomonIslands](https://github.com/user-attachments/assets/321004db-0366-4bf1-b1a5-a7dd65a54568)
-![Debt_Breakdown_Somalia](https://github.com/user-attachments/assets/4219f8e0-f3cb-480d-baa2-5626f2034c4d)
-![Debt_Breakdown_SouthAsia](https://github.com/user-attachments/assets/9be4dc2e-0d27-4dce-9ad5-39b0f8d3c479)
-![Debt_Breakdown_Tonga](https://github.com/user-attachments/assets/e9184e7f-a669-4a7c-9fdb-ad9e55445b1b)
-![Debt_Breakdown_Cameroon](https://github.com/user-attachments/assets/b0596179-a5c7-461c-a547-1d6e42c2d04c)
-
 
 - **High disbursement countries** (e.g., China, IDA-only): Borrow from a **diverse mix** including commercial, private, and official creditors. This shows deep access to global capital markets, but also indicates greater exposure to high-cost loans (especially commercial and private).
 
@@ -187,3 +166,41 @@ High borrowing is not always a problem, but it must lead to long-term progress. 
 - For better context, access to historical debt records and annual trends is recommended.
 
 ---
+## IMAGES
+
+### 🏆 Top 5 Countries with Highest Disbursements
+
+![top_disbursements](https://github.com/user-attachments/assets/0bb47fd0-be57-4ac9-9a1f-dd9b5627701b)
+
+### 🔻 Bottom 5 Countries with Lowest Disbursements
+
+![Lowest_disbursements](https://github.com/user-attachments/assets/1549b30e-015f-45b1-844f-dcd923c0b263)
+
+### 🔻Lowest Principal Repayments
+
+![Lowest_Principal_Repayments](https://github.com/user-attachments/assets/148e441e-c846-4ece-865b-bf2ae36d22ae)
+
+![20_Lowest_Principal_Repayments](https://github.com/user-attachments/assets/a940d83e-63bd-4bef-a5d0-025d232e0153)
+
+
+### 💸 Interest-to-Principal Ratios (Top Repayment Countries)
+
+
+![20_Highest_Interest_Payments](https://github.com/user-attachments/assets/417bf53f-4593-4eb6-9603-1aea5908587a)
+
+![20_Highest_Principal_Repayments](https://github.com/user-attachments/assets/54aec314-c7d4-4ab8-9e16-d60cef7a5904)
+
+![Interest Payments Among Top 20 Repayment Countries](https://github.com/user-attachments/assets/f1a3a4ad-80f2-4286-834c-bc67c869b859)
+
+
+### 🔍 Disbursement Source Breakdown
+
+![Debt_Breakdown_China](https://github.com/user-attachments/assets/279f2be6-e7f6-4e57-86a5-62d8597b919c)
+![Debt_Breakdown_Eritrea](https://github.com/user-attachments/assets/e28e6cb9-7345-4942-9b2d-d8276fc6ab94)
+![Debt_Breakdown_IDA](https://github.com/user-attachments/assets/6c76e0a4-1ee0-4151-821b-5f2a981ab4b0)
+![Debt_Breakdown_LeastDevelopedCountries](https://github.com/user-attachments/assets/47f74618-dd8e-460e-a5b9-1cf406d9ac39)
+![Debt_Breakdown_SolomonIslands](https://github.com/user-attachments/assets/321004db-0366-4bf1-b1a5-a7dd65a54568)
+![Debt_Breakdown_Somalia](https://github.com/user-attachments/assets/4219f8e0-f3cb-480d-baa2-5626f2034c4d)
+![Debt_Breakdown_SouthAsia](https://github.com/user-attachments/assets/9be4dc2e-0d27-4dce-9ad5-39b0f8d3c479)
+![Debt_Breakdown_Tonga](https://github.com/user-attachments/assets/e9184e7f-a669-4a7c-9fdb-ad9e55445b1b)
+![Debt_Breakdown_Cameroon](https://github.com/user-attachments/assets/b0596179-a5c7-461c-a547-1d6e42c2d04c)
