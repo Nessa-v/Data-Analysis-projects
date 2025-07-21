@@ -62,7 +62,10 @@ These limitations were considered when interpreting the results.
 
 ### Conclusion:
 
-Based on analysis and reflection, gamification with the right structure and setup has a good chance of being effective in education, both at the basic and higher levels. Since engagement was high across all age groups and among people without prior knowledge, gamification can be effective among young adults and older people, it can also aid improved understanding.
+Based on analysis and reflection, gamification with the right structure and setup has a good chance of being effective in education, both at the basic and higher levels. 
+
+Since engagement was high across all age groups and among people without prior knowledge, gamification can be effective among young adults and older people, it can also aid improved understanding.
+
 Periodic implementation rather than daily implementation is recommended to improve students' engagement, reduce burnout due to cramming, foster interaction, introduce healthy competition and playful learning, while encouraging studying and supporting the achievement of meaningful learning outcomes.
 
 ---
@@ -86,63 +89,6 @@ Data Cleaning and Analysis
   
 - Microsoft Excel: Pivot Tables, Power Query (for Unpivoting rows where users selected multiple answers, and Merging them back as a single column), Charts and Dashboard.
 
----
-
-## 📸 Platform Preview
-
-Some of the website images are displayed below. The rest can be found in the 'site screenshots' folder.
-
-![image](https://github.com/user-attachments/assets/2f085bd3-df29-4801-bd05-2024a78a70a5)
-
-IMAGE 1: Aiken Format
-
-
-
-![image](https://github.com/user-attachments/assets/a69d5e14-e7dc-484d-93ba-14d22ccbbc00)
-
-IMAGE 2: GIFT Format
-
-
-![image](https://github.com/user-attachments/assets/137b80d8-4bd7-475d-a3d5-a31f1f11d560)
-
-IMAGE 3: Course Page
-
-
-### Game Elements
-The elements tested were Level Up XP, Stash Items (images), Custom avatars, Crossword, Cryptex,  Millionaire, Find the Words, Hangman, Dialog Cards, Multiple Choice Questions, Snakes and Ladders. The stash items were hidden in several courses randomly. When a participant found a certain stash item, they were able to unlock the game (gamified quiz).
-
-
-![image](https://github.com/user-attachments/assets/d77c2143-af5b-4849-a89a-c4b20697903a)
-
-IMAGE 4: Level Up XP (Levelling Up)
-
-
-![image](https://github.com/user-attachments/assets/7f6a6387-b972-46e8-9573-eb2c7e153b89)
-
-IMAGE 5: Level Up XP (Leaderboard)
-
-
-![image](https://github.com/user-attachments/assets/98e5adf2-e47d-4ece-9773-1e962322b1fd)
-
-IMAGE 6: Stash Inventory
-
-
-![image](https://github.com/user-attachments/assets/cb69b7fd-9180-4c0b-a48e-f85ad404dea4)
-
-IMAGE 7: Crossword
-
-
-![image](https://github.com/user-attachments/assets/fc9a9378-9576-41bc-9e61-7825de9e3386)
-
-IMAGE 8: Dialog Card with hidden stash item.
-
-
-![image](https://github.com/user-attachments/assets/a0f845bd-52df-452d-a71c-5de82e12c82c)
-
-IMAGE 9: Find the Words
-
-
-#### Note: At the time of this project, creating an avatar was not possible in moodle, so I provided a link to a website where they could create their avatar and download it for free. I also created one myself.
 
 ---
 
@@ -248,13 +194,76 @@ These insights display the high levels of engagement, satisfaction and improved 
 
 ## Observation and Reflection
 
-During the project, participants' progress such as their stash inventory and position on the leaderboard, were monitored. Moodle’s activity completion was used to achieve this. During the study, some participants inquired about the identities of the participants who scored higher than them in the leaderboards because they were curious about their performance. As this information could not be revealed due to data privacy (and my amusement), they inquired about activities that could put them at the top of the leaderboard even when there were no rewards involved. This means that these participants were intrinsically motivated. 
+During the project, participants' progress such as their stash inventory and position on the leaderboard, were monitored. Moodle’s activity completion was used to achieve this. 
+During the study, some participants inquired about the identities of the participants who scored higher than them in the leaderboards because they were curious about their performance. 
+As this information could not be revealed due to data privacy (and my amusement), they inquired about activities that could put them at the top of the leaderboard even when there were no rewards involved. This means that these participants were intrinsically motivated. 
 
-Their activities also revealed that while the participants were given a form containing instructions about the project for review, and the instructions were also placed on each course’s main page on the website, many participants ignored them because they were not interested in ‘reading’. Hence, verbal communication of the requirements of the project and the use of the elements was important. 
+Their activities also revealed that while the participants were given a form containing instructions about the project for review, and the instructions were also placed on each course’s main page on the website, many participants ignored them because they were not interested in ‘reading’. 
+Hence, verbal communication of the requirements of the project and the use of the elements was important. 
 
-I realised that people could have been very engaged because it was new. Implementation in education could lead to overuse to the point that it becomes less effective and engaging. The results made me realise that while people engaged with the games, they still did not read the lecture materials. Many of them preferred to quickly look up the answers online. However, this is also a form of learning, as they might be able to remember the questions and answers due to their reason for looking up the questions online. That is, playing a game. This is a form of tricking the brain to learn. 
+I realised that people could have been very engaged because it was new. Implementation in education could lead to overuse to the point that it becomes less effective and engaging. 
+The results made me realise that while people engaged with the games, they still did not read the lecture materials. 
+Many of them preferred to quickly look up the answers online. However, this is also a form of learning, as they might be able to remember the questions and answers due to their reason for looking up the questions online. 
+That is, playing a game. This is a form of tricking the brain to learn. 
 
 ---
+
+## 📸 Platform Preview
+
+Some of the website images are displayed below. The rest can be found in the 'site screenshots' folder.
+
+![image](https://github.com/user-attachments/assets/2f085bd3-df29-4801-bd05-2024a78a70a5)
+
+IMAGE 1: Aiken Format
+
+
+
+![image](https://github.com/user-attachments/assets/a69d5e14-e7dc-484d-93ba-14d22ccbbc00)
+
+IMAGE 2: GIFT Format
+
+
+![image](https://github.com/user-attachments/assets/137b80d8-4bd7-475d-a3d5-a31f1f11d560)
+
+IMAGE 3: Course Page
+
+
+### Game Elements
+The elements tested were Level Up XP, Stash Items (images), Custom avatars, Crossword, Cryptex,  Millionaire, Find the Words, Hangman, Dialog Cards, Multiple Choice Questions, Snakes and Ladders. The stash items were hidden in several courses randomly. When a participant found a certain stash item, they were able to unlock the game (gamified quiz).
+
+
+![image](https://github.com/user-attachments/assets/d77c2143-af5b-4849-a89a-c4b20697903a)
+
+IMAGE 4: Level Up XP (Levelling Up)
+
+
+![image](https://github.com/user-attachments/assets/7f6a6387-b972-46e8-9573-eb2c7e153b89)
+
+IMAGE 5: Level Up XP (Leaderboard)
+
+
+![image](https://github.com/user-attachments/assets/98e5adf2-e47d-4ece-9773-1e962322b1fd)
+
+IMAGE 6: Stash Inventory
+
+
+![image](https://github.com/user-attachments/assets/cb69b7fd-9180-4c0b-a48e-f85ad404dea4)
+
+IMAGE 7: Crossword
+
+
+![image](https://github.com/user-attachments/assets/fc9a9378-9576-41bc-9e61-7825de9e3386)
+
+IMAGE 8: Dialog Card with hidden stash item.
+
+
+![image](https://github.com/user-attachments/assets/a0f845bd-52df-452d-a71c-5de82e12c82c)
+
+IMAGE 9: Find the Words
+
+
+#### Note: At the time of this project, creating an avatar was not possible in moodle, so I provided a link to a website where they could create their avatar and download it for free. I also created one myself.
+
 
 ## Conclusion
 
