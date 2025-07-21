@@ -1,10 +1,12 @@
+# Welcome to my data analysis portfolio!  
+
 ## AUTHOR: VANESSA NWANKWO
 
-#### DATA ANALYTICS PORTFOLIO
+### DATA ANALYTICS PORTFOLIO
 
 ### About Me:
 
-I am a data analyst, always excited to wrangle messy data, uncover trends & patterns and storytell to convey its information. 
+I am a data analyst, with an interest in wrangling messy data, uncovering trends & patterns and data visualisation to convey its information to business stakeholders.
 
 This portfolio showcases my ability to clean, analyse, and communicate data-driven decisions.
 
@@ -18,12 +20,8 @@ Email Address: vanessanwankwo8@gmail.com
 
 ---
 
-### Welcome to my data analysis portfolio!  
-
 This repository contains a collection of projects where I cleaned, explored and analysed datasets. I've also extracted key insights and provided suitable recommendations using MS Excel, Python, and PostgreSQL.
 
 As I continue to learn and grow in data analytics, I will make changes to this repository where necessary.
 
 ---
-
-#### More projects will be added to this repository soon...
