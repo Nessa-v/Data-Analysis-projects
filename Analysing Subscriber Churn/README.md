@@ -32,7 +32,7 @@ The link to the video (of interactive dashboard) can be found here:
 
 -	Retention is strong at 73.14%, but nearly 27% of customers still churned, meaning almost 1 in 4 customers are leaving. This presents both a strength and a risk for long-term growth.
 
--	Churned customers had a higher ARPU (£36.80 vs £28.91), accounted for 31.85% MRR loss, and had a CLTV of £761.42, compared to £1,201.61 for retained customers, suggesting a significant loss of revenue from high-value users.
+-	Churned customers had a higher ARPU (£36.80 vs £28.91), accounted for 31.85% MRR loss, and had an average CLTV of £761.42, compared to £1,201.61 for retained customers, suggesting a significant loss of revenue from high-value users.
 
 -	The average account length for churned customers is 18 months, versus 38 months for retained customers, reinforcing the concern that valuable customers are leaving before reaching full lifetime potential.
 
