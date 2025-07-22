@@ -45,7 +45,7 @@ These limitations were considered when interpreting the results.
 
 - Collected feedback from 30 participants using Microsoft Forms; conducted both qualitative and statistical analysis in Excel (e.g., Power Query, PivotTables, CORREL, CHISQ.TEST) to evaluate satisfaction, engagement, and learning outcomes.
 
-- Found that 96.7% of participants reported improved understanding and 93.3% were satisfied; “Level Up XP” ranked as the most effective gamification element.
+- Found that 96.7% of participants reported improved understanding and 93.3% were satisfied; “Level Up XP” ranked as the most effective gamification element. A high average engagement level (4.3/5) was also recorded.
 
 - Delivered actionable insights: gamification improves understanding even among those without prior exposure; recommended periodic use of gamification to sustain engagement and avoid burnout.
 
