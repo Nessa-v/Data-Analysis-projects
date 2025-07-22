@@ -42,30 +42,43 @@ The link to the video (of interactive dashboard) can be found here:
 
 ---
 
-## RECOMMENDATIONS
+## RECOMMENDATIONS (FOR SIMILAR CUSTOMERS TO PREVENT FUTURE CHURNS)
 
 -	Retain High-Value Customers:
   
 Reducing churn by just 5% among high-CLTV customers could retain ~90 customers and protect over £68,000 in long-term revenue.
 
+ 5% of the churned customer base (1,796) = ~90 customers.
+ 
+ 90 × £761.42 CLTV = £68,528 in protected long-term revenue.
+
 - Improve Customer Support Experience (Self-help manuals, faster escalation, using virtual assistants, etc):
 
 If churn by customers with 4+ calls is reduced by at least 25%, approximately 145 customers could be retained, protecting over £110k in revenue.
 
+0.3235 × 1796 = 581 customers
+
+0.25 × 581 = ~ 145 customers retained.
+
+145 × £761.42 = £110,405.9
+
 -	Target Month-to-Month Contract Holders:
 
-Offering bundled discounts, contracts with device upgrades, etc, for these customers, and converting just 10% of them could save the business £50,000 or more annually in MRR loss.
+Offering bundled discounts, contracts with device upgrades, loyalty perks (e.g. extra data, free accessories) etc, for these customers, and converting just 10% of them could save the business over £79,000 anually.
+
+MRR churn loss is £66,094 (31.85% of £207,500)
+
+10% of 66,094 is 6,609.4 = ~ £79,313 in a year.
 
 -	Use Insights from Top Churn Reason to Personalise Offers:
 
-Re-engaging age-specific segments with tailored promotions such as device trade-ins and limited-time offers.
+Re-engaging age and gender specific segments with tailored promotions such as device trade-ins and limited-time offers.
 
-Preventing churn in roughly 25–30 customers could recover £20,000–25,000 in CLTV, while improving brand positioning.
+Preventing churn in roughly 25–30 customers (59 women and 64 men) could recover over £23,000 in CLTV, while improving brand positioning.
 
 -	Implement Predictive Churn Alerts:
 
-Using behavioural flags (e.g. 3+ calls in a month on a month-to-month plan) to intervene early could reduce churn by 3–5%, protecting £41,000–£69,000.
-
+Using behavioural flags (e.g. 3+ calls in a month on a month-to-month plan) to intervene early could reduce churn by at least 3%, protecting over £36,000 in revenue.
 
 ---
 
