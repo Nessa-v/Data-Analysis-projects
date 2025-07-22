@@ -20,6 +20,8 @@ The analysis was taken a step further to include metrics such as:
 
 The dataset including the Interactive Dashboard can be found in the Dataset folder in this repository.
 
+Dashboard Image can be found below.
+
 The link to the video (of interactive dashboard) can be found here: 
 
 -LINK-
@@ -117,3 +119,11 @@ Additionally, they accounted for 43% of all service calls across the entire cust
 - Churn by Age and Gender: Binned ages into 8-year groups, plotted churn distribution by gender and age, and created gender-specific pivots for deeper comparison.
 
 - ARPU Calculation: Computed average revenue per user based on the mean of monthly charges.
+
+---
+
+## DASHBOARD
+
+<img width="1293" height="721" alt="Dashboard Image" src="https://github.com/user-attachments/assets/c263d2d6-a10d-4a5a-aa18-4f47fea9121b" />
+
+
