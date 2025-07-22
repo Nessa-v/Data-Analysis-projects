@@ -18,13 +18,9 @@ The analysis was taken a step further to include metrics such as:
 
 #### Note: 
 
-The dataset including the Interactive Dashboard can be found in the Dataset folder in this repository.
+The dataset and the Interactive Dashboard can be found in their respective folders in this repository.
 
 Dashboard Image can be found below.
-
-The link to the video (of interactive dashboard) can be found here: 
-
--LINK-
 
 ---
 
