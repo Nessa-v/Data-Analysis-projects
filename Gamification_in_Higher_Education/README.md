@@ -55,11 +55,13 @@ These limitations were considered when interpreting the results.
 
 ### Conclusion:
 
-Based on analysis and reflection, gamification with the right structure and setup has a good chance of being effective in education, both at the basic and higher levels. 
+- Based on analysis and reflection, gamification with the right structure and setup has a good chance of being effective in education, both at the basic and higher levels. 
 
-Since engagement was high across all age groups and among people without prior knowledge, gamification can be effective among young adults and older people, it can also aid improved understanding.
+- However, a larger sample size is required for more conclusive evidence.
 
-Periodic implementation rather than daily implementation is recommended to improve students' engagement, reduce burnout due to cramming, foster interaction, introduce healthy competition and playful learning, while encouraging studying and supporting the achievement of meaningful learning outcomes.
+- Since engagement was high across all age groups and among people without prior knowledge, gamification can be effective among young adults and older people, it can also aid improved understanding.
+
+- Periodic implementation rather than daily implementation is recommended to improve students' engagement, reduce burnout due to cramming, foster interaction, introduce healthy competition and playful learning, while encouraging studying and supporting the achievement of meaningful learning outcomes.
 
 ---
 ---
