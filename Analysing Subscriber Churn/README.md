@@ -42,7 +42,7 @@ The link to the video (of interactive dashboard) can be found here:
 
 ---
 
-## RECOMMENDATIONS (FOR SIMILAR CUSTOMERS TO PREVENT FUTURE CHURNS)
+## RECOMMENDATIONS (for similar customers, to prevent future churns)
 
 -	Retain High-Value Customers:
   
