@@ -46,7 +46,7 @@ The link to the video (of interactive dashboard) can be found here:
 
 -	Retain High-Value Customers:
   
-Reducing churn by just 5% among high-CLTV customers could retain ~90 customers and protect over £68,000 in long-term revenue.
+Reducing churn by just 5% among  high average CLTV customers could retain ~90 customers and protect over £68,000 in long-term revenue.
 
  5% of the churned customer base (1,796) = ~90 customers.
  
@@ -74,11 +74,11 @@ MRR churn loss is £66,094 (31.85% of £207,500)
 
 Re-engaging age and gender specific segments with tailored promotions such as device trade-ins and limited-time offers.
 
-Preventing churn in roughly 25–30 customers (59 women and 64 men) could recover over £23,000 in CLTV, while improving brand positioning.
+Preventing churn in roughly 25–30 customers could recover over £19,000 in CLTV, while improving brand positioning.
 
 -	Implement Predictive Churn Alerts:
 
-Using behavioural flags (e.g. 3+ calls in a month on a month-to-month plan) to intervene early could reduce churn by at least 3%, protecting over £36,000 in revenue.
+Using behavioural flags (e.g. 3+ calls/month for customers on month-to-month contracts) to intervene early, could reduce churn by at least 3%, protecting over £41,000 in customer revenue.
 
 ---
 
