@@ -34,14 +34,7 @@ Participants who completed the consent form and signed up on the site got an aut
 
 These limitations were considered when interpreting the results.
 
----
-
-## 📈 Excel Analysis Dashboard
-#### The individual charts in the dashboard can be found in the charts folder.
-
-![image](https://github.com/user-attachments/assets/5f77fdf1-bf5b-4fe1-9944-f369de5c51e6)
-
-![image](https://github.com/user-attachments/assets/ea138c83-55fd-4bfd-a315-e1a00d954351)
+#### Note: The individual charts in the dashboard can be found in the charts folder, while the dashboard can be found below.
 
 ---
 
@@ -171,7 +164,7 @@ These insights display the high levels of engagement, satisfaction and improved 
 
 --- 
 
-#### Statistical Analysis
+### Statistical Analysis
 
 - Correlation: Engagement vs Satisfaction
  - Result: Moderate positive correlation (r = 0.456, p = 0.015)
@@ -205,6 +198,14 @@ I realised that people could have been very engaged because it was new. Implemen
 The results made me realise that while people engaged with the games, they still did not read the lecture materials. 
 Many of them preferred to quickly look up the answers online. However, this is also a form of learning, as they might be able to remember the questions and answers due to their reason for looking up the questions online. 
 That is, playing a game. This is a form of tricking the brain to learn. 
+
+---
+
+## 📈 Excel Analysis Dashboard
+
+![image](https://github.com/user-attachments/assets/5f77fdf1-bf5b-4fe1-9944-f369de5c51e6)
+
+![image](https://github.com/user-attachments/assets/ea138c83-55fd-4bfd-a315-e1a00d954351)
 
 ---
 
