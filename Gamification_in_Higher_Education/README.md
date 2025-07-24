@@ -8,7 +8,7 @@ a. contrary to research, gamification DOES NOT improve student engagement and IS
 
 b. similar to research, gamification DOES improve student engagement and IS potentially  effective in higher education.
  
-The project compares gamified and non-gamified courses, combines real user feedback, platform screenshots, and structured data analysis using Excel with Power Query.
+This project compares the effectiveness of the gamified and non-gamified courses, combines real user feedback, platform screenshots, and structured data analysis using Excel with Power Query.
 
 ---
 
@@ -39,23 +39,32 @@ These limitations were considered when interpreting the results.
 ---
 
 ## Summary of Work Done
+
 - Designed and implemented a gamified learning platform using Moodle LMS on Azure, transforming a university-level Usability Engineering course into six modules (three gamified, one non-gamified).
 
 - Developed custom quiz content using Aiken and GIFT formats and integrated game mechanics (e.g., XP levels, leaderboards, stash items, crosswords, and dialog cards) to enhance engagement.
 
 - Collected feedback from 30 participants using Microsoft Forms; conducted both qualitative and statistical analysis in Excel (e.g., Power Query, PivotTables, CORREL, CHISQ.TEST) to evaluate satisfaction, engagement, and learning outcomes.
 
-- Found that 96.7% of participants reported improved understanding and 93.3% were satisfied; “Level Up XP” ranked as the most effective gamification element. A high average engagement level (4.3/5) was also recorded.
+- After initial instructions were given to participants, I did not get involved with their activities on the website to avoid skewing results.
 
-- Delivered actionable insights: gamification improves understanding even among those without prior exposure; recommended periodic use of gamification to sustain engagement and avoid burnout.
+- Discovered that with the gamified courses, 96.7% of participants reported improved understanding and 93.3% were satisfied; “Level Up XP” ranked as the most effective gamification element. A high average engagement level (4.3 out of 5) was also recorded.
 
-- Addressed data limitations such as group imbalances and low-frequency categories; interpreted results cautiously and proposed UX improvements based on user suggestions.
+- Delivered actionable insights: gamification improves understanding even among those without prior knowledge; recommended periodic use of gamification to sustain engagement and avoid burnout.
+
+- Addressed data limitations such as group imbalances and low-frequency categories.
 
 - Reflected on learner behavior, revealing intrinsic motivation and alternative learning pathways (e.g., game-triggered information searches), highlighting the cognitive impact of well-designed gamified experiences.
 
 ### Conclusion:
 
-- Based on analysis and reflection, gamification with the right structure and setup has a good chance of being effective in education, both at the basic and higher levels. 
+- The experiment's results seems more biased towards gamification because it is still a new concept, so people were eager to test it out.
+
+- It was observed that some participants ignored the non-gamified course completely.
+
+- Based on analysis and reflection, gamification with the right structure and setup has a good chance of being effective in education, both at the basic and higher levels.
+
+- Gamification can potentially improve students' engagement and retention, but it can lead to significant boredom or burnout if overused.
 
 - However, a larger sample size is required for more conclusive evidence.
 
@@ -63,7 +72,6 @@ These limitations were considered when interpreting the results.
 
 - Periodic implementation rather than daily implementation is recommended to improve students' engagement, reduce burnout due to cramming, foster interaction, introduce healthy competition and playful learning, while encouraging studying and supporting the achievement of meaningful learning outcomes.
 
----
 ---
 
 # DETAILED PROJECT
