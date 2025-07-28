@@ -17,9 +17,9 @@
 
 - Highlighted vulnerable groups like Least Developed Countries (LDCs) and IDA-only borrowers.
 
-- Investigated country-specific cases like Russia’s 200,000% repayment rate, China’s 612%, and Somalia’s 1340%.
+- Investigated country-specific cases like Russia’s unusual 200,000% repayment rate, China’s 612%, and Somalia’s 1340%.
 
-- Produced visual dashboards using Python to simplify complex trends (e.g., interest burdens among top repayment countries).
+- Produced charts using Python to simplify complex trends (e.g., interest burdens among top repayment countries).
 
 - Drafted policy-driven recommendations to guide debt sustainability, concessional lending, and financial relief efforts.
   
