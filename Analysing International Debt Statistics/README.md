@@ -7,7 +7,7 @@
 
 ## SUMMARY OF WORK DONE
 
-- Analyzed external debt data for 124 countries using advanced SQL (CTEs, JOINs, CASE, UNION ALL) techniques.
+- Analysed external debt data for 124 countries using advanced SQL (CTEs, JOINs, CASE, UNION ALL) techniques.
 
 - Focused on long-term debt indicators: disbursements, principal repayments, and interest payments.
 
