@@ -20,7 +20,7 @@ Email Address: vanessanwankwo8@gmail.com
 
 ---
 
-This repository contains a collection of projects where I cleaned, explored and analysed datasets. I've also extracted key insights and provided suitable recommendations using MS Excel, Python, and PostgreSQL.
+This repository contains a collection of projects where I cleaned, explored and analysed datasets. 
 
 As I continue to learn and grow in data analytics, I will make changes to this repository where necessary.
 
