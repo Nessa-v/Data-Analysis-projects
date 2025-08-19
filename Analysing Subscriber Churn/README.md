@@ -103,7 +103,7 @@ Additionally, they accounted for 43% of all service calls across the entire cust
 
 ## SUMMARY OF ACTIVITIES CARRIED OUT
 
-- Duplicate Detection: Used conditional formatting to highlight duplicate values (especially phone numbers), then filtered by colour to investigate uniqueness based on ID and location.
+- Duplicate Data Detection: Used conditional formatting to highlight duplicate values (especially phone numbers), then filtered by colour to investigate uniqueness based on ID and location.
 
 - Churn Classification: Created a binary churn column (0 = No, 1 = Yes) and labelled them as “Retained” or “Churned”.
 
