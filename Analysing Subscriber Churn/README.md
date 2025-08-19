@@ -16,7 +16,7 @@ The analysis was taken a step further to include metrics such as:
 - Top Reason for Churn
 - Average Account Length
 
-#### Note: 
+### Note: 
 
 The dataset and the Interactive Dashboard can be found in their respective folders in this repository.
 
